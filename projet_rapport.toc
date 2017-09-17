@@ -1,19 +1,20 @@
 \contentsline {section}{\numberline {1}Introduction et Probl\IeC {\'e}matique}{4}
-\contentsline {subsection}{\numberline {1.1}VMP Consulting}{4}
-\contentsline {subsection}{\numberline {1.2}Probl\IeC {\'e}matique}{4}
-\contentsline {subsection}{\numberline {1.3}Objectifs et Cahier de charges}{4}
-\contentsline {section}{\numberline {2}Analyse et Conception}{5}
-\contentsline {subsection}{\numberline {2.1}Mod\IeC {\'e}lisation}{5}
-\contentsline {subsection}{\numberline {2.2}Bases de Donn\IeC {\'e}es}{5}
-\contentsline {subsection}{\numberline {2.3}Front-end}{5}
-\contentsline {subsection}{\numberline {2.4}Banck-end}{5}
-\contentsline {subsection}{\numberline {2.5}Outils}{5}
-\contentsline {section}{\numberline {3}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{6}
-\contentsline {subsection}{\numberline {3.1}Symfony}{6}
-\contentsline {subsection}{\numberline {3.2}Dashboard}{6}
-\contentsline {subsection}{\numberline {3.3}Temps r\IeC {\'e}el}{6}
-\contentsline {section}{\numberline {4}R\IeC {\'e}sultats et Tests}{7}
-\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}monstrations}{7}
-\contentsline {subsection}{\numberline {4.2}Tests}{7}
-\contentsline {section}{\numberline {5}Conclusion}{8}
-\contentsline {section}{\numberline {6}Bibliographie}{9}
+\contentsline {subsection}{\numberline {1.1}VMP Consulting}{5}
+\contentsline {subsection}{\numberline {1.2}Cahier de charges et Objectifs}{6}
+\contentsline {section}{\numberline {2}Analyse et Conception}{8}
+\contentsline {subsection}{\numberline {2.1}Mod\IeC {\'e}lisation}{8}
+\contentsline {subsection}{\numberline {2.2}Bases de Donn\IeC {\'e}es}{8}
+\contentsline {subsection}{\numberline {2.3}Front-end}{8}
+\contentsline {subsection}{\numberline {2.4}Banck-end}{8}
+\contentsline {subsection}{\numberline {2.5}Outils}{8}
+\contentsline {section}{\numberline {3}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{9}
+\contentsline {subsection}{\numberline {3.1}Symfony}{9}
+\contentsline {subsection}{\numberline {3.2}Back Office}{9}
+\contentsline {subsection}{\numberline {3.3}Front Office}{9}
+\contentsline {subsection}{\numberline {3.4}Temps r\IeC {\'e}el}{9}
+\contentsline {subsection}{\numberline {3.5}S\IeC {\'e}curit\IeC {\'e}}{9}
+\contentsline {section}{\numberline {4}R\IeC {\'e}sultats et Tests}{10}
+\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}monstrations}{10}
+\contentsline {subsection}{\numberline {4.2}Tests}{10}
+\contentsline {section}{\numberline {5}Conclusion}{11}
+\contentsline {section}{\numberline {6}Bibliographie}{12}
