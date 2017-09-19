@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  17 SEP 2017 02:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  18 SEP 2017 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,24 +909,544 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7 <./cdc.png>] [8] [9] [10] [11] [12] (./projet_rapport.aux) ) 
+[7 <./cdc.png>] [8] [9] <v1.png, id=42, 863.225pt x 746.79pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.273 ...udegraphics[width=300,height=250]{v1.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.273 ...udegraphics[width=300,height=250]{v1.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v1.png Graphic file (type png)
+<use v1.png>
+Package pdftex.def Info: v1.png used on input line 273.
+(pdftex.def)             Requested size: 299.99945pt x 249.99672pt.
+
+! Extra }, or forgotten \endgroup.
+l.273 ...degraphics[width=300,height=250]{v1.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 ...hics[width=300,height=250]{v1.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<v2.png, id=43, 865.2325pt x 747.79375pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.274 ...udegraphics[width=300,height=250]{v2.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.274 ...udegraphics[width=300,height=250]{v2.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v2.png Graphic file (type png)
+<use v2.png>
+Package pdftex.def Info: v2.png used on input line 274.
+(pdftex.def)             Requested size: 299.9974pt x 250.00183pt.
+
+! Extra }, or forgotten \endgroup.
+l.274 ...degraphics[width=300,height=250]{v2.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...hics[width=300,height=250]{v2.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<v3.png, id=44, 864.22874pt x 746.79pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.275 ...udegraphics[width=300,height=250]{v3.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.275 ...udegraphics[width=300,height=250]{v3.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v3.png Graphic file (type png)
+<use v3.png>
+Package pdftex.def Info: v3.png used on input line 275.
+(pdftex.def)             Requested size: 299.99223pt x 249.99672pt.
+
+! Extra }, or forgotten \endgroup.
+l.275 ...degraphics[width=300,height=250]{v3.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 ...hics[width=300,height=250]{v3.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[10 <./v1.png> <./v2.png>] <v4.png, id=48, 1018.80624pt x 691.58376pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.276 ...udegraphics[width=300,height=250]{v4.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.276 ...udegraphics[width=300,height=250]{v4.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v4.png Graphic file (type png)
+<use v4.png>
+Package pdftex.def Info: v4.png used on input line 276.
+(pdftex.def)             Requested size: 300.00113pt x 249.99358pt.
+
+! Extra }, or forgotten \endgroup.
+l.276 ...degraphics[width=300,height=250]{v4.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ...hics[width=300,height=250]{v4.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<v5.png, id=49, 1020.81375pt x 692.5875pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.277 ...udegraphics[width=300,height=250]{v5.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.277 ...udegraphics[width=300,height=250]{v5.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v5.png Graphic file (type png)
+<use v5.png>
+Package pdftex.def Info: v5.png used on input line 277.
+(pdftex.def)             Requested size: 300.00037pt x 249.99709pt.
+
+! Extra }, or forgotten \endgroup.
+l.277 ...degraphics[width=300,height=250]{v5.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 ...hics[width=300,height=250]{v5.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[11 <./v3.png> <./v4.png>] <v6.png, id=53, 1371.1225pt x 770.88pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.278 ...udegraphics[width=300,height=250]{v6.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.278 ...udegraphics[width=300,height=250]{v6.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v6.png Graphic file (type png)
+<use v6.png>
+Package pdftex.def Info: v6.png used on input line 278.
+(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
+
+! Extra }, or forgotten \endgroup.
+l.278 ...degraphics[width=300,height=250]{v6.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278 ...hics[width=300,height=250]{v6.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<v7.png, id=54, 1371.1225pt x 770.88pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.279 ...udegraphics[width=300,height=250]{v7.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.279 ...udegraphics[width=300,height=250]{v7.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v7.png Graphic file (type png)
+<use v7.png>
+Package pdftex.def Info: v7.png used on input line 279.
+(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
+
+! Extra }, or forgotten \endgroup.
+l.279 ...degraphics[width=300,height=250]{v7.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...hics[width=300,height=250]{v7.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[12 <./v5.png> <./v6.png>] <v8.png, id=59, 1371.1225pt x 770.88pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.280 ...udegraphics[width=300,height=250]{v8.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.280 ...udegraphics[width=300,height=250]{v8.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v8.png Graphic file (type png)
+<use v8.png>
+Package pdftex.def Info: v8.png used on input line 280.
+(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
+
+! Extra }, or forgotten \endgroup.
+l.280 ...degraphics[width=300,height=250]{v8.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 ...hics[width=300,height=250]{v8.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<v9.png, id=60, 831.105pt x 729.72626pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.281 ...udegraphics[width=300,height=250]{v9.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.281 ...udegraphics[width=300,height=250]{v9.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v9.png Graphic file (type png)
+<use v9.png>
+Package pdftex.def Info: v9.png used on input line 281.
+(pdftex.def)             Requested size: 299.9965pt x 249.99655pt.
+
+! Extra }, or forgotten \endgroup.
+l.281 ...degraphics[width=300,height=250]{v9.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 ...hics[width=300,height=250]{v9.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13 <./v7.png> <./v8.png>] <v10.png, id=64, 820.06375pt x 729.72626pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.282 ...degraphics[width=300,height=250]{v10.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.282 ...degraphics[width=300,height=250]{v10.png}
+                                                  } \\ \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: v10.png Graphic file (type png)
+<use v10.png>
+Package pdftex.def Info: v10.png used on input line 282.
+(pdftex.def)             Requested size: 300.00275pt x 249.99655pt.
+
+! Extra }, or forgotten \endgroup.
+l.282 ...egraphics[width=300,height=250]{v10.png}}
+                                                   \\ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 ...ics[width=300,height=250]{v10.png}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14 <./v9.png> <./v10.png>] [15] [16] (./projet_rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 2711 strings out of 494985
- 34807 string characters out of 6180356
+ 2761 strings out of 494985
+ 35302 string characters out of 6180356
  91441 words of memory out of 5000000
- 5872 multiletter control sequences out of 15000+600000
+ 5912 multiletter control sequences out of 15000+600000
  10102 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,4n,24p,738b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on projet_rapport.pdf (13 pages, 740723 bytes).
+</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on projet_rapport.pdf (17 pages, 2321749 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
