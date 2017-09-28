@@ -1,20 +1,34 @@
-\contentsline {section}{\numberline {1}Introduction et Probl\IeC {\'e}matique}{4}
-\contentsline {subsection}{\numberline {1.1}VMP Consulting}{5}
-\contentsline {subsection}{\numberline {1.2}Cahier de charges et Objectifs}{6}
-\contentsline {section}{\numberline {2}Analyse et Conception}{8}
-\contentsline {subsection}{\numberline {2.1}Mod\IeC {\'e}lisation}{8}
-\contentsline {subsection}{\numberline {2.2}Bases de Donn\IeC {\'e}es}{8}
-\contentsline {subsection}{\numberline {2.3}Front-end}{8}
-\contentsline {subsection}{\numberline {2.4}Banck-end}{8}
-\contentsline {subsection}{\numberline {2.5}Outils}{8}
-\contentsline {section}{\numberline {3}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{9}
-\contentsline {subsection}{\numberline {3.1}Symfony}{9}
-\contentsline {subsection}{\numberline {3.2}Back Office}{9}
-\contentsline {subsection}{\numberline {3.3}Front Office}{9}
-\contentsline {subsection}{\numberline {3.4}Temps r\IeC {\'e}el}{9}
-\contentsline {subsection}{\numberline {3.5}S\IeC {\'e}curit\IeC {\'e}}{9}
-\contentsline {section}{\numberline {4}R\IeC {\'e}sultats et Tests}{10}
-\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}monstrations}{10}
-\contentsline {subsection}{\numberline {4.2}Tests}{14}
-\contentsline {section}{\numberline {5}Conclusion}{15}
-\contentsline {section}{\numberline {6}Bibliographie}{16}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {subsection}{\numberline {1.1}Probl\IeC {\'e}matique}{4}
+\contentsline {subsection}{\numberline {1.2}VMP Consulting}{5}
+\contentsline {subsection}{\numberline {1.3}Cahier de charges et Objectifs}{6}
+\contentsline {subsection}{\numberline {1.4}Environnement et Missions}{8}
+\contentsline {section}{\numberline {2}Analyse et Conception}{9}
+\contentsline {subsection}{\numberline {2.1}Contr\IeC {\^o}le et syst\IeC {\`e}me d'information de gestion}{9}
+\contentsline {subsection}{\numberline {2.2}\IeC {\'E}tude de l\IeC {\textquoteright }existence}{10}
+\contentsline {subsection}{\numberline {2.3}Outils,Technologies et M\IeC {\'e}thodes}{12}
+\contentsline {subsubsection}{\numberline {2.3.1}Syst\IeC {\`e}me d'exploitation}{12}
+\contentsline {subsubsection}{\numberline {2.3.2}Architectures}{12}
+\contentsline {subsubsection}{\numberline {2.3.3}M\IeC {\'e}thode de Programmation }{13}
+\contentsline {subsubsection}{\numberline {2.3.4}Langage web cot\IeC {\'e} serveur }{14}
+\contentsline {subsubsection}{\numberline {2.3.5}Framework }{14}
+\contentsline {subsubsection}{\numberline {2.3.6}Bases de donn\IeC {\'e}es}{15}
+\contentsline {subsubsection}{\numberline {2.3.7}Langages web cot\IeC {\'e} client}{16}
+\contentsline {subsubsection}{\numberline {2.3.8}Boites \IeC {\`a} Outils}{16}
+\contentsline {subsubsection}{\numberline {2.3.9}Outils utilis\IeC {\'e}s }{17}
+\contentsline {subsection}{\numberline {2.4}Conception}{18}
+\contentsline {subsection}{\numberline {2.5}Mod\IeC {\'e}lisation}{19}
+\contentsline {subsection}{\numberline {2.6}Front-end}{20}
+\contentsline {subsection}{\numberline {2.7}Back-end}{20}
+\contentsline {section}{\numberline {3}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{21}
+\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}curit\IeC {\'e}}{21}
+\contentsline {subsection}{\numberline {3.2}Administration}{21}
+\contentsline {subsection}{\numberline {3.3}Tableau de bord}{21}
+\contentsline {subsection}{\numberline {3.4}Temps r\IeC {\'e}el}{21}
+\contentsline {subsection}{\numberline {3.5}Services}{21}
+\contentsline {section}{\numberline {4}R\IeC {\'e}sultats}{22}
+\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}monstrations}{22}
+\contentsline {subsection}{\numberline {4.2}Bilan}{26}
+\contentsline {section}{\numberline {5}Conclusion}{27}
+\contentsline {section}{\numberline {6}Bibliographie}{28}
+\contentsline {section}{\numberline {7}Annexe}{29}

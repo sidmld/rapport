@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  18 SEP 2017 20:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  29 SEP 2017 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -675,25 +675,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 P
-       our un bureau d’études, comme \textbf{VMP-CONSULTING} , il s’agi...
-
+l.115 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
  [4]
 
 ! LaTeX Error: There's no line here to end.
@@ -702,35 +701,40 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 
+l.133 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Overfull \hbox (31.0979pt too wide) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Overfull \hbox (31.0979pt too wide) in paragraph at lines 146--147
 []\OT1/cmr/m/n/12 VMP-Consulting est un bu-reau sp^^Secialis^^Se dans le contr^
 ole de ges-tion pour les TPE/TPI(tr^^Ses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
@@ -742,7 +746,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 \\ \\
+l.160 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -755,7 +759,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 
+l.161 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -768,7 +772,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 \\ \\
+l.184 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -781,25 +785,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 
+l.185 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (24.19933pt too wide) in paragraph at lines 192--195
+Overfull \hbox (24.19933pt too wide) in paragraph at lines 195--198
 \OT1/cmr/m/n/12 Comme tout pro-jet pro-fes-sion-nel, le d^^Sebut de ce stage ^^
 Setait d'abord ^^Ra d^^Sefinir la probl^^Sematique,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
@@ -810,19 +814,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 
+l.210 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
@@ -833,22 +837,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 
+l.230 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--227
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
-<cdc.png, id=32, 872.25874pt x 650.43pt>
+<cdc2.png, id=32, 874.26625pt x 195.73125pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.228 ...degraphics[width=200,height=250]{cdc.png}
+l.234 ...egraphics[width=200,height=250]{cdc2.png}
                                                   }
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -860,7 +864,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.228 ...degraphics[width=200,height=250]{cdc.png}
+l.234 ...egraphics[width=200,height=250]{cdc2.png}
                                                   }
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -869,13 +873,13 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-File: cdc.png Graphic file (type png)
-<use cdc.png>
-Package pdftex.def Info: cdc.png used on input line 228.
-(pdftex.def)             Requested size: 199.98973pt x 249.99452pt.
+File: cdc2.png Graphic file (type png)
+<use cdc2.png>
+Package pdftex.def Info: cdc2.png used on input line 234.
+(pdftex.def)             Requested size: 199.99644pt x 250.01247pt.
 
 ! Extra }, or forgotten \endgroup.
-l.228 ...egraphics[width=200,height=250]{cdc.png}}
+l.234 ...graphics[width=200,height=250]{cdc2.png}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -890,7 +894,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230  \\ \\
+l.236  \\ \\
             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -903,17 +907,798 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.231 
+l.237 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7 <./cdc.png>] [8] [9] <v1.png, id=42, 863.225pt x 746.79pt>
+[7 <./cdc2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+<p.png, id=36, 423.83344pt x 197.23688pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.273 ...udegraphics[width=300,height=250]{v1.png}
+l.254 ...ludegraphics[width=300,height=250]{p.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.254 ...ludegraphics[width=300,height=250]{p.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: p.png Graphic file (type png)
+<use p.png>
+Package pdftex.def Info: p.png used on input line 254.
+(pdftex.def)             Requested size: 300.01196pt x 250.00047pt.
+
+! Extra }, or forgotten \endgroup.
+l.254 ...udegraphics[width=300,height=250]{p.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[8 <./p.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+<g.png, id=40, 602.25pt x 435.6275pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.279 ...ludegraphics[width=200,height=250]{g.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.279 ...ludegraphics[width=200,height=250]{g.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: g.png Graphic file (type png)
+<use g.png>
+Package pdftex.def Info: g.png used on input line 279.
+(pdftex.def)             Requested size: 200.00208pt x 249.99863pt.
+
+! Extra }, or forgotten \endgroup.
+l.279 ...udegraphics[width=200,height=250]{g.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[9 <./g.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 A
+       utrement dit, ces tâches s’illustrent par :
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--316
+
+ []
+
+
+Overfull \hbox (6.99673pt too wide) in paragraph at lines 302--316
+\OT1/cmr/m/n/12 Le but est donc d'int^^Segrer dans le site web un Syst^^Reme d'
+information pour les op^^Serationnels
+ []
+
+
+Overfull \hbox (3.44121pt too wide) in paragraph at lines 302--316
+\OT1/cmr/m/n/12 des-tin^^Se ^^Ra leur per-me-t-tre de suivre de mani^^Rere per-
+ma-nente leurs per-for-mances et d'infl^^Sechir
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--324
+
+ []
+
+<e1.png, id=46, 1117.17375pt x 517.935pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.325 ...udegraphics[width=300,height=250]{e1.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.325 ...udegraphics[width=300,height=250]{e1.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: e1.png Graphic file (type png)
+<use e1.png>
+Package pdftex.def Info: e1.png used on input line 325.
+(pdftex.def)             Requested size: 299.98741pt x 250.0048pt.
+
+! Extra }, or forgotten \endgroup.
+l.325 ...degraphics[width=300,height=250]{e1.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[10] <e2.png, id=50, 1145.27875pt x 630.355pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.333 ...udegraphics[width=300,height=250]{e2.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.333 ...udegraphics[width=300,height=250]{e2.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: e2.png Graphic file (type png)
+<use e2.png>
+Package pdftex.def Info: e2.png used on input line 333.
+(pdftex.def)             Requested size: 300.00232pt x 250.00223pt.
+
+! Extra }, or forgotten \endgroup.
+l.333 ...degraphics[width=300,height=250]{e2.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--342
+
+ []
+
+[11 <./e1.png> <./e2.png>] <e3.png, id=54, 1154.3125pt x 627.34375pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.344 ...udegraphics[width=300,height=250]{e3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.344 ...udegraphics[width=300,height=250]{e3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: e3.png Graphic file (type png)
+<use e3.png>
+Package pdftex.def Info: e3.png used on input line 344.
+(pdftex.def)             Requested size: 299.99088pt x 250.00452pt.
+
+! Extra }, or forgotten \endgroup.
+l.344 ...degraphics[width=300,height=250]{e3.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (6.2273pt too wide) in paragraph at lines 361--363
+\OT1/cmr/m/n/12 Un des plus c^^Sel^^Rebres de-sign pat-terns s'appelle MVC, qui
+ sig-ni-fie Mod^^Rele - Vue - Contr^oleur.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+<mvc.png, id=55, 377.15906pt x 193.47281pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.367 ...degraphics[width=300,height=250]{mvc.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.367 ...degraphics[width=300,height=250]{mvc.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: mvc.png Graphic file (type png)
+<use mvc.png>
+Package pdftex.def Info: mvc.png used on input line 367.
+(pdftex.def)             Requested size: 300.00116pt x 250.00311pt.
+
+! Extra }, or forgotten \endgroup.
+l.367 ...egraphics[width=300,height=250]{mvc.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[12 <./e3.png>]
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376 \item le codage «
+                         from scratch », c'est à dire en partant de zéro ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376 \item le codage « from scratch »
+                                        , c'est à dire en partant de zéro ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 L
+       a solution from scratch a été abandonnée, car elle est trop lourde...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+[13 <./mvc.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 395--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--438
+
+ []
+
+[14]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--467
+
+ []
+
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...nformations enregistrées sur la table «
+                                                   users » et s’il achèt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...ns enregistrées sur la table « users »
+                                                   et s’il achète quelque...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...entifiant sera consigné dans la table «
+                                                   commandes » pour savoir ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...a consigné dans la table « commandes »
+                                                   pour savoir que c’est b...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ... a commandé tel produit dans la table «
+                                                   produits » et etc.). De ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ... tel produit dans la table « produits »
+                                                   et etc.). De plus, lors d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...UML, c’est l’acronyme anglais pour «
+                                                   Unified Modeling Language...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...lais pour « Unified Modeling Language »
+                                                  . On le traduit par « Lan...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...odeling Language ». On le traduit par «
+                                                   Langage de modélisation ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 ...ar « Langage de modélisation unifié »
+                                                  . La notation UML est un l...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 ...’ai utilisé plus particulièrement ​
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16]
+
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531 ...ect-Relation Mapper, soit en français «
+                                                   lien objet-relation ») e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531 ...it en français « lien objet-relation »
+                                                  ) est simple : se charger ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[17] <c3.png, id=75, 738.76pt x 557.08125pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.570 ...udegraphics[width=300,height=250]{c3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.570 ...udegraphics[width=300,height=250]{c3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: c3.png Graphic file (type png)
+<use c3.png>
+Package pdftex.def Info: c3.png used on input line 570.
+(pdftex.def)             Requested size: 299.9965pt x 249.99571pt.
+
+! Extra }, or forgotten \endgroup.
+l.570 ...degraphics[width=300,height=250]{c3.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<p3.png, id=76, 457.71pt x 528.97626pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.576 ...udegraphics[width=300,height=250]{p3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.576 ...udegraphics[width=300,height=250]{p3.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: p3.png Graphic file (type png)
+<use p3.png>
+Package pdftex.def Info: p3.png used on input line 576.
+(pdftex.def)             Requested size: 300.00829pt x 249.9991pt.
+
+! Extra }, or forgotten \endgroup.
+l.576 ...degraphics[width=300,height=250]{p3.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[18 <./c3.png>] <mod5.png, id=81, 838.13126pt x 572.1375pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.585 ...egraphics[width=300,height=250]{mod5.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.585 ...egraphics[width=300,height=250]{mod5.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: mod5.png Graphic file (type png)
+<use mod5.png>
+Package pdftex.def Info: mod5.png used on input line 585.
+(pdftex.def)             Requested size: 300.00053pt x 250.00398pt.
+
+! Extra }, or forgotten \endgroup.
+l.585 ...graphics[width=300,height=250]{mod5.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<mod2.png, id=82, 414.54875pt x 567.11874pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.596 ...egraphics[width=300,height=250]{mod2.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.596 ...egraphics[width=300,height=250]{mod2.png}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: mod2.png Graphic file (type png)
+<use mod2.png>
+Package pdftex.def Info: mod2.png used on input line 596.
+(pdftex.def)             Requested size: 300.00563pt x 250.0003pt.
+
+! Extra }, or forgotten \endgroup.
+l.596 ...graphics[width=300,height=250]{mod2.png}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[19 <./p3.png> <./mod5.png>] [20 <./mod2.png>] [21]
+<v1.png, id=92, 863.225pt x 746.79pt>
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.628 ...udegraphics[width=300,height=250]{v1.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -925,7 +1710,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.273 ...udegraphics[width=300,height=250]{v1.png}
+l.628 ...udegraphics[width=300,height=250]{v1.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -936,11 +1721,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v1.png Graphic file (type png)
 <use v1.png>
-Package pdftex.def Info: v1.png used on input line 273.
+Package pdftex.def Info: v1.png used on input line 628.
 (pdftex.def)             Requested size: 299.99945pt x 249.99672pt.
 
 ! Extra }, or forgotten \endgroup.
-l.273 ...degraphics[width=300,height=250]{v1.png}}
+l.628 ...degraphics[width=300,height=250]{v1.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -955,17 +1740,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 ...hics[width=300,height=250]{v1.png}} \\ \\
+l.628 ...hics[width=300,height=250]{v1.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<v2.png, id=43, 865.2325pt x 747.79375pt>
+<v2.png, id=93, 865.2325pt x 747.79375pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.274 ...udegraphics[width=300,height=250]{v2.png}
+l.629 ...udegraphics[width=300,height=250]{v2.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -977,7 +1762,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.274 ...udegraphics[width=300,height=250]{v2.png}
+l.629 ...udegraphics[width=300,height=250]{v2.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -988,11 +1773,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v2.png Graphic file (type png)
 <use v2.png>
-Package pdftex.def Info: v2.png used on input line 274.
+Package pdftex.def Info: v2.png used on input line 629.
 (pdftex.def)             Requested size: 299.9974pt x 250.00183pt.
 
 ! Extra }, or forgotten \endgroup.
-l.274 ...degraphics[width=300,height=250]{v2.png}}
+l.629 ...degraphics[width=300,height=250]{v2.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1007,17 +1792,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.274 ...hics[width=300,height=250]{v2.png}} \\ \\
+l.629 ...hics[width=300,height=250]{v2.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<v3.png, id=44, 864.22874pt x 746.79pt>
+<v3.png, id=94, 864.22874pt x 746.79pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.275 ...udegraphics[width=300,height=250]{v3.png}
+l.630 ...udegraphics[width=300,height=250]{v3.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1029,7 +1814,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.275 ...udegraphics[width=300,height=250]{v3.png}
+l.630 ...udegraphics[width=300,height=250]{v3.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1040,11 +1825,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v3.png Graphic file (type png)
 <use v3.png>
-Package pdftex.def Info: v3.png used on input line 275.
+Package pdftex.def Info: v3.png used on input line 630.
 (pdftex.def)             Requested size: 299.99223pt x 249.99672pt.
 
 ! Extra }, or forgotten \endgroup.
-l.275 ...degraphics[width=300,height=250]{v3.png}}
+l.630 ...degraphics[width=300,height=250]{v3.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1059,17 +1844,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.275 ...hics[width=300,height=250]{v3.png}} \\ \\
+l.630 ...hics[width=300,height=250]{v3.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10 <./v1.png> <./v2.png>] <v4.png, id=48, 1018.80624pt x 691.58376pt>
+[22 <./v1.png> <./v2.png>] <v4.png, id=98, 1018.80624pt x 691.58376pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.276 ...udegraphics[width=300,height=250]{v4.png}
+l.631 ...udegraphics[width=300,height=250]{v4.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1081,7 +1866,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.276 ...udegraphics[width=300,height=250]{v4.png}
+l.631 ...udegraphics[width=300,height=250]{v4.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1092,11 +1877,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v4.png Graphic file (type png)
 <use v4.png>
-Package pdftex.def Info: v4.png used on input line 276.
+Package pdftex.def Info: v4.png used on input line 631.
 (pdftex.def)             Requested size: 300.00113pt x 249.99358pt.
 
 ! Extra }, or forgotten \endgroup.
-l.276 ...degraphics[width=300,height=250]{v4.png}}
+l.631 ...degraphics[width=300,height=250]{v4.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1111,17 +1896,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...hics[width=300,height=250]{v4.png}} \\ \\
+l.631 ...hics[width=300,height=250]{v4.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<v5.png, id=49, 1020.81375pt x 692.5875pt>
+<v5.png, id=99, 1020.81375pt x 692.5875pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.277 ...udegraphics[width=300,height=250]{v5.png}
+l.632 ...udegraphics[width=300,height=250]{v5.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1133,7 +1918,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.277 ...udegraphics[width=300,height=250]{v5.png}
+l.632 ...udegraphics[width=300,height=250]{v5.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1144,11 +1929,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v5.png Graphic file (type png)
 <use v5.png>
-Package pdftex.def Info: v5.png used on input line 277.
+Package pdftex.def Info: v5.png used on input line 632.
 (pdftex.def)             Requested size: 300.00037pt x 249.99709pt.
 
 ! Extra }, or forgotten \endgroup.
-l.277 ...degraphics[width=300,height=250]{v5.png}}
+l.632 ...degraphics[width=300,height=250]{v5.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1163,17 +1948,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 ...hics[width=300,height=250]{v5.png}} \\ \\
+l.632 ...hics[width=300,height=250]{v5.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11 <./v3.png> <./v4.png>] <v6.png, id=53, 1371.1225pt x 770.88pt>
+[23 <./v3.png> <./v4.png>] <v6.png, id=103, 1371.1225pt x 770.88pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.278 ...udegraphics[width=300,height=250]{v6.png}
+l.633 ...udegraphics[width=300,height=250]{v6.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1185,7 +1970,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.278 ...udegraphics[width=300,height=250]{v6.png}
+l.633 ...udegraphics[width=300,height=250]{v6.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1196,11 +1981,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v6.png Graphic file (type png)
 <use v6.png>
-Package pdftex.def Info: v6.png used on input line 278.
+Package pdftex.def Info: v6.png used on input line 633.
 (pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
 
 ! Extra }, or forgotten \endgroup.
-l.278 ...degraphics[width=300,height=250]{v6.png}}
+l.633 ...degraphics[width=300,height=250]{v6.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1215,17 +2000,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 ...hics[width=300,height=250]{v6.png}} \\ \\
+l.633 ...hics[width=300,height=250]{v6.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<v7.png, id=54, 1371.1225pt x 770.88pt>
+<v7.png, id=104, 1371.1225pt x 770.88pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.279 ...udegraphics[width=300,height=250]{v7.png}
+l.634 ...udegraphics[width=300,height=250]{v7.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1237,7 +2022,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.279 ...udegraphics[width=300,height=250]{v7.png}
+l.634 ...udegraphics[width=300,height=250]{v7.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1248,11 +2033,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v7.png Graphic file (type png)
 <use v7.png>
-Package pdftex.def Info: v7.png used on input line 279.
+Package pdftex.def Info: v7.png used on input line 634.
 (pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
 
 ! Extra }, or forgotten \endgroup.
-l.279 ...degraphics[width=300,height=250]{v7.png}}
+l.634 ...degraphics[width=300,height=250]{v7.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1267,17 +2052,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279 ...hics[width=300,height=250]{v7.png}} \\ \\
+l.634 ...hics[width=300,height=250]{v7.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12 <./v5.png> <./v6.png>] <v8.png, id=59, 1371.1225pt x 770.88pt>
+[24 <./v5.png> <./v6.png>] <v8.png, id=109, 1371.1225pt x 770.88pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.280 ...udegraphics[width=300,height=250]{v8.png}
+l.635 ...udegraphics[width=300,height=250]{v8.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1289,7 +2074,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.280 ...udegraphics[width=300,height=250]{v8.png}
+l.635 ...udegraphics[width=300,height=250]{v8.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1300,11 +2085,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v8.png Graphic file (type png)
 <use v8.png>
-Package pdftex.def Info: v8.png used on input line 280.
+Package pdftex.def Info: v8.png used on input line 635.
 (pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
 
 ! Extra }, or forgotten \endgroup.
-l.280 ...degraphics[width=300,height=250]{v8.png}}
+l.635 ...degraphics[width=300,height=250]{v8.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1319,17 +2104,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.280 ...hics[width=300,height=250]{v8.png}} \\ \\
+l.635 ...hics[width=300,height=250]{v8.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<v9.png, id=60, 831.105pt x 729.72626pt>
+<v9.png, id=110, 831.105pt x 729.72626pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.281 ...udegraphics[width=300,height=250]{v9.png}
+l.636 ...udegraphics[width=300,height=250]{v9.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1341,7 +2126,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.281 ...udegraphics[width=300,height=250]{v9.png}
+l.636 ...udegraphics[width=300,height=250]{v9.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1352,11 +2137,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v9.png Graphic file (type png)
 <use v9.png>
-Package pdftex.def Info: v9.png used on input line 281.
+Package pdftex.def Info: v9.png used on input line 636.
 (pdftex.def)             Requested size: 299.9965pt x 249.99655pt.
 
 ! Extra }, or forgotten \endgroup.
-l.281 ...degraphics[width=300,height=250]{v9.png}}
+l.636 ...degraphics[width=300,height=250]{v9.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1371,17 +2156,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 ...hics[width=300,height=250]{v9.png}} \\ \\
+l.636 ...hics[width=300,height=250]{v9.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13 <./v7.png> <./v8.png>] <v10.png, id=64, 820.06375pt x 729.72626pt>
+[25 <./v7.png> <./v8.png>] <v10.png, id=114, 820.06375pt x 729.72626pt>
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.282 ...degraphics[width=300,height=250]{v10.png}
+l.637 ...degraphics[width=300,height=250]{v10.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1393,7 +2178,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.282 ...degraphics[width=300,height=250]{v10.png}
+l.637 ...degraphics[width=300,height=250]{v10.png}
                                                   } \\ \\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1404,11 +2189,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: v10.png Graphic file (type png)
 <use v10.png>
-Package pdftex.def Info: v10.png used on input line 282.
+Package pdftex.def Info: v10.png used on input line 637.
 (pdftex.def)             Requested size: 300.00275pt x 249.99655pt.
 
 ! Extra }, or forgotten \endgroup.
-l.282 ...egraphics[width=300,height=250]{v10.png}}
+l.637 ...egraphics[width=300,height=250]{v10.png}}
                                                    \\ \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1423,30 +2208,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 ...ics[width=300,height=250]{v10.png}} \\ \\
+l.637 ...ics[width=300,height=250]{v10.png}} \\ \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14 <./v9.png> <./v10.png>] [15] [16] (./projet_rapport.aux) ) 
+[26 <./v9.png> <./v10.png>] [27] [28] [29] (./projet_rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 2761 strings out of 494985
- 35302 string characters out of 6180356
- 91441 words of memory out of 5000000
- 5912 multiletter control sequences out of 15000+600000
+ 2818 strings out of 494985
+ 35900 string characters out of 6180356
+ 92441 words of memory out of 5000000
+ 5959 multiletter control sequences out of 15000+600000
  10102 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,4n,24p,738b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on projet_rapport.pdf (17 pages, 2321749 bytes).
+ 38i,4n,24p,1119b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on projet_rapport.pdf (30 pages, 2857591 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
