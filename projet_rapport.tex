@@ -24,13 +24,16 @@
 \bigskip
 \huge{ \includegraphics[width=60,height=50]{logo.png} 
 \includegraphics[width=80,height=50]{lh.png} \\
- Rapport de stage \\ M2 MATIS  \\ \\ \\ \\ \\
+U.F.R Sciences et Techniques \\
+M2 MATIS  \\
+ Rapport de stage \\  \\ \\ \\ \\
  } 
 \vfill
 \bigskip 
 \Huge 
-\bigskip \includegraphics[width=120,height=150]{design1.png}} \\ \\
- Développement d'un portail web collaboratif sous Symfony 3 \par 
+\bigskip %\includegraphics[width=150,height=120]{pg2.png}} 
+\\ \\
+\textbf{ Développement d'un site web de gestion des entreprises sous Symfony 3 } \par 
 \vfill
 
 \Large \begin{flushleft}
@@ -55,20 +58,22 @@ Juillet-Novembre 2017
 \end{titlepage}
 
 \section*{Remerciements}
-Je tiens á transmettre ma gratitude et mon affection à ma mère, mon père  et ma
-sœur, ainsi que mes proches pour leur patience et leur soutien.\\ \\
+
 
 J’adresse mes remerciements à  M. sidi ould MAOULOUD, de m’avoir accueillie pour faire mon
 stage au sein de son entreprise, ainsi pour son aide et  ses  remarques pertinentes.  \\ \\
 J’aimerais aussi remercier M. Laurent Amanton  et tous mes enseignants de l’université du havre
 qui m’ont accompagné 
-au cours de cette année.\\ \\
+au cours de l'année université 2016/2017.\\ \\
+
+Enfin  Je tiens á transmettre ma gratitude et mon affection à mes
+parents  pour leur patience et leur soutien.\\ \\
 
 
 \newpage
 
 \section*{Résumé}
-\textbf{VMP-CONSULTING}  est un bureau spécialisé dans le contrôle de gestion pour les TPE/TPI, les PME/PMI et les collectivités territoriales. Il les accompagne et les conseille pour aller vers l'efficacité et l'efficience dans l'utilisation de leurs ressources afin d'atteindre leurs objectifs.\\
+\textbf{VMP-CONSULTING}  est un bureau spécialisé dans le contrôle de gestion pour les TPE/TPI, les PME/PMI et les collectivités territoriales. Il  accompagne et conseille les entreprises pour aller vers l'efficacité et l'efficience dans l'utilisation de leurs ressources afin d'atteindre leurs objectifs.\\
 Pour mieux servir ses clients, \textbf{VMP-CONSULTING}  veut avoir un portail web pour 
 mettre en œuvre un espace de travail unique pour les clients, 
  proposer aux clients un accès privilégié et personnalisé à divers services en
@@ -90,7 +95,7 @@ portal.\\
 The objective of this traineeship is to realize this website
 
 \newpage
-
+\renewcommand{\contentsname}{Sommaire}
 \tableofcontents
 \newpage
 
@@ -98,55 +103,28 @@ The objective of this traineeship is to realize this website
 
 \section{Introduction}
 
-Un portail web est une plate-forme collaborative dont la fonction première est de proposer aux internautes des ressources et services numériques en rapport avec un thème, un domaine d’intérêt et dédié à chaque communauté particulière (les collaborateurs, les partenaires, les clients ou encore les fournisseurs …).\\
-Il s’agit d’un espace de travail unique, personnalisé et sécurisé avec des droits d’accès par utilisateur.\\
-L’enjeu pour une entreprise aujourd'hui est d’adresser une communication ciblée en proposant un contenu pertinent à l’utilisateur, par exemple, mettre en avant tous ses produits et offres complémentaires permet d’informer ses clients et de déclencher de nouvelles ventes.\\ \\
+\subsection{Préambule}
 
+Quelle que soit l’activité, aujourd’hui toutes les entreprises sont confrontées à une pression concurrentielle accrue, aux évolutions technologiques...Pour permettre aux managers et aux opérationnels de se consacrer entièrement à leur cœur de métier, un accompagnement dans la gestion de l'entreprise est une nécessité pour ne pas dire une obligation. Dans ce domaine là, les entreprises ne sont pas toutes logées à la même enseigne, en particulier les TPE(Trés Petite Entreprise) et certaines PME(Petite Moyenne Entreprise). Le manque d’outils de gestion est principalement lié à un problème de moyens même si parfois il peut s’agir d’un problème de sensibilisation à l’utilité et le bénéfice apporté par ces outils.\\ \\
 
+Le Contrôle de gestion est le garant de la bonne santé de la structure en s'assurant que les ressources sont employées efficacement.\\ 
+Il intervient également pour fournir les outils qui vont servir aux décideurs pour suivre l'impact de leurs actions. Celles-ci résultant de décisions de portées stratégiques et tactiques.\\
 
-En effet, les clients n’ont pas forcément le réflexe de consulter le site internet ou les newsletters de leurs prestataires pour s’informer de leurs actualités. Le portail web devient ainsi un relais d’information et de suivi commercial auprès des clients.\\ Un portail web  permet de  Capitaliser les informations et les savoir-faire,
-    simplifier la recherche d’informations,
-    centraliser l’ensemble des données en un seul accès et
-    fédérer les collaborateurs et les utilisateurs autour de l’entreprise.
-\\
-Généralement, les sociétés ont des portails web respectant leur charte graphique pour être en cohérence avec leur image de marque. Le client habitué de la marque étant dans le même univers, il assimilera plus facilement la plateforme collaborative de l’entreprise.\\
+Dans de nombreuses entreprises, il est en charge du management du système de pilotage avec la prise en charge des tableaux de bord destinés à la direction et aux responsables opérationnels.\\ \\
 
- \\
+Ainsi la rapidité de réaction est, plus que jamais, un facteur essentiel de l’aptitude 
+d’une  entreprise  à faire  face  à la  concurrence.\\ \\
+
  
- \subsection{Problématique}
-Pour un bureau d’études, comme \textbf{VMP-CONSULTING} , il s’agit de mettre en avant tous leurs panels de prestations : de l’étude à la formation en passant par la maîtrise d’œuvre.\\
-Pour cela \textbf{VMP-CONSULTING} , qui est spécialisé dans le contrôle de gestion pour les TPE/TPI, les PME/PMI et les collectivités territoriales, veut mettre en place un site web(Portail web) dédié à ses clients pour :\\
-
-\begin{itemize}
-
-\item  Dynamiser la collaboration avec les interlocuteurs internes et externes
- \item   Permettre la transmission des connaissances pour une organisation plus productive et performante
- \item     Améliorer le suivi des prestations réalisées par les consultants techniques : suivre en temps réel les interventions chez les clients afin d’accélérer la prise en charge directement depuis le terrain, disposer d’indicateurs et de statistiques pour détecter les problèmes récurrents.
- 
- \item   Renforcer  l'offre auprès des clients, les fidéliser avec de nouveaux services
- \item   Optimiser certaines tâches back-office : accès aux données et à l’historique des  clients, avancement des taches, ...
-\item    Répondre à de nouvelles exigences et garder une longueur d’avance.
-
-\end{itemize}
-
-\\
-
-L’objectif de ce stage est de répondre à ces problématiques en réalisant un portail web qui permettra
- à \textbf{VMP-CONSULTING} de bien satisfaire ses clients(Traçabilité des échanges de fichiers, Planning, Tableaux de bord graphiques, plans, schémas, études, et indicateurs de pilotage...).\\
-Ainsi un portail web bien conçu permet d’améliorer la productivité des collaborateurs et la fidélité des clients.
-Ceci oblige donc une bonne conception du projet et  l'utilisation par la suite  des  outils et technologies efficaces permettant  
- le succès du site web.\\ 
 
 
 \subsection{VMP Consulting}
 
 
-Quelle que soit l’activité, aujourd’hui toutes les entreprises sont confrontées à une pression concurrentielle accrue, aux évolutions technologiques...Pour permettre aux managers et aux opérationnels de se consacrer entièrement à leur coeur de métier, un accompagnement dans la gestion de l'entreprise est une nécessité pour ne pas dire une obligation. Dans ce domaine là, les entreprises ne sont pas toutes logées à la même enseigne, en particulier les TPE et certaines PME. Le manque d’outils de gestion est principalement lié à un problème de moyens même si parfois il peut s’agir d’un problème de sensibilisation à l’utilité et le bénéfice apporté par ces outils.\\ \\
-
-VMP-Consulting est un bureau spécialisé dans le contrôle de gestion pour les TPE/TPI(trés petite entreprise), les PME/PMI(petite moyenne entreprise) et les collectivités territoriales. Il les accompagne et les conseille pour aller vers l'efficacité et l'efficience dans l'utilisation de leurs ressources afin d'atteindre leurs objectifs.\\ \\
+VMP-Consulting est un bureau spécialisé dans le contrôle de gestion pour les TPE/TPI(trés petite entreprise), les PME/PMI(petite moyenne entreprise) et les collectivités territoriales. Il  accompagne et  conseille  les entreprises pour aller vers l'efficacité et l'efficience dans l'utilisation de leurs ressources afin d'atteindre leurs objectifs.\\ \\
 
 
-VMP Consulting accompagne les PME, PMI, TPE et TPI pour la maîtrise de leur performance, avec ses solutions, pour atteindre les objectifs de :
+VMP Consulting accompagne les PME/PMI et TPE/TPI pour la maîtrise de leur performance, avec ses solutions, pour atteindre les objectifs de :
 \begin{itemize}
 
 \item Maîtriser les coûts.
@@ -185,20 +163,43 @@ Elaboration d’outils spécifiques.
 
 
 
-Le créateur du startup a une expérience de plus de 20 ans dans divers secteurs d'activités et dans plusieurs types de structures (PME - Multinationales - Organismes d'Etat), et en 2016 il a lancé VMP CONSULTING.
+Le dirigéant de la startup a une expérience de plus de 20 ans dans divers secteurs d'activités et dans plusieurs types de structures (PME - Multinationales - Organismes d'Etat), et en 2016 il a lancé       \textbf{VMP-CONSULTING} .
 
 
 
+ \subsection{Problématique}
 
-\subsection{Cahier de charges et Objectifs}
+L’enjeu pour une entreprise aujourd'hui est d’adresser une communication ciblée en proposant un contenu pertinent au client, par exemple, mettre en avant tous ses produits et offres complémentaires permet d’informer ses clients et de déclencher de nouvelles ventes. \\ 
+Pour un bureau d’études, comme \textbf{VMP-CONSULTING}  spécialisé dans la maîtrise des performances des entreprises, la mise en place d'un site internet,  permet de  Capitaliser les informations et les savoir-faire,
+    simplifier la recherche d’informations,
+    centraliser l’ensemble des données en un seul accès et
+    fédérer les collaborateurs et les utilisateurs autour de l’entreprise.
+\\ \\
 
-Comme tout projet professionnel, le début de ce stage était d'abord à définir la 
-problématique,  pour passer par la suite à la rédaction du cahier des charges, en 
-traçant  les grandes lignes du projet, et les objectifs à atteindre.\\ 
+Un portail web est une plate-forme collaborative dont la fonction première est de proposer aux internautes des ressources et services numériques en rapport avec un thème, un domaine d’intérêt et dédié à chaque communauté particulière (les collaborateurs, les partenaires, les clients ou encore les fournisseurs …).\footnote{www.everwin.fr}  \\
+Il s’agit d’un espace de travail unique, personnalisé et sécurisé avec des droits d’accès par utilisateur.\\ \\
 
-Le besoin d'un portail web pour \textbf{VMP-CONSULTING}, vient des enjeux suivants: \\
+
+Ce future site web de \textbf{VMP-CONSULTING}, dédié aux entreprises clientes, sera un outil important
+ de gestion des entreprises en ligne et qui pourra répondre à certains besoins du bureau d'études:
+\begin{itemize}
+
+\item  Dynamiser la collaboration avec les interlocuteurs internes et externes
+ \item   Permettre la transmission des connaissances pour une organisation plus productive et performante
+ \item     Améliorer le suivi des prestations réalisées par les consultants techniques : suivre en temps réel les interventions chez les clients afin d’accélérer la prise en charge directement depuis le terrain, disposer d’indicateurs et de statistiques pour détecter les problèmes récurrents.
+ 
+ \item   Renforcer  l'offre auprès des clients, les fidéliser avec de nouveaux services
+ \item   Optimiser certaines tâches back-office : accès aux données et à l’historique des  clients, avancement des taches, ...
+\item    Répondre à de nouvelles exigences et garder une longueur d’avance.
+
+\end{itemize}
+
+\\ \\
+
+A l'aide d'un portail web  \textbf{VMP-CONSULTING} pourra atteindre ses objectifs :
 
 \begin{itemize}
+
 \item Améliorer la productivité des services de l'entreprise.
 \item Fidéliser les clients.
 \item Se différencier par rapport à la concurrence en proposant un panel de services à
@@ -206,160 +207,263 @@ valeur ajoutée.
 \item Conquérir de nouveaux clients.
 \end{itemize}
 
-\\
 
-Ainsi les objectifs principales de ce stage sont incarnés par  :\\
-\begin{itemize}
-\item Mettre en œuvre d'un espace de travail unique pour les clients.
-\item Proposer aux clients un accès privilégié et personnalisé à divers services en
-ligne.
-\item Développer des outils qui permettent aux clients de réagir avec les contenus du
-portail.
-\item Suivre en temps réel l'ensemble des tableaux des bords et d'indicateurs des performance.
-\item Faire des prévisionnels, saisir des hypothèses d'évolutions des indicateurs de gestion  et calculer des projections 
-de résultat.
-
-\end{itemize}
-
- Ceci passe par: \\
-\begin{itemize}
-\item La réalisation d'une maquette et des templates   .
-\item La réalisation des développements, test et recettes fonctionnelles.
-\item  La mise en place de l'hébergement.
-\end{itemize} \\
-
-Après la mise en point sur les besoins, on peut passer à la rédaction du cahier des charges fonctionnel .\\
-Par exemple :\\
-\begin{center}
-\includegraphics[width=200,height=250]{cdc2.png}}
-\end{center}
- \\ \\
- 
 
 \subsection{Environnement et Missions}
 
- \textbf{VMP-CONSULTING} veut réaliser ce projet à l'aide d'un développeur web qui va être sous 
-sa direction, le projet est piloté et suivi  par le dirigeant du bureau d'études.
-Ce stage a déroulé 4 mois, de juillet à Novembre au sein de la société à Boves(Amiens, région Picardie ).
-
+La mission était la prise en charge totale du projet de mise en place d'un portail internet,
+j'avais en charge toutes les phases du projet de la rédaction de cahier de charges jusqu'à la phase de test en 
+passant par les spécifications personnelles, les choix techniques, la modélisation et conception.\\
+Parmi les difficultés rencontrées est le manque de ressources en développement de VMP-CONSUTLING ce qui a nécessité pour moi 
+de passer plus de temps dans la recherche des outils de développement.
 Mes missions en tant que le seul développeur du projet sont : \\
 \begin{itemize}
-\item Analyse des données et proposition des solutions .
-\item Conception et modélisation  du site web et de la bases de donnée.  
-\item Développement du portail web.
-\item test et déploiement du site internet.
+\item Rédaction  du cahier des charges.
+\item Analyse des données et proposition des solutions.
+\item Conception  du site internet .  
+\item Modélisation de la base de données.
+\item Développement et Implémentation .
+\item test et déploiement du portail web.
 \end{itemize}
+\\ \\
+On parle souvent de cycles de vie, qui ont pour but d’organiser ces étapes de différentes manières en fonction d’un certain nombre de critères relatifs au projet de développement.\\
+Le cycle de vie en cascade a été utilisé, puisque 
+les besoins ou exigences n’évolueront pas en cours de projet, 
+tous les besoins ont été fixés et détaillés dans le cahier des charges.
+En pratique, une étape ne démarre que si la précédente ait été validée par le client.
 
+\\
 \begin{center}
-\includegraphics[width=300,height=250]{p.png}}
-
+\includegraphics[width=250,height=250]{p.png}}
+ 
 \end{center}
+\\ \\
 
-
-On verra tout au long du rapport toutes ces détails. 
 
 
 \newpage
 
-\section{Analyse et Conception}
-L'objectif final de ce projet est de réaliser une plat-forme web collaborative facilitant le contrôle des gestions 
-pour les entreprises clientes.\\
-Pour cela  une analyse, des méthodes et des données des entreprises, est  nécessaire pour concevoir et implémenter
- le système d'information de gestion qui est une partie principale du portail web.
+\section{ Cahier des charges et spécifications fonctionnels}
+
+\subsection{ Cahier des charges}
+Un cahier des charges concrétise une demande et constitue la première description complète du projet web à réaliser. Il tient compte des besoins de ceux qui ont fait l’appel à projet et de ceux qui s’engagent à le développer.\\
 
 
-\subsection{Contrôle et système d'information  de gestion}
-Le Contrôle de gestion est le garant de la bonne santé de la structure en s'assurant que les ressources sont employées efficacement.\\
+A partir de la problématique définit par \textbf{VMP-CONSULTING} le début du stage était d'abord 
+la rédaction du cahier des charges.\\ \\
+Dans la première section du cahier des charges, j'ai essayé de donner une vision globale du projet au client, 
+en rappelant les objectifs principaux de ce projet.
 
-Il intervient également pour fournir les outils qui vont servir aux décideurs pour suivre l'impact de leurs actions. Celles-ci résultant de décisions de portées stratégiques et tactiques.\\
 
-Dans de nombreuses entreprises, il est en charge du management du système de pilotage avec la prise en charge des tableaux de bord destinés à la direction et aux responsables opérationnels.\\
 
-\begin{center}
-\includegraphics[width=200,height=250]{g.png}}
 
-\end{center}
+\subsubsection{Objectifs}
 
-Globalement cette fonction agit à 2 niveaux : efficacité et efficience
+Les objectifs de ce projet sont pour l'entreprise \textbf{VMP-CONSULTING} : 
 \begin{itemize}
-\item Efficacité, en influençant l'entreprise à exploiter ses activités en cohérence avec les objectifs fixés
+\item \textbf{  Mettre en œuvre un espace de travail unique pour les clients}: qui garantit 
+l'accessibilité des données économiques et financières en temps réel en  responsive design.
 
-\item Efficience, en utilisant les moyens disponibles de la manière la plus productive 
+\item \textbf{ Proposer aux clients un accès privilégié, personnalisé et sécurisé  à divers services en
+ligne}:  par exemple, Suivre en temps réel l'ensemble des tableaux des bords et d'indicateurs des performance. 
+ 
+\item \textbf{ Développer des outils qui permettent aux clients de réagir avec les contenus du
+portail}: par exemple, Faire des prévisionnels, saisir des hypothèses d'évolutions des indicateurs de gestion  et calculer des projections de résultat.
+
+
 \end{itemize}
+
 \\
-Autrement dit, ces tâches s’illustrent par :
+
+
+
+\subsubsection{Étude de l’existence}
+
+Lors de la réalisation du cahier des charges, je doit prendre en compte un grand nombre de besoins :
 \begin{itemize}
 
-\item Etablir des plans à long terme et les budgets,
-\item Contribuer au choix des méthodes de prévisions,
-\item Etablir une coordination du processus budgétaire,
-\item Faire respecter les délais,
-\item Analyser les résultats,
-\item Et proposer des actions correctives.
-
-\end{itemize}
-
-Aujourd’hui,  l’information  est  incontestablement  une  ressource  vitale  de 
-l’entreprise. De plus en plus, la compétitivité de l’entreprise et sa capacité de 
-mise  en  œuvre  des  stratégies  sont  en  effet  étroitement  liées  à son  système 
-d’information.\\
-Le  contenu  en  information  des  processus  de  production  est  essentiel  à
-l’amélioration de qualité.
-La rapidité de réaction est, plus que jamais, un facteur essentiel de l’aptitude 
-d’une  entreprise  à faire  face  à la  concurrence ;  or  cette  aptitude  est,  pour 
-une bonne part, fonction de la fluidité, de la fiabilité et de la flexibilité des 
-systèmes d’information de gestion. \\ \\
-Le but est donc d’intégrer dans le site web un Système  d’information  pour  les  opérationnels  destiné à leur  permettre  de 
-suivre   de   manière   permanente   leurs   performances   et 
-d’infléchir 
-éventuellement leur action grâce à l’analyse des actions réalisées.
 
 
-\subsection{Étude de l’existence}
+\item Le projet doit tenir compte de contraintes globales (accessibilité etc.).
+
+\item Le projet doit correspondre à la création graphique validée par le client.
+
+ \item Le projet doit tenir compte du budget défini en amont.
+
+ \item   Le projet s’adapte très souvent sur un existant (système d’information etc.).
+
+\end{itemize} \\
+\\
 
 Actuellement \textbf{VMP-CONSULTING} utilise  des outils performants et facile à manipuler 
 pour faire le contrôle de gestion de ses clients.\\
-Le logiciel Excel de Microsoft est parmi ces outils.Les analyses et les calculs du futur système de gestion sont basés
+Les analyses et les calculs du futur système de gestion en ligne sont basés
 sur des fichiers existants en Excel.\\
+
+Les données et les résultats qui contiennent ces fichiers ont été étudié attentivement afin de les transformer en  une base de données interactive qui peut être consultée en ligne en toue sécurité, et ses données peuvent être visualisées en temps réel.
+
 \begin{center}
 \includegraphics[width=300,height=250]{e1.png}}
-\end{center}
-
-Les données et les résultats qui contiennent ces fichiers ont été étudié attentivement afin de les transformer en 
-une base de données interactive qui peut être consultée en ligne en toue sécurité, et ses données peuvent être 
-visualisées en temps réel.
-
-\begin{center}
-\includegraphics[width=300,height=250]{e2.png}}
 
 \end{center}
 \\
 
-Par exemple les données du fichier excel ci-dessous représentent l'évolution du chiffre d'affaire d'une entreprise
-cliente. On peut obtenir ces information dans le portail web sous forme de tableau de bord ou de simple tableau 
-affiché par la jointure des différentes tables de la base de données.
-\\
+
+
+
+
+
+
+
+\subsection{ Spécifications fonctionnelles}
+
+
+Le cahier des charges fonctionnel et technique est un document contractuel. Il résume le périmètre fonctionnel et technique du projet attendu par le client sur lequel le développeur s’engage de le réaliser.\\
+La 2e section du cahier des charges consiste à rédiger les spécifications fonctionnelles et techniques du projet. C’est ici que j'ai  présenté en détail le dispositif du projet. \\
+
+On va voir par la suite  des exemples où j'ai résumé quelques Spécifications fonctionnelles.
+
+\subsubsection{L'accès au portail}
  
-\begin{center}
-\includegraphics[width=300,height=250]{e3.png}}
+\begin{description}
 
-\end{center}
+\item[Fonctionnalité :] Page d'accueil.
 
-\subsection{Outils,Technologies et Méthodes}
-Après l'analyse des donnés on arrive à la pratique, mais avant cette étape
-on doit préciser  les solutions à appliquer pour la résolution
-des problèmes.
+\item[Description :] Une page d’accueil qui s'ouvre par
+défaut en accédant au portail.
+
+\item[Résultat :]  Tout utilisateur web peut accéder au site  par internet et visiter sa  page d'accueil qui contient le plan du portail et les informations de l'entreprise.
+
+\end{description}
+
+
+\subsubsection{ Création d’espace/entreprise}
+
+
+\begin{description}
+
+\item[Fonctionnalité :] Création de compte.
+
+\item[Description :]  Un espace sécurisé et personnalisé permettant la gestion des données personnelles.
+
+\item[Résultat :]  Toute entreprise client peut s'inscrire
+au site de l'entreprise et avoir un compte dédié qui contient ses informations et ses données.
+
+\end{description}
+
+La création d'un espace Entreprise passe par les étapes suivantes:
+\begin{itemize}
+
+
+\item Demander à l'utilisateur d'entrer son adresse mail dans une zone de texte.
+\item Demander à l'utilisateur d'entrer un pseudo dans une zone de texte.
+Le pseudo devra contenir entre 3 et 25 caractères.
+\item
+Demander à l'utilisateur d'entrer un mot de passe qui devra compter entre 6 et 30 caractères, là encore dans une zone de
+texte.
+\item
+Demander une confirmation du mot de passe.
+Une fois les deux mots de passe entrés, si les deux mots de passe sont les
+mêmes, on continue l'inscription.
+Si ce n'est pas le cas, on redirige l'utilisateur vers une page d'erreur et on lui fait reprendre l'inscription du départ
+\item
+On l'envoie vers une seconde page de l'inscription, en le faisant cliquer sur un lien.
+
+\end{itemize}
+
+
+
+\subsubsection{Connexion}
+\begin{description}
+
+
+\item[Fonctionnalité :] Connexion .
+
+\item[Description :]  accès au compte personnel par un pseudo et un mot de passe.
+
+\item[Résultat :]  Chaque utilisateur peut accéder à
+son espace personnel en toute sécurité.
+\end{description}
+
+\subsubsection{ Consultation des données}
+\begin{description}
+
+\item[Fonctionnalité :] Consultation .
+
+\item[Description :]  Consulter les données et les informations du de l'entreprise.
+
+\item[Résultat :]  Chaque utilisateur peut consulter toutes ses informations personnelles  et visualiser ses 
+données.
+\end{description}
+
+\textbf{Consultation des indicateurs}:
+\begin{itemize}
+\item  Chiffre d’affaires
+\item Couts
+\item Marge
+\item Résultat
+\item Historiques
+\end{itemize}
+
+
+\subsubsection{ Importation/Exportation}
+\begin{description}
+
+\item[Fonctionnalité :] Importation/Exportation.
+
+\item[Description :]  Importer et exporter des données et fichiers (xsl, csv )
+
+\item[Résultat :]  l'utilisateur peut importer des fichiers Excel et télécharger les données sous forme
+ des  fichiers csv.
+\end{description}
+
+\subsubsection{ Simulations }
+\begin{description}
+
+\item[Fonctionnalité :] Simulations.
+
+\item[Description :]  permet de faire des hypothèses de projection de résultat.
+
+\item[Résultat :]  Un tableau de bord interactif.
+\end{description}
+
+\subsubsection{Gestions des Editions}
+\begin{itemize}
+
+\item Compte de résultat 
+ 
+\item Statistiques
+
+\item Tableaux de bord
+\end{itemize}
+
+\subsubsection{Alert et Info}
+\begin{description}
+
+\item[Fonctionnalité :] Alert et Info.
+
+\item[Description :]  Envoi des messages d'alertes et des e-mails d'informations aux utilisateurs.
+
+\item[Résultat :]  En cas de création de compte, de changement de mot de passe et d'informations importantes, 
+l'utilisateur reçoit des messages, à son adresse e-mail, de confirmation de versification et d'informations.
+\end{description}
+
+
+
+\newpage 
+
+\section{ Choix techniques}
+
+
+\subsection{Système d'exploitation}
+Après la rédaction du cahier des charges  on passe à la recherches des solutions pour les besoins définis dans ce cahier. \\
 A noter que j'avais toute la liberté de choisir, rien n'était exigé par l'entreprise, mais à condition que 
-le choix doit être bien justifié.
+le choix soit bien justifié.\\ \\
 
+Le système d'exploitation choisi est Linux avec sa distribution \textbf{Ubuntu 14.04} , il est open source, sécurisé et son environnement est bien adapté au développement du projet. 
 
-\subsubsection{Système d'exploitation}
-Le système d'exploitation choisi est Linux avec sa distribution \textbf{Ubuntu 14.04} , il est open source, sécurisé et son
-environnement est bien adapté au développement du projet. 
-
-\subsubsection{Architectures}
-Un des plus célèbres design patterns s'appelle MVC, qui signifie Modèle - Vue - Contrôleur. C'est celui que je me suis
-basé pour la construction de l’architecture du site web.
+\subsection{Architectures}
+Un des plus célèbres design patterns s'appelle MVC, qui signifie Modèle - Vue - Contrôleur. C'est celui que je me suis basé pour la construction de l’architecture du site web.
 
 Le pattern MVC permet de bien organiser son code source. Il permet de savoir quels fichiers créer, mais surtout à définir leur rôle. Le but de MVC est justement de séparer la logique du code en trois parties(Modèle - Vue - Contrôleur).\\
 
@@ -369,7 +473,7 @@ Le pattern MVC permet de bien organiser son code source. Il permet de savoir que
 \end{center}
 
 
-\subsubsection{Méthode de Programmation }
+\subsection{Méthode de Programmation }
 
 Les principales solutions existantes pour réaliser ce type de site Web sont :
 \begin{itemize}
@@ -378,9 +482,9 @@ Les principales solutions existantes pour réaliser ce type de site Web sont :
 \item l'utilisation d'un framework basée sur un langage de programmation.
 \end{itemize} \\
 La solution from scratch a été abandonnée, car elle est trop lourde et longue à
-développer, surtout quand il s'agit d'un stage de 4 mois avec beaucoup des choses à réaliser.\\ 
+développer, surtout quand il s'agit d'un stage de quelques mois avec beaucoup des choses à réaliser.\\ 
 Ainsi la solution CMS n'a pas été retenue puisqu'elle n'est pas adapté pour le genre de base de données interactive que 
-nous souhaitons mettre en œuvre, avec la lenteur d'accès aux bases de données qui est visible surtout à l'affichage des pages
+je souhaite mettre en œuvre, avec la lenteur d'accès aux bases de données qui est visible surtout à l'affichage des pages
 est un grand inconvénient d'un CMS.\\ \\
 
 En revanche, l'utilisation d'un framework implique le développement sur-mesure de
@@ -389,30 +493,25 @@ développement avec un framework apparaît plus simple qu'avec un CMS.\\
 
 C'est pourquoi, le choix est d'utiliser un framework pour le développement du site web.\\
 
-Mais le problème des choix ne s’arrête pas ici, il reste de préciser le choix du langage web et son framework.
+Mais le problème de choix ne s’arrête pas ici, il reste de préciser le choix du langage web et son framework.
  
-\subsubsection{Langage web coté serveur }
-Le langage de programmation utilisé va beaucoup influer sur le projet et la manière dont celui-
-ci sera développé, en fonction des avantages et des inconvénients du langage.\\
+\subsection{Langage web coté serveur }
+Le langage de programmation utilisé va beaucoup influer sur le projet et la manière dont celui ci sera développé, en fonction des avantages et des inconvénients du langage.\\
 On parle ici du langage back-end du site web, puisque le développement back-end est nécessaire pour bien gérer 
 la bases de donnés, les  utilisateurs et les résultats à envoyer, en basant sur l'architecture MVC.\\ \\
-Le choix du langage web est une autre étude qui a pris pas mal de temps en cherchant les différents langages, leurs 
-avantage et inconvénients. Les recherches étaient concentrés sur les langages suivants :
+Le choix du langage web est une autre étude qui a pris pas mal de temps en cherchant les différents langages, leurs  avantage et inconvénients. Les recherches étaient concentrés sur les langages suivants :
 \begin{itemize}
 \item PHP
 \item Nodejs (JavaScript back-end)
-\item JavaEE
+\item Java (JavaEE)
 
 \end{itemize}
 
 Les autres langages ont été abandonné immédiatement par le motif de manque d'une base de connaissance permettant
 l'apprentissage rapide du langage.\\ \\
 
-Le choix du langage s’est finalement porté sur \textbf{PHP} avec sa version 5(exactement 5.4.9), qui 
- est un langage
-de script exécuté côté serveur. Langage élaboré inclut dans une page HTML
-qui permet une interaction avec l’utilisateur. Technologie permettant la
-création de pages web au contenu dynamique.\\
+Le choix du langage s’est finalement porté sur \textbf{PHP} avec sa version 5, qui 
+ est un langage de script exécuté côté serveur. Langage qui permet une interaction avec l’utilisateur. Technologie permettant la création de pages web au contenu dynamique.\\
 
  En effet, il s’agit d’un langage facile
 d’apprentissage, accessible sur la plupart des systèmes d’exploitations et très populaire sur le
@@ -422,17 +521,14 @@ besoins de l’entreprise, qui veut s’appuyer sur des technologies matures et 
 fonctionner de manière optimale. Enfin, il est assez facile d’apprentissage, ce qui permettra à
 de futurs développeurs de maintenir ou de faire évoluer rapidement l’application.\\  \\
 
- 
 
 
-La série des choix n'est pas encore terminé il reste de choisir le Framework PHP. 
 
-
-\subsubsection{Framework }
+\subsection{Framework }
 Un framework ou kit de développement est un espace de travail modulaire, c'est à dire
 une suite d'outils et de bibliothèques qui facilitent et accélèrent le développement d'un
 logiciel. Il contient toutes les fonctions de base utiles au développement d'un type de
-programme, et permet donc de ne pas avoir besoin de ré-écrire les mêmes fonctions à
+programme, et permet donc de ne pas avoir besoin de réécrire les mêmes fonctions à
 chaque programme créé. Il en existe dans tous les langages de programmation.\\ \\
 J'ai testé et étudié les plus connus pour trouver le plus adapté:
 \begin{itemize}
@@ -441,8 +537,7 @@ J'ai testé et étudié les plus connus pour trouver le plus adapté:
 \item Laravel
 \end{itemize} \\
 
-Après une forte hésitation  entre le Zend Framework et Symfony, j'ai décidé
-d'utiliser Symfony 3 (précisément sa version 3.3), qui permet de  rendre le PHP beaucoup plus
+ J'ai décidé d'utiliser Symfony 3 (précisément sa version 3.3), qui permet de  rendre le PHP beaucoup plus
 confortable, l'AJAX plus abordable, l'optimisation du référencement (url rewriting) plus
 simple.\\
 Symphony est un Framework PHP qui a été lancé en 2005. Il est aujourd’hui stable et reconnu.
@@ -459,24 +554,24 @@ que certains de ces modules sans forcément avoir à utiliser tout le Framework.
 possède beaucoup de composants issus du Symfony.
 
 
-\subsubsection{Bases de données}
+\subsection{Bases de données}
  Le choix de la base de donnée  a prix beaucoup de temps de recherche et de comparaison entre les deux modèles
   \textbf{Relationnel} et \textbf{NoSql} représentés respectivement par \textbf{MySql} et \textbf{MongoDB}.\\
    \\
 Et enfin j'ai choisi le modèle relationnel et son SGBDR MySql.\\
 
-MySQL est le plus connu et utilisé des SGBD. Il repose sur le modèle relationnel : des tables ont des enregistrements , et ces tables peuvent avoir des relations. Ceci a l’avantage de pouvoir lier très facilement des enregistrements d’une table à l’autre (par exemple, l’utilisateur x a ses informations enregistrées sur la table « users » et s’il achète quelque chose, son identifiant sera consigné dans la table « commandes » pour savoir que c’est bien lui qui a commandé tel produit dans la table « produits » et etc.). De plus, lors des enregistrements, les transactions sont soumises aux contraintes ACID (atomicité, cohérence, isolation et durabilité), ce qui signifie qu’un enregistrement incomplet ou incorrect ne sera pas enregistré en base. De quoi sérieusement limiter les erreurs ! MySQL permet ainsi de facilement structurer les informations et de les réutiliser avec aisance. Finalement, MySQL est un système où l’intégrité des enregistrements est pris en charge par le logiciel et le risque d’erreurs est donc peu élevé.
+MySQL est le plus connu et utilisé des SGBD. Il repose sur le modèle relationnel, des tables ont des enregistrements , et ces tables peuvent avoir des relations.\\  Ceci a l’avantage de pouvoir lier très facilement des enregistrements d’une table à l’autre.\\  De plus, lors des enregistrements, les transactions sont soumises aux contraintes ACID (atomicité, cohérence, isolation et durabilité), ce qui signifie qu’un enregistrement incomplet ou incorrect ne sera pas enregistré en base. \\  MySQL permet ainsi de facilement structurer les informations et de les réutiliser avec aisance. Finalement, MySQL est un système où l’intégrité des enregistrements est pris en charge par le logiciel et le risque d’erreurs est donc peu élevé.
 
 
   
    
 
-\subsubsection{Langages web coté client}
+\subsection{Langages web coté client}
 
 L'effet de choisir ce n'est pas toujours simple surtout dans le cas où les concurrents sont très proches.
 Mais heureusement dans la parie font-end (coté client) les choses sont claires et il n'y a quasi pas de choix.
 
-L'utilisation des langages suivants est nécessaire parfois et obligatoire comme le cas de HTML :
+L'utilisation des langages suivants est nécessaire et parfois est indispensable  :
 \begin{itemize}
 \item \textbf{HTML5:} L’Hypertext Markup Language(HTML), est le format de données conçu pour gérer
 et organiser le contenu d'une page web. C’est un langage de balisage qui
@@ -495,25 +590,16 @@ objet, principalement utilisé dans les pages Web. C’est un langage exécuté 
 sites Internet.
 \end{itemize}
 
-\subsubsection{Boites à Outils}
+\subsection{Technologies et Outils}
 
-On peut résumer la suite des solutions utilisés  par la liste suivantes qui contient des méthodes, des frameworks, et des 
-bibliothèques:
+On peut résumer la suite  des frameworks et des  bibliothèques utilisés  par la liste suivante :
 \begin{itemize}
-\item \textbf{UML:} UML, c’est l’acronyme anglais pour « Unified Modeling Language ». On le traduit par « Langage de modélisation unifié ». La notation UML est un langage visuel constitué d’un ensemble de schémas, appelés des diagrammes, qui donnent chacun une vision différente du projet à traiter. UML nous fournit donc des diagrammes pour représenter le logiciel à développer : son fonctionnement, sa mise en route, les actions susceptibles d’être effectuées par le logiciel, etc.
 
 \item \textbf{JQUERY:} En JavaScript j’ai utilisé plus particulièrement ​
 jQuery, qui est une bibliothèque
 JavaScript libre qui porte sur l'interaction entre JavaScript
 (comprenant Ajax) et HTML, et a pour but de simplifier des
-commandes
-communes
-de
-JavaScript.
-C’est
-avec
-cette
-technologie que j’ai réalisé la partie dynamique du site web.
+commandes communes de JavaScript. C’est avec cette technologie que j’ai réalisé la partie dynamique coté client du site web.
 
 \item \textbf{AJAX:} AJAX est l'acronyme d'Asynchronous JavaScript And XML, autrement dit JavaScript Et XML Asynchrones.
 L'idée  est de faire communiquer une page Web avec un serveur Web sans occasionner le rechargement de la page. 
@@ -524,34 +610,34 @@ L'idée  est de faire communiquer une page Web avec un serveur Web sans occasion
 
 \item \textbf{TWIG:} Dans Symfony le PHP et le HTML sont entièrement séparer, le HTML est inséré
 dans les fichiers Twig. Twig est un moteur de template PHP
-directement intégré dans Symfony2 et créé lui aussi par Sensio. Très
+directement intégré dans Symfony3 et créé lui aussi par Sensio. Très
 puissant, Twig permettra de gérer de l’héritage entre templates et
 layout, séparer les couches de présentation et couche métiers.
 
 \item \textbf{Doctrine: } l'ORM par défaut de Symfony. L'objectif d'un ORM (pour Object-Relation Mapper, soit en français « lien objet-relation ») est simple : se charger de l'enregistrement des données en  faisant oublier qu'il n'y a pas  une base de données.
 
-\item \textbf{GIT:} un outil qui va  permettre de versionner le code source, c'est-à-dire gérer les versions du code au fur et à mesure. j'ai l'utilisé pour pour héberger le code source du site en github en cas de panne locale le
-code est facile à récupérer.
 \end{itemize}
+\\ 
+\\
 
+\subsubsection{Outils}
 
-\subsubsection{Outils utilisés }
-
-Ainsi les outils suivants ont été utilisé, comme les serveurs qui sont la bases du système  ainsi les IDE qui facilite 
-l’écriture des codes sources:
 \begin{itemize}
-\item  \textbf{Apache2:} est un serveur HTTP créé et maintenu au sein de la fondation Apache. C'est le serveur HTTP le plus populaire du World Wide Web.
+
+
+\item \textbf{GIT:} un outil qui va  permettre de versionner le code source, c'est-à-dire gérer les versions du code au fur et à mesure. j'ai l'utilisé pour pour héberger le code source  en github, en cas de panne locale le
+code est facile à récupérer.
+
+\item  \textbf{Apache2:} est un serveur HTTP créé et maintenu au sein de la fondation Apache. C'est le serveur HTTP le plus populaire du World Wide Web. il me permet de tester le site localement.
 
 \item  \textbf{Netbeans:} est un environnement de développement intégré (EDI) open source. Il a
 été créé par Sun en juin 2000. NetBeans permet de supporter de nombreux
-langages dont PHP, HTML, Twig, Javascript et YML. C’est sous cet
-environnement que j’ai programmé l’intégralité de la plate-forme.
+langages dont PHP, HTML, Twig, Javascript et YML. C’est sous cet environnement que j’ai programmé l’intégralité du portail.
 
 
-\item \textbf{draw.io:} c'est un outil en ligne permettant de faire les design des maquettes, templates et l’architecture
- du site web.
+\item \textbf{draw.io:} c'est un outil en ligne permettant de faire des design des maquettes, templates et l’architecture du site web.
 
-\item \textbf{Umbrello:} c'est logiciel linux open source permettant de faire des diagrammes UML.
+\item \textbf{Umbrello:} c'est un logiciel linux open source permettant de faire des diagrammes UML.
 
 \item \textbf{Mysql-server:} le serveur de la base de données MySql
 
@@ -559,17 +645,48 @@ environnement que j’ai programmé l’intégralité de la plate-forme.
 
 \item \textbf{FileZila:} Transfert ftp.
 
-\item \textbf{TexMaker} Éditeur latex pour la rédaction des comptes rendu et des rapports.
+\item \textbf{TexMaker} Éditeur latex pour la rédaction du cahier de charges, des comptes rendu et des rapports.
 \end{itemize}
 
 
+
+\newpage
+
+\section{Conception et Modélisation  }
+
 \subsection{Conception}
 
+Dans la phase d’analyse, le diagramme de classes représente les entités (des informations) manipulées par les utilisateurs.\\
+Dans la phase de conception, il représente la structure objet d’un développement orienté objet.\\
+\\
 
 \begin{center}
-\includegraphics[width=300,height=250]{c3.png}}
+\includegraphics[width=300,height=250]{dc.png}}
 
 \end{center}
+
+
+
+Pour simplifier les choses, on peut résumer les principales fonctionnalités, déjà précisés dans le cahier des charges, par un diagramme UML de cas d'utilisation , qui  représente les fonctionnalités (ou dit cas d’utilisation) nécessaires aux utilisateurs. On peut faire un diagramme de cas d’utilisation pour quelques 
+fonctionnalité du site web. 
+
+\\
+\\
+
+\begin{center}
+\includegraphics[width=300,height=250]{cd2.png}}
+
+\end{center}
+
+
+\\
+\\
+
+Toutes les fonctionnalités détaillées dans le cahier des charges, devront être dans les bonnes places de l'interface web du site internet.\\
+Ainsi j'ai procédé par la suite à modéliser l'ensemble des pages du portail afin de mettre chaque 
+fonctionnalité à sa place.\\
+
+
 
 
 \begin{center}
@@ -577,19 +694,49 @@ environnement que j’ai programmé l’intégralité de la plate-forme.
 
 \end{center}
 
+\\ \\
+J'ai choisi de minimiser le nombre des pages et des routes , en utilisant des pages
+\textbf{scrolling} qui contiennent plusieurs sections.
+
+
+
+
+
+
 
 \subsection{Modélisation}
+\subsubsection{Modélisations des données}
 
+
+Une base de données relationnelle s'appuie sur un modèle relationnel et donc il s'agit d'un système possédant des relations entre ses différentes parties .\\ \\
+
+La modélisation de la base de données est également une tâche très importante car il s’agit
+du cœur du site web réalisée. \\ 
+
+
+\\ \\
 
 \begin{center}
-\includegraphics[width=300,height=250]{mod5.png}}
+\includegraphics[width=300,height=250]{bd1.png}}
 
 \end{center}
+\\ \\
+
+La figure ci-dessus représente la base de données réalisée, à noter que toutes les attributs des entités  ne s'affichent pas dans la figure .\\ Nous pouvons constater que quasiment toutes les tables sont reliées à la table « societe » . Cela nous indique que les requêtes effectuées sur la base de données concernent essentiellement les sociétés, qui sont les clients de \textbf{VMP-CONSULTING}.\\
+La base de données elle-même comportant un nombre assez important de tables.\\
+Ces tables sont  très complètes avec une grande quantité d’attributs. Il est possible que
+ces attributs soient trop nombreux et doivent être séparés pour être mis dans des nouvelles
+tables.\\
 
 
 
-\subsection{Front-end}
+\subsubsection{Maquette et Responsive design}
 
+Une maquette permet de vérifier avec le client tous les aspects visuels du site, de la mise en page générale aux détails tels que les couleurs, les polices , les images, les icônes, les logos… etc.\\
+Elle est l’équivalent du site web en version imprimée. La création de la maquette vient suite à l’étude des besoins du client et l’élaboration d’un cahier des charges.\\
+
+ \\
+\\
 
 
 \begin{center}
@@ -597,19 +744,47 @@ environnement que j’ai programmé l’intégralité de la plate-forme.
 
 \end{center}
 
-\subsection{Back-end}
+\\ \\
 
+
+Le responsive design est vraiment incontournable dans le processus de création d’un site web.  C'est parce que internet est maintenant présent sur tous les écrans, que ce n'est plus possible de concevoir un site web sans penser au responsive design.\\
+Un temps de conception d'une maquette responsive est nécessaire afin d'avoir une vision globale et précise de site responsive.\\ \\
+Le responsive design est une fonctionnalité importante du cahier des charges.
+Et la  de la maquette ci-dessus  a été traduite en \textbf{html5} et \textbf{CSS3}, pour devenir une  interface web responsive
+ à l'aide de \textbf{Boostrap}.\\
+Cette interface a été  dynamisé par \textbf{javascript} et sa librairie \textbf{JQuery}.
+ 
+ \\
+ \\
+
+\begin{center}
+\includegraphics[width=300,height=250]{design1.png}}
+
+\end{center}
+
+\\ \\ 
 
 
 \newpage
 
 \section{Développement et Implémentation}
 
-\subsection{Sécurité}
+\subsection{Installation et Configurations}
+
+
+Symfony est le Framework PHP utilisé, crée par SensioLabs basé sur une
+architecture MVC( Modéle, vue et contrôleur ). Ce framework a été choisi
+en raison des motifs expliqués dans la partie \textbf{Framework}.\\
+La version utilisé est la dernière version sortie à l’écriture de ce rapport \textbf{symfony 3.3}.
+\\
+
+\subsection{La Base de Donnés Relationnelle }
 
 \subsection{Administration}
 
 \subsection{Tableau de bord}
+
+\subsection{Sécurité}
 
 \subsection{Temps réel}
 
@@ -619,7 +794,7 @@ environnement que j’ai programmé l’intégralité de la plate-forme.
 
 \newpage
 
-\section{Résultats}
+\section{Test}
 
 \subsection{Démonstrations}
 
@@ -649,7 +824,5 @@ environnement que j’ai programmé l’intégralité de la plate-forme.
 \newpage
 \section{Bibliographie}
 
-\newpage
-\section{Annexe}
-		
+
 \end{document}

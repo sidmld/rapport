@@ -1,34 +1,46 @@
-\contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {subsection}{\numberline {1.1}Probl\IeC {\'e}matique}{4}
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {subsection}{\numberline {1.1}Pr\IeC {\'e}ambule}{5}
 \contentsline {subsection}{\numberline {1.2}VMP Consulting}{5}
-\contentsline {subsection}{\numberline {1.3}Cahier de charges et Objectifs}{6}
-\contentsline {subsection}{\numberline {1.4}Environnement et Missions}{8}
-\contentsline {section}{\numberline {2}Analyse et Conception}{9}
-\contentsline {subsection}{\numberline {2.1}Contr\IeC {\^o}le et syst\IeC {\`e}me d'information de gestion}{9}
-\contentsline {subsection}{\numberline {2.2}\IeC {\'E}tude de l\IeC {\textquoteright }existence}{10}
-\contentsline {subsection}{\numberline {2.3}Outils,Technologies et M\IeC {\'e}thodes}{12}
-\contentsline {subsubsection}{\numberline {2.3.1}Syst\IeC {\`e}me d'exploitation}{12}
-\contentsline {subsubsection}{\numberline {2.3.2}Architectures}{12}
-\contentsline {subsubsection}{\numberline {2.3.3}M\IeC {\'e}thode de Programmation }{13}
-\contentsline {subsubsection}{\numberline {2.3.4}Langage web cot\IeC {\'e} serveur }{14}
-\contentsline {subsubsection}{\numberline {2.3.5}Framework }{14}
-\contentsline {subsubsection}{\numberline {2.3.6}Bases de donn\IeC {\'e}es}{15}
-\contentsline {subsubsection}{\numberline {2.3.7}Langages web cot\IeC {\'e} client}{16}
-\contentsline {subsubsection}{\numberline {2.3.8}Boites \IeC {\`a} Outils}{16}
-\contentsline {subsubsection}{\numberline {2.3.9}Outils utilis\IeC {\'e}s }{17}
-\contentsline {subsection}{\numberline {2.4}Conception}{18}
-\contentsline {subsection}{\numberline {2.5}Mod\IeC {\'e}lisation}{19}
-\contentsline {subsection}{\numberline {2.6}Front-end}{20}
-\contentsline {subsection}{\numberline {2.7}Back-end}{20}
-\contentsline {section}{\numberline {3}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{21}
-\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}curit\IeC {\'e}}{21}
-\contentsline {subsection}{\numberline {3.2}Administration}{21}
-\contentsline {subsection}{\numberline {3.3}Tableau de bord}{21}
-\contentsline {subsection}{\numberline {3.4}Temps r\IeC {\'e}el}{21}
-\contentsline {subsection}{\numberline {3.5}Services}{21}
-\contentsline {section}{\numberline {4}R\IeC {\'e}sultats}{22}
-\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}monstrations}{22}
-\contentsline {subsection}{\numberline {4.2}Bilan}{26}
-\contentsline {section}{\numberline {5}Conclusion}{27}
-\contentsline {section}{\numberline {6}Bibliographie}{28}
-\contentsline {section}{\numberline {7}Annexe}{29}
+\contentsline {subsection}{\numberline {1.3}Probl\IeC {\'e}matique}{6}
+\contentsline {subsection}{\numberline {1.4}Environnement et Missions}{7}
+\contentsline {section}{\numberline {2} Cahier des charges et sp\IeC {\'e}cifications fonctionnels}{9}
+\contentsline {subsection}{\numberline {2.1} Cahier des charges}{9}
+\contentsline {subsubsection}{\numberline {2.1.1}Objectifs}{9}
+\contentsline {subsubsection}{\numberline {2.1.2}\IeC {\'E}tude de l\IeC {\textquoteright }existence}{9}
+\contentsline {subsection}{\numberline {2.2} Sp\IeC {\'e}cifications fonctionnelles}{10}
+\contentsline {subsubsection}{\numberline {2.2.1}L'acc\IeC {\`e}s au portail}{10}
+\contentsline {subsubsection}{\numberline {2.2.2} Cr\IeC {\'e}ation d\IeC {\textquoteright }espace/entreprise}{11}
+\contentsline {subsubsection}{\numberline {2.2.3}Connexion}{11}
+\contentsline {subsubsection}{\numberline {2.2.4} Consultation des donn\IeC {\'e}es}{11}
+\contentsline {subsubsection}{\numberline {2.2.5} Importation/Exportation}{12}
+\contentsline {subsubsection}{\numberline {2.2.6} Simulations }{12}
+\contentsline {subsubsection}{\numberline {2.2.7}Gestions des Editions}{12}
+\contentsline {subsubsection}{\numberline {2.2.8}Alert et Info}{12}
+\contentsline {section}{\numberline {3} Choix techniques}{13}
+\contentsline {subsection}{\numberline {3.1}Syst\IeC {\`e}me d'exploitation}{13}
+\contentsline {subsection}{\numberline {3.2}Architectures}{13}
+\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de Programmation }{14}
+\contentsline {subsection}{\numberline {3.4}Langage web cot\IeC {\'e} serveur }{14}
+\contentsline {subsection}{\numberline {3.5}Framework }{15}
+\contentsline {subsection}{\numberline {3.6}Bases de donn\IeC {\'e}es}{16}
+\contentsline {subsection}{\numberline {3.7}Langages web cot\IeC {\'e} client}{16}
+\contentsline {subsection}{\numberline {3.8}Technologies et Outils}{17}
+\contentsline {subsubsection}{\numberline {3.8.1}Outils}{18}
+\contentsline {section}{\numberline {4}Conception et Mod\IeC {\'e}lisation }{19}
+\contentsline {subsection}{\numberline {4.1}Conception}{19}
+\contentsline {subsection}{\numberline {4.2}Mod\IeC {\'e}lisation}{21}
+\contentsline {subsubsection}{\numberline {4.2.1}Mod\IeC {\'e}lisations des donn\IeC {\'e}es}{21}
+\contentsline {subsubsection}{\numberline {4.2.2}Maquette et Responsive design}{22}
+\contentsline {section}{\numberline {5}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{24}
+\contentsline {subsection}{\numberline {5.1}Installation et Configurations}{24}
+\contentsline {subsection}{\numberline {5.2}La Base de Donn\IeC {\'e}s Relationnelle }{24}
+\contentsline {subsection}{\numberline {5.3}Administration}{24}
+\contentsline {subsection}{\numberline {5.4}Tableau de bord}{24}
+\contentsline {subsection}{\numberline {5.5}S\IeC {\'e}curit\IeC {\'e}}{24}
+\contentsline {subsection}{\numberline {5.6}Temps r\IeC {\'e}el}{24}
+\contentsline {subsection}{\numberline {5.7}Services}{24}
+\contentsline {section}{\numberline {6}Test}{25}
+\contentsline {subsection}{\numberline {6.1}D\IeC {\'e}monstrations}{25}
+\contentsline {subsection}{\numberline {6.2}Bilan}{29}
+\contentsline {section}{\numberline {7}Conclusion}{30}
+\contentsline {section}{\numberline {8}Bibliographie}{31}
