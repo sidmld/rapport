@@ -22,8 +22,8 @@
 \hfill
 \vfill
 \bigskip
-\huge{ \includegraphics[width=60,height=50]{logo.png} 
-\includegraphics[width=80,height=50]{lh.png} \\
+\huge{ \includegraphics[width=0.3\textwidth]{logo.png} 
+\includegraphics[width=0.3\textwidth]{lh.png} \\
 U.F.R Sciences et Techniques \\
 M2 MATIS  \\
  Rapport de stage \\  \\ \\ \\ \\
@@ -769,56 +769,383 @@ Cette interface a été  dynamisé par \textbf{javascript} et sa librairie \text
 
 \section{Développement et Implémentation}
 
-\subsection{Installation et Configurations}
+\subsection{Installation et Configuration}
+Dans cette partie, on retrouve  les étapes à suivre pour amorcer un  projet Symfony 3.3 sous Linux Ubuntu .\\
+ Cela implique l'installation d'un serveur Apache, d'un système de gestion de base de données MySQL, du langage de programmation PHP, de l'administration avec PhpMyAdmin et l'outil de développement "framework" Symfony.\\ 
 
 
+\subsubsection{Environnement}
+J'ai effectué, l'installation de paquets, par l'intermédiaire d'un terminal. Une série de commandes a été effectuée afin de les installer sur la machine.
+\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install apache2}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install  php5}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install libapache2-mod-php5}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install  mysql-server}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install  php5-mysql}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install php-apc}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install php5-intl}} }\\
+
+\fbox{ \textit{\textbf{sudo apt-get  install  phpmyadmin}} }\\
+
+   
+     
+\\
+\\
 Symfony est le Framework PHP utilisé, crée par SensioLabs basé sur une
 architecture MVC( Modéle, vue et contrôleur ). Ce framework a été choisi
 en raison des motifs expliqués dans la partie \textbf{Framework}.\\
 La version utilisé est la dernière version sortie à l’écriture de ce rapport \textbf{symfony 3.3}.
+\\ 
+J'ai besoin ici de la version 5.5 au minimum du php pour le bon fonctionnement de \textbf{symfony 3}.\\
+Il existe plusieurs méthodes pour obtenir Symfony 3. J'ai utilisé la méthode de le Symfony Installer. Il s'agit d'un petit fichier PHP (un package PHAR) à télécharger puis exécuter sur le terminale.\\
+
+Pour le télécharger, il suffit d'aller vers l'adresse  symfony.com/installer. Cela  télécharger un fichier \textbf{symfony.phar} , que sera déplacé dans le répertoire web habituel. \\
+Ce fichier permet d'exécuter plusieurs commandes, mais la seule qui nous intéresse pour l'instant est la commande "\textbf{new}", qui permet de créer un nouveau projet Symfony en partant de zéro.\\
+La commande suivante créera un nouveau projet  "\textbf{Symfony}":\\
+\fbox{ \textit{\textbf{php symfony.phar new Symfony 3.3.2}} }\\
+ \\
+
+
+\subsubsection{Symfony 3}
+Dans cette partie, je vais présenter comment est organisé Symfony . Le but est e d'avoir une vision globale du processus d'exécution d'une page sous Symfony.\\
+\begin{description}
+\item[App :]  c'est  pour séparer le code source, qui fait la logique du site, de sa configuration. Ce sont des fichiers qui concernent l'entièreté du site, contrairement aux fichiers de code source  découpés par fonctionnalité du site.
+\item[Bin :] ce répertoire contient tous les exécutable du développement.
+\item[Src :] le répertoire dans lequel on mettra le code source, c'est ici que l'on passera le plus de temps. Dans ce répertoire, j'ai organisé le code en \textbf{bundles}.
+\item[Tests :] contient tous les tests de  l'application. Les tests étant un pan entier du développement et indépendant de Symfony.
+\item[Var :] il contient tout ce que Symfony va écrire durant son process : les logs, le cache, et d'autres fichiers nécessaires à son bon fonctionnement.
+\item[Vendor :] il contient toutes les bibliothèques externes à notre application. Dans ces bibliothèques externes, il y a Doctrine, Twig, SwiftMailer, etc.
+\item[Web :] il contient tous les fichiers destinés aux visiteurs : images, fichiers CSS et JavaScript, etc. 
+
+\end{description} \\ \\
+
+Quand on parle de symfony le le terme \textbf{bundle} est souvant évoqué.\\
+Un bundle est une brique de  l'application web. Symfony utilise ce concept  qui consiste à regrouper dans un même endroit,  tout ce qui concerne une même fonctionnalité.
+Il regroupe les contrôleurs, les modèles, les vues, les fichiers CSS et JavaScript, etc. Tout ce qui concerne directement la fonctionnalité  du site web.\\
+J'ai utilisé dans ce projet des bundles importants qui m'ont facilité le développement du site web.\\ \\
+
+Pour installer un bundle extérieur, un \textbf{composer} est indispensable.\\
+\textbf{Composer} est un outil pour gérer les dépendances en PHP. Les dépendances, dans un projet, ce sont toutes les bibliothèques dont le projet dépend pour fonctionner. Par exemple, ce  projet utilise la bibliothèque SwiftMailer pour envoyer des e-mails, il « dépend » donc de SwiftMailer. Autrement dit, SwiftMailer est une dépendance du projet.\\
+
+
+
+\subsection{Les entités }
+
+\subsubsection{L'ORM Doctrine}
+L'objectif d'un ORM  est de se charger de l'enregistrement des  données en  faisant oublier qu'il y n'a pas de base de données. \\
+IL s'occupant de tout, Je n'ai pas écrit de requêtes, ni créer de tables via phpMyAdmin. Dans le code PHP, j'ai  fait appel à Doctrine2, l'ORM par défaut de Symfony, pour faire tout cela.\\ \\
+
+Il vous faut créer une base de données avant de lancer les commandes Doctrine.\\
+ En effet, pour pouvoir lancer les commandes provenant de DoctrineBundle, la librairie vérifie la connexion à la base de données configurée dans le fichier \textbf{ app/config/parameters.yml}. \\
+ Ce fichier doit être bien configurer, le nom de la base de données, le mot de passe, le port, ... etc.\\
+ Et pour créer un base de donnée il suffit de lancer la commande :\\
+ \fbox{ \textit{\textbf{php bin/console doctrine:database:create}} }\\
+ \\
+ Et pour la création et la la génération d'une entité, on lance la commande suivante et on suit le guide :\\
+ \fbox{ \textit{\textbf{php bin/console doctrine:generate:entity}} }\\
+ 
+\\ 
+
+La commande suivante permet de générer les tables à l'intérieur de la base de données :\\
+\fbox{\textbf{php bin/console doctrine:schema:update --dump-sql}}\\
+Et pour exécuter concrètement les requête sql :\\
+\fbox{\textbf{php bin/console doctrine:schema:update --force}}\\ \\
+
+Pour enregistrer les entités on utilise le service \textbf{EntityManager}. 
+ C'est ce service qui permet de préciser à  \textbf{Doctrine} les objets à persister .\\
+ 
 \\
 
-\subsection{La Base de Donnés Relationnelle }
+Et pour la récupération des données, on utilise les repositories .\\
+Ce sont donc ces repositories qui nous permettront de récupérer nos entités. \\
+
+
+\subsubsection{Les Relations}
+Il y a plusieurs façons de lier des entités entre elles. \\
+ Ce sont les relations \textbf{OneToOne},\textbf{OneToMany} et \textbf{ManyToMany}. \\
+ Les notions de propriétaire et d'inverse, et de  unidirectionnalité et de bidirectionnalité sont  importantes dans les relation Doctrine. Dans une relation entre deux entités, il y a toujours une entité dite propriétaire, et une dite inverse.\\ 
+ Et aussi  une relation peut être à sens unique ou à double sens.\\ \\
+
+
+
+
 
 \subsection{Administration}
 
-\subsection{Tableau de bord}
+
+
+ Pour faire le back office du site en symfony, il existe  le CRUD generator inclu dans symfony, mais dans ce cas pas mal de code à faire et surtout beaucoup de CSS.\\
+ C'est pour cela que j'ai utilisé le bundle \textbf{EasyAdminBundle} pour le développement du back-office.\\
+ Ce bundle m'a facilité la construction des taches administration et il permet de développer toutes les 
+ fonctionnalités concernant  l'administrateur du site.\\ \\
+ 
+ EasyAdmin bundle est très simple à installer et configurer. Sa documentation est très bien faite .
+\\
+Pour l'installer, on lance la commande \textbf{composer} :\\
+
+\fbox{ \textbf{composer require javiereguiluz/easyadmin-bundle} }  \\
+
+Après on modifie  le fichier\textbf{ app/AppKernel.php}, et la fonction \textbf{registerBundles()} .
+
+
+Puis on fait  la configuration  dans le fichier \textbf{app/config/config.yml}, et on rajoute ses routes dans le fichier \textbf{app/config/routing.yml}.\\
+
+Et enfin on modifie le bundle  afin qu'il soit adapté à notre projet.\\ \\
+
+\begin{center}
+\includegraphics[width=300,height=250]{v8.png}} \\ \\
+\end{center}
+
 
 \subsection{Sécurité}
+La sécurité sous Symfony est très poussée, on peut la contrôler  finement et facilement. 
+Pour atteindre ce but, Symfony a bien séparé deux mécanismes différents : l'\textbf{authentification} et l'\textbf{autorisation}.
+\\
+\\
+L'authentification est le processus qui va définir qui nous sommes, en tant que visiteur,  soit nous ne nous sommes pas identifiés sur le site et nous somme un anonyme, soit nous nous sommes identifiés via le formulaire d'identification  et nous sommes un membre du site. C'est ce que la procédure d'authentification va déterminer. Ce qui gère l'authentification dans Symfony s'appelle un \textbf{firewall}.\\
+\\
+
+Et l'autorisation est le processus qui va déterminer si nous avons le droit d'accéder à la page demandée. \\
+Il agit donc après le firewall. Ce qui gère l'autorisation dans Symfony s'appelle \textbf{l'access control}.\\
+\\
+\begin{center}
+\includegraphics[width=300,height=250]{s.png}} \\ \\
+\end{center}
+\\
+\\
+Lorsqu'un utilisateur tente d'accéder à une ressource protégée :
+\begin{enumerate}
+
+
+\item    Un utilisateur veut accéder à une ressource protégée 
+
+ \item    Le firewall redirige l'utilisateur au formulaire de connexion 
+
+  \item   L'utilisateur soumet ses informations d'identification 
+
+ \item    Le firewall authentifie l'utilisateur 
+
+ \item    L'utilisateur authentifié renvoie la requête initiale 
+
+ \item    Le contrôle d'accès vérifie les droits de l'utilisateur, et autorise ou non l'accès à la ressource protégée.
+\end{enumerate} \\ 
+\\
+Pour bien sécuriser son site web  sous symfony, il faut bien configurer le fichier \textbf{security.yml}, situé dans le répertoire \textbf{app/config}.\\
+ La sécurité fait intervenir de nombreux acteurs et demande pas mal de travail de mise en place. \\
+
+
+\subsection{Front-end}
+
+\subsubsection{Les templates}
+PHP lui-même est un moteur de template, mais  il n'a pas évolué comme celui de ces dernières années. En fait, il ne supporte pas beaucoup de fonctionnalités que les moteurs modernes devraient avoir de nos jours.\\
+C'est pourquoi j'ai utilisé \textbf{Twig}, qui est 
+un moteur de template moderne pour PHP, pour le développement des interfaces web.\\ \\
+
+\textbf{Twig} compile des modèles vers le code PHP optimisé. Les frais généraux par rapport au code PHP régulier ont été réduits au minimum. Il  a une syntaxe très concise, qui rend les modèles plus lisibles, et il supporte tout ce dont nous avons besoin pour créer facilement des modèles puissants: héritage multiple, blocs, sorties automatiques, etc...\\ \\
+
+L'un des objectifs de \textbf{Twig} est d'être le plus rapide possible.\\\\
+
+
+\begin{center}
+\includegraphics[width=300,height=250]{v2.png}} \\ \\
+\end{center}
+
+\subsubsection{Gestion des utilisateurs}
+Dans Symfony, un utilisateur est un objet qui implémente l'interface \textbf{UserInterface}.\\
+
+\textbf{FOSUserBundle} est un bundle qui s'occupe de gestion des utilisateurs, il est très utilisé par la communauté Symfony et répond à un besoin  basique d'un site Internet : l'authentification des membres.\\ \\
+
+Pour son installation, \textbf{composer} s'occupe de ça par la commande:\\
+
+\fbox{\textbf{ php composer.phar require friendsofsymfony/user-bundle} }
+\\ \\
+Puis on active le bundle dans le fichier \textbf{app/AppKernel.php}.\\
+\textbf{FOSUserBundle} est un bundle générique évidemment, car il doit pouvoir s'adapter à tout type d'utilisateur de n'importe quel site internet.\\
+Il reste à personnaliser le bundle que l'on vient d'installer, 
+afin de faire correspondre le bundle à nos besoins. \\
+\\
+\begin{center}
+\includegraphics[width=300,height=250]{v5.png}} \\ \\
+\end{center}
+
+\subsubsection{Tableau de bord}
+ 
+Un tableau de bord de données est un outil de gestion de l'information qui suit, analyse et affiche visuellement les indicateurs clés de performance  pour surveiller la santé d'une entreprise, d'un service ou d'un processus spécifique. \\
+Ils sont personnalisables pour répondre aux besoins spécifiques  d'une entreprise.\\
+\\
+
+
+ Dans les coulisses, un tableau de bord se connecte à une 
+ base des données, des services et API.\\
+  Un tableau de bord de données est le moyen le plus efficace de suivre plusieurs sources de données, car il fournit un emplacement central pour les entreprises pour surveiller et analyser les performances.\\
+  \\
+   
+Les données sont visualisées sur un tableau de bord sous la forme de tableaux, de graphiques linéaires et de graphiques à barres  afin que les utilisateurs puissent suivre la santé de leur entreprise par rapport aux repères et aux objectifs. \\
+Pour la  réalisation de tout ça j'ai utilisé les outils graphiques \textbf{Google} qui sont puissants, simples à utiliser et gratuits.\\
+Et j'ai pu intégrer ces outils grâce au bundle \textbf{CMENGoogleChartsBundle}.\\ \\
+\begin{center}
+\includegraphics[width=300,height=250]{pg2.png}} \\ \\
+\end{center}
+
 
 \subsection{Temps réel}
 
-\subsection{Services}
+ La surveillance en temps réel réduit les heures d'analyse et la longue ligne de communication qui mettaient auparavant les entreprises au défi.\\  
+ La mise en place des tableaux de bord en temps réel est donc  une partie importante du développement du site web.\\ 
+ 
+
+ La mise en œuvre de ce système n'est pas assez évidente, surtout 
+ quand on veut utiliser du \textbf{WebSocket} \\ \\
+ 
+ Malheureusement, la bibliothèque standard \textbf{PHP} ne supporte pas \textbf{WebSocket} , même s'il utilise la communication locale par socket, et il faut encore utiliser un framework.\\
+ De même \textbf{Symfony 3 }  n'inclut pas de \textbf{bundle} 
+ permettant de faire du temps réel.
 
 
+\subsubsection{Ajax}
+Ce problème de \textbf{WebSocket}, m'a poussé de chercher des
+autres solutions.\\ 
+
+J'ai essayé premièrement avec l'\textbf{Ajax} classique, et j'ai 
+trouvé pas ma des gens dans la communauté \textbf{Symfony} qui
+conseillent d’éviter cette solution.\\
+Puisqu'un script qui fait appel à une page php toutes les 5 secondes,il risque que   le serveur d'hébergement perçoit ces demandes comme du spam et bloque le client après un certain temps .\\
+Cette solution était facile à implémenter et elle me permet de gagner du temps, mais ses risque m'ont obligés de l'abandonné.\\
+
+
+\\
+J'ai essayé de nouveau avec \textbf{Ajax} mais cette fois ci,avec une autre approche du temps réel, c'est le \textbf{push AJAX}.\\
+ Un système \textbf{push AJAX} comprend  un module Apache côté serveur et un bout de script JS côté client. Ce système permet de réaliser des applications temps réel.\\
+ J'ai laissé cette solution lors de son test, au motif qu'il n’est pas possible d’envoyer une donnée depuis le serveur directement vers le client.
+
+\subsubsection{WebSocket}
+Les difficultés et les problèmes rencontrés avec les solution d'\textbf{Ajax}, m'ont obligé de retourner aux \textbf{Websockets}.\\
+\textbf{WebSocket} est une alternative à \textbf{Ajax} plus simple à mettre en œuvre coté client.\\
+Contrairement à l'objet \textbf{XMLHttpRequest} d'\textbf{Ajax}, qui envoie des requêtes au serveur et met à jour la page web de façon asynchrone lorsque un script sur le serveur renvoie les résultats, \textbf{WebSocket} permet d'envoyer des données à la page à l'initiative du serveur. On peut donc lancer un traitement sur le serveur qui enverrait des données à un navigateur fonctionnant comme un tableau de bord avec différents \textbf{widgets} qui présenteront les informations reçues.
+
+\\
+ \\
+Une première implémentation  du \textbf{Websocket} dans le projet, 
+est d'utiliser  un adaptateur \textbf{SocketIO} pour PHP, un serveur  \textbf{NodeJS}.\\ 
+\textbf{SocketIO},  s’agit d’une bibliothèque JavaScript pour les applications web qui permet le temps réel, elle comporte deux parties, un coté client qui fonctionne dans le navigateur et un coté serveur pour \textbf{Node.js}.\\
+Mais cette solution a des conséquences,  quand on arrive aux 
+hébergements de l'application, il faudra héberger aussi \textbf{NodeJS}, et ça pourra poser des problèmes avec le serveur d’hébergement qui n'est pas dédié à notre site, et en plus augmentera les charges et dépassera le budget déjà fixer pour l'hébergement.\\ \\
+
+
+Une deuxième solution , et c'est celle que j'ai choisi, pour intégrer \textbf{Websocket}  dans 
+le projet \textbf{Symfony}, est d'utiliser \textbf{Ratchet} .\\
+\textbf{Ratchet} est une librairie qui permet de créer des applications temps réelles avec échanges bi-directionnels entre clients et serveur.\\
+
+Elle permet donc de garder une connexion active entre un (ou plusieurs) clients et le serveur. \\
+ Cette technologie permet donc d'envoyer les données à tous les clients connectés dès qu'une modification survient, grâce aux \textbf{listeners} du serveur.\\ \\
+
+\begin{center}
+\includegraphics[width=300,height=250]{r2.png}} \
+\end{center}
+
+\\ \\
+Actuellement ce système qui permet de réaliser des applications temps réel du site web est en cours de développement.\\
+
+\subsection{Services }
+
+\subsubsection{Alertes et Info}
+
+Pour les alertes et Info, dans \textbf{Symfony} il existe le composant \textbf{SwiftMailer} qui permet de gérer les e-mails. Ce composant contient une classe nommée \textbf{Swift_Mailer} qui envoie  les e-mails. \\
+ Le conteneur de service de Symfony peut donc accéder à la classe \textbf{Swift_Mailer}  grâce au service \textbf{mailer} .\\
+ \\
+ 
+ Le concept de service est un bon moyen d'éviter de faire trop de code.\\
+ L'avantage des services est que cela permet de bien séparer chaque fonctionnalité de l'application. \\
+ Chaque service ne remplit qu'une seule et unique fonction, il est facilement réutilisable, Et on peut  développer, tester et configurer chaque service indépendamment de l'autre. \\ \\
+ 
+Ce service est présent par défaut dans \textbf{Symfony}, donc il est déjà créé, et sa configuration est déjà faite, il ne reste plus qu'à l'utiliser.
+
+\subsubsection{Exportation/Importation}
+ 
+Il a été prévu de  développer les fonctionnalités Exportation et Importation des fichiers après l'implémentation du système temps réel.\\
+Comme le développement du temps réel du site web n'est pas terminé, je n'ai pas encore réalisé ces fonctionnalités, mais j'ai déjà fixé
+les moyens pour le faire.\\ \\
+
+La bibliothèque \textbf{PHPExcel} est un ensemble de classes pour  PHP, qui  permet d' écrire et de lire à partir de différents formats de feuilles de calcul comme \textbf{Excel}.\\
+Il y a deux façons de générer des fichiers Excel dans Symfony 3, soit  \textbf{ExcelBundle} qui est recommandé pour les documents \textbf{Excel}  complexes,   ou  générer des fichiers \textbf{Excel} avec \textbf{Twig} à l'aide de \textbf{TwigExcelBundle}   qui est recommandé pour les documents \textbf{Excel} simples.\\
+\\
+J'utiliserai donc \textbf{ExcelBundle} pour l'upload et le téléchargement des fichiers \textbf{xlsx} et \textbf{csv}.\\
+En ce qui concerne l'impression des données sous forme de fichiers pdf, j'utiliserai le \textbf{bundle}  \textbf{knp-snappy-bundle} qui est basé sur l'outil \textbf{Wkhtmltopdf} qui permet  la génération de PDF.\\
 
 \newpage
 
 \section{Test}
 
-\subsection{Démonstrations}
+Quand je termine une fonctionnalité je fait des tests pour vérifier qu'elle donne bien le résultat attendu.\\
+Les tests sont important et permettent d'assurer le fonctionnement du site web.\\ \\ 
+Pour faire un test c'est vraiment simple :
+\begin{enumerate}
+
+\end{enumerate}
+
+  \item  Créer un client HTTP.
+
+ \item   Effectuer une requête HTTP sur la page à tester.
+
+\item    S'assurer que les éléments sur la page testée sont bien présents .
 
 \begin{center}
 
+\\
+
+\\
+
 \includegraphics[width=300,height=250]{v1.png}} \\ \\
+
+
 \includegraphics[width=300,height=250]{v2.png}} \\ \\
 \includegraphics[width=300,height=250]{v3.png}} \\ \\
 \includegraphics[width=300,height=250]{v4.png}} \\ \\
-\includegraphics[width=300,height=250]{v5.png}} \\ \\
+
 \includegraphics[width=300,height=250]{v6.png}} \\ \\
 \includegraphics[width=300,height=250]{v7.png}} \\ \\
-\includegraphics[width=300,height=250]{v8.png}} \\ \\
+
 \includegraphics[width=300,height=250]{v9.png}} \\ \\
 \includegraphics[width=300,height=250]{v10.png}} \\ \\
 
 \end{center}
 
-\subsection{Bilan}
+
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=4cm]{v5.png}
+  \caption{Exemple d'image au format JPG.}
+  \label{fig:une-autre-image}
+\end{figure}
 
 
 
 \newpage
 \section{Conclusion}
+
+Ce stage au sein de l'entreprise VMP-CONSULTING touche à sa fin, mais en réalité le vrai développement ne fait que commencer.\\
+
+L'analyse des besoins et la rédaction du cahier des charges sont le résumé d'un mois et demi de travail. ils sont la base de ce qui suit, quand une base est solide le reste c'est une question de temps soit moi ou autres peuvent le compléter.\\
+La rédaction du cahier des charges seule était une expérience importante dans ma vie professionnelle.\\ 
+J'ai pris mon temps pour bien rédiger le cahier des charges afin que tous les besoins de l'entreprise soient définis et détaillés.\\
+Durant le premier mois j'ai fait une formation sur la gestion des entreprise , cette formation m'a permis de bien comprendre  les besoins des entreprises clientes afin que je puisse le mettre dans le cahier des charges.  \\ \\
+
+En tant que concepteur du projet il a fallu que je prends du temps pour bien concevoir le site web et ses fonctionnalités, ainsi bien modéliser la base de données. \\
+En plus  des formations sur le design et le framework Boostrap, Symfony et le temps réel,  JQuery et Ajax ont été nécessaire pour le développement du projet.\\ \\
+
+Après ces 4 mois de stage je peux dire que j'ai pu construire la base d'un portail web qui peut répondre aux besoins de l'entreprise.\\
+Et que grâce à \textbf{Symfony} le projet est réutilisable et facile à intégrer pour les futurs développeurs.\\
+Enfin la fonctionnalité importante que je regrette de ne pas avoir le terminer est le suivi des indicateurs en temps réel à cause de sa complexité.
+
+
+
 
 
 \newpage
