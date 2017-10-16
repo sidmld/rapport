@@ -9,10 +9,10 @@
 \contentsline {subsubsection}{\numberline {2.1.2}\IeC {\'E}tude de l\IeC {\textquoteright }existence}{9}
 \contentsline {subsection}{\numberline {2.2} Sp\IeC {\'e}cifications fonctionnelles}{10}
 \contentsline {subsubsection}{\numberline {2.2.1}L'acc\IeC {\`e}s au portail}{10}
-\contentsline {subsubsection}{\numberline {2.2.2} Cr\IeC {\'e}ation d\IeC {\textquoteright }espace/entreprise}{11}
+\contentsline {subsubsection}{\numberline {2.2.2} Cr\IeC {\'e}ation d\IeC {\textquoteright }espace/entreprise}{10}
 \contentsline {subsubsection}{\numberline {2.2.3}Connexion}{11}
 \contentsline {subsubsection}{\numberline {2.2.4} Consultation des donn\IeC {\'e}es}{11}
-\contentsline {subsubsection}{\numberline {2.2.5} Importation/Exportation}{12}
+\contentsline {subsubsection}{\numberline {2.2.5} Importation/Exportation}{11}
 \contentsline {subsubsection}{\numberline {2.2.6} Simulations }{12}
 \contentsline {subsubsection}{\numberline {2.2.7}Gestions des Editions}{12}
 \contentsline {subsubsection}{\numberline {2.2.8}Alert et Info}{12}
@@ -28,27 +28,28 @@
 \contentsline {subsubsection}{\numberline {3.8.1}Outils}{18}
 \contentsline {section}{\numberline {4}Conception et Mod\IeC {\'e}lisation }{19}
 \contentsline {subsection}{\numberline {4.1}Conception}{19}
-\contentsline {subsection}{\numberline {4.2}Mod\IeC {\'e}lisation}{21}
-\contentsline {subsubsection}{\numberline {4.2.1}Mod\IeC {\'e}lisations des donn\IeC {\'e}es}{21}
-\contentsline {subsubsection}{\numberline {4.2.2}Maquette et Responsive design}{22}
-\contentsline {section}{\numberline {5}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{24}
-\contentsline {subsection}{\numberline {5.1}Installation et Configuration}{24}
-\contentsline {subsubsection}{\numberline {5.1.1}Environnement}{24}
-\contentsline {subsubsection}{\numberline {5.1.2}Symfony 3}{25}
-\contentsline {subsection}{\numberline {5.2}Les entit\IeC {\'e}s }{26}
-\contentsline {subsubsection}{\numberline {5.2.1}L'ORM Doctrine}{26}
-\contentsline {subsubsection}{\numberline {5.2.2}Les Relations}{27}
-\contentsline {subsection}{\numberline {5.3}Administration}{27}
-\contentsline {subsection}{\numberline {5.4}S\IeC {\'e}curit\IeC {\'e}}{28}
-\contentsline {subsection}{\numberline {5.5}Front-end}{29}
-\contentsline {subsubsection}{\numberline {5.5.1}Les templates}{29}
-\contentsline {subsubsection}{\numberline {5.5.2}Gestion des utilisateurs}{30}
-\contentsline {subsubsection}{\numberline {5.5.3}Tableau de bord}{31}
-\contentsline {subsection}{\numberline {5.6}Temps r\IeC {\'e}el}{32}
-\contentsline {subsubsection}{\numberline {5.6.1}Ajax}{33}
-\contentsline {subsubsection}{\numberline {5.6.2}WebSocket}{33}
-\contentsline {subsection}{\numberline {5.7}Services }{35}
-\contentsline {subsubsection}{\numberline {5.7.1}Alertes et Info}{35}
-\contentsline {section}{\numberline {6}Test}{36}
-\contentsline {section}{\numberline {7}Conclusion}{41}
-\contentsline {section}{\numberline {8}Bibliographie}{42}
+\contentsline {subsection}{\numberline {4.2}Mod\IeC {\'e}lisation}{22}
+\contentsline {subsubsection}{\numberline {4.2.1}Mod\IeC {\'e}lisations des donn\IeC {\'e}es}{22}
+\contentsline {subsubsection}{\numberline {4.2.2}Maquette et Responsive design}{23}
+\contentsline {section}{\numberline {5}D\IeC {\'e}veloppement et Impl\IeC {\'e}mentation}{25}
+\contentsline {subsection}{\numberline {5.1}Installation et Configuration}{25}
+\contentsline {subsubsection}{\numberline {5.1.1}Environnement}{25}
+\contentsline {subsubsection}{\numberline {5.1.2}Symfony 3}{26}
+\contentsline {subsection}{\numberline {5.2}Les entit\IeC {\'e}s }{27}
+\contentsline {subsubsection}{\numberline {5.2.1}L'ORM Doctrine}{27}
+\contentsline {subsubsection}{\numberline {5.2.2}Les Relations}{28}
+\contentsline {subsection}{\numberline {5.3}Administration}{28}
+\contentsline {subsection}{\numberline {5.4}S\IeC {\'e}curit\IeC {\'e}}{29}
+\contentsline {subsection}{\numberline {5.5}Front-end}{31}
+\contentsline {subsubsection}{\numberline {5.5.1}Les templates}{31}
+\contentsline {subsubsection}{\numberline {5.5.2}Gestion des utilisateurs}{31}
+\contentsline {subsubsection}{\numberline {5.5.3}Tableau de bord}{33}
+\contentsline {subsection}{\numberline {5.6}Temps r\IeC {\'e}el}{34}
+\contentsline {subsubsection}{\numberline {5.6.1}Ajax}{35}
+\contentsline {subsubsection}{\numberline {5.6.2}WebSocket}{35}
+\contentsline {subsection}{\numberline {5.7}Services }{36}
+\contentsline {subsubsection}{\numberline {5.7.1}Alertes et Info}{36}
+\contentsline {subsubsection}{\numberline {5.7.2}Exportation/Importation}{37}
+\contentsline {section}{\numberline {6}Test}{38}
+\contentsline {section}{\numberline {7}Conclusion}{42}
+\contentsline {section}{\numberline {8}Bibliographie}{44}

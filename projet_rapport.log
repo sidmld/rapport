@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  16 OCT 2017 01:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  16 OCT 2017 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,7 +371,98 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(./projet_rapport.aux)
+(./projet_rapport.aux
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `www.symfony.com' multiply defined.
+
+
+LaTeX Warning: Label `www.symfony.com' multiply defined.
+
+
+LaTeX Warning: Label `www.symfony.com' multiply defined.
+
+
+LaTeX Warning: Label `www.symfony.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+
+LaTeX Warning: Label `www.openclassrooms.com' multiply defined.
+
+)
 \openout1 = `projet_rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -386,8 +477,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen114
@@ -783,44 +873,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<p.png, id=37, 423.83344pt x 197.23688pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.237 ...ludegraphics[width=250,height=250]{p.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.237 ...ludegraphics[width=250,height=250]{p.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<p.png, id=34, 423.83344pt x 197.23688pt>
 File: p.png Graphic file (type png)
-<use p.png>
-Package pdftex.def Info: p.png used on input line 237.
-(pdftex.def)             Requested size: 250.00134pt x 250.00047pt.
-
-! Extra }, or forgotten \endgroup.
-l.237 ...udegraphics[width=250,height=250]{p.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+ <use p.png>
+Package pdftex.def Info: p.png used on input line 239.
+(pdftex.def)             Requested size: 341.43306pt x 158.89722pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -829,7 +886,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 \\ \\
+l.245 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -842,19 +899,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241 
+l.246 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [8 <./p.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--256
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
 
  []
 
@@ -865,7 +922,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 
+l.282 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -878,7 +935,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \\
+l.301 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -891,55 +948,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 
+l.302 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
-[9] <e1.png, id=44, 1117.17375pt x 517.935pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.306 ...udegraphics[width=300,height=250]{e1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+[9]
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.306 ...udegraphics[width=300,height=250]{e1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+! LaTeX Error: There's no line here to end.
 
-File: e1.png Graphic file (type png)
-<use e1.png>
-Package pdftex.def Info: e1.png used on input line 306.
-(pdftex.def)             Requested size: 299.98741pt x 250.0048pt.
-
-! Extra }, or forgotten \endgroup.
-l.306 ...degraphics[width=300,height=250]{e1.png}}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+l.311 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -948,90 +980,56 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 
+l.312 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (3.89815pt too wide) in paragraph at lines 321--323
+Overfull \hbox (3.89815pt too wide) in paragraph at lines 323--325
 \OT1/cmr/m/n/12 p^^Serim^^Retre fonc-tion-nel et tech-nique du pro-jet at-tendu
  par le client sur lequel le d^^Seveloppeur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
-[10 <./e1.png>] [11]
-Overfull \hbox (13.67506pt too wide) in paragraph at lines 447--449
+[10] [11]
+Overfull \hbox (13.67506pt too wide) in paragraph at lines 449--451
 []\OT1/cmr/m/n/12 En cas de cr^^Seation de compte, de change-ment de mot de pas
 se et d'informations
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 459--462
+Underfull \hbox (badness 10000) in paragraph at lines 461--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--462
+Underfull \hbox (badness 10000) in paragraph at lines 461--464
 
  []
 
 
-Overfull \hbox (6.2273pt too wide) in paragraph at lines 466--467
+Overfull \hbox (6.2273pt too wide) in paragraph at lines 468--469
 \OT1/cmr/m/n/12 Un des plus c^^Sel^^Rebres de-sign pat-terns s'appelle MVC, qui
  sig-ni-fie Mod^^Rele - Vue - Contr^oleur.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
-<mvc.png, id=55, 377.15906pt x 193.47281pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.471 ...degraphics[width=300,height=250]{mvc.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.471 ...degraphics[width=300,height=250]{mvc.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<mvc.png, id=51, 377.15906pt x 193.47281pt>
 File: mvc.png Graphic file (type png)
-<use mvc.png>
-Package pdftex.def Info: mvc.png used on input line 471.
-(pdftex.def)             Requested size: 300.00116pt x 250.00311pt.
-
-! Extra }, or forgotten \endgroup.
-l.471 ...egraphics[width=300,height=250]{mvc.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[13 <./mvc.png>]
+ <use mvc.png>
+Package pdftex.def Info: mvc.png used on input line 475.
+(pdftex.def)             Requested size: 341.43306pt x 175.14536pt.
+ [13 <./mvc.png>]
 
 ! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
 
@@ -1039,7 +1037,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 \item le codage «
+l.487 \item le codage «
                          from scratch », c'est à dire en partant de zéro ...
 
 Your command was ignored.
@@ -1053,7 +1051,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 \item le codage « from scratch »
+l.487 \item le codage « from scratch »
                                         , c'est à dire en partant de zéro ...
 
 Your command was ignored.
@@ -1067,7 +1065,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.484 L
+l.491 L
        a solution from scratch a été abandonnée, car elle est trop lourde...
 
 Your command was ignored.
@@ -1075,57 +1073,57 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--489
+Underfull \hbox (badness 10000) in paragraph at lines 491--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--489
+Underfull \hbox (badness 10000) in paragraph at lines 491--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--493
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--503
+Underfull \hbox (badness 10000) in paragraph at lines 506--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--523
+Underfull \hbox (badness 10000) in paragraph at lines 523--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--523
+Underfull \hbox (badness 10000) in paragraph at lines 523--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--534
+Underfull \hbox (badness 10000) in paragraph at lines 535--541
 
  []
 
@@ -1136,25 +1134,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.539 
+l.546 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.44562pt too wide) in paragraph at lines 540--555
+Overfull \hbox (0.44562pt too wide) in paragraph at lines 547--562
 \OT1/cmr/m/n/12 PHP beau-coup plus con-fort-able, l'AJAX plus abor-d-able, l'op
 timisation du r^^Sef^^Serencement
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
+Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
@@ -1166,7 +1164,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 ...’ai utilisé plus particulièrement ​
+l.605 ...’ai utilisé plus particulièrement ​
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1179,7 +1177,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.617 ...ect-Relation Mapper, soit en français «
+l.624 ...ect-Relation Mapper, soit en français «
                                                    lien objet-relation ») e...
 
 Your command was ignored.
@@ -1193,7 +1191,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.617 ...it en français « lien objet-relation »
+l.624 ...it en français « lien objet-relation »
                                                   ) est simple : se charger ...
 
 Your command was ignored.
@@ -1207,7 +1205,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.621 \\
+l.628 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1220,63 +1218,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.622 
+l.629 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 659--662
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--662
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
 
  []
 
-<dc.png, id=75, 750.805pt x 571.13374pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.664 ...udegraphics[width=300,height=250]{dc.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.664 ...udegraphics[width=300,height=250]{dc.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<dc.png, id=71, 750.805pt x 571.13374pt>
 File: dc.png Graphic file (type png)
-<use dc.png>
-Package pdftex.def Info: dc.png used on input line 664.
-(pdftex.def)             Requested size: 300.00735pt x 250.00111pt.
+ <use dc.png>
+Package pdftex.def Info: dc.png used on input line 673.
+(pdftex.def)             Requested size: 341.43306pt x 259.72682pt.
 
-! Extra }, or forgotten \endgroup.
-l.664 ...degraphics[width=300,height=250]{dc.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (2.55789pt too wide) in paragraph at lines 670--672
+Overfull \hbox (2.55789pt too wide) in paragraph at lines 682--684
 []\OT1/cmr/m/n/12 Pour sim-pli-fier les choses, on peut r^^Sesumer les prin-ci-
 pales fonc-tion-nalit^^Ses, d^^Sej^^Ra pr^^Secis^^Ses
  []
@@ -1288,7 +1252,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.674 \\
+l.686 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1301,52 +1265,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.675 
+l.687 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<cd2.png, id=76, 567.11874pt x 491.8375pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.677 ...degraphics[width=300,height=250]{cd2.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.677 ...degraphics[width=300,height=250]{cd2.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<cd2.png, id=72, 567.11874pt x 491.8375pt>
 File: cd2.png Graphic file (type png)
-<use cd2.png>
-Package pdftex.def Info: cd2.png used on input line 677.
-(pdftex.def)             Requested size: 300.00902pt x 250.00076pt.
+ <use cd2.png>
+Package pdftex.def Info: cd2.png used on input line 691.
+(pdftex.def)             Requested size: 341.43306pt x 296.11792pt.
 
-! Extra }, or forgotten \endgroup.
-l.677 ...egraphics[width=300,height=250]{cd2.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[19 <./dc.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1354,7 +1284,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.683 \\
+l.700 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1367,55 +1297,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 
+l.701 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--688
+Underfull \hbox (badness 10000) in paragraph at lines 702--705
 
  []
 
-<p3.png, id=80, 457.71pt x 528.97626pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.693 ...udegraphics[width=300,height=250]{p3.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.693 ...udegraphics[width=300,height=250]{p3.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+[19 <./dc.png>] [20 <./cd2.png>] <p3.png, id=79, 457.71pt x 528.97626pt>
 File: p3.png Graphic file (type png)
-<use p3.png>
-Package pdftex.def Info: p3.png used on input line 693.
-(pdftex.def)             Requested size: 300.00829pt x 249.9991pt.
 
-! Extra }, or forgotten \endgroup.
-l.693 ...degraphics[width=300,height=250]{p3.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<use p3.png>
+Package pdftex.def Info: p3.png used on input line 712.
+(pdftex.def)             Requested size: 341.43306pt x 394.6084pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1424,7 +1322,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.697 \\ \\
+l.719 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1437,158 +1335,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.698 J
+l.720 J
        'ai choisi de minimiser le nombre des pages et des routes , en utilis...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20 <./cd2.png> <./p3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 713--715
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.717 \\ \\
-           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.718 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<bd1.png, id=84, 765.86125pt x 577.15625pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.720 ...degraphics[width=300,height=250]{bd1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.720 ...degraphics[width=300,height=250]{bd1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: bd1.png Graphic file (type png)
-<use bd1.png>
-Package pdftex.def Info: bd1.png used on input line 720.
-(pdftex.def)             Requested size: 300.0052pt x 250.00414pt.
-
-! Extra }, or forgotten \endgroup.
-l.720 ...egraphics[width=300,height=250]{bd1.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.723 \\ \\
-           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.724 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 ...s les tables sont reliées à la table «
-                                                   societe » . Cela nous in...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 ...s sont reliées à la table « societe »
-                                                   . Cela nous indique que l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 725--730
-
- []
-
-
+[21 <./p3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 735--737
 
  []
 
-[21 <./bd1.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1596,8 +1364,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.739 \\
-        
+l.739 \\ \\
+           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1615,44 +1383,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<mod2.png, id=88, 414.54875pt x 567.11874pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.743 ...egraphics[width=300,height=250]{mod2.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.743 ...egraphics[width=300,height=250]{mod2.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: mod2.png Graphic file (type png)
-<use mod2.png>
-Package pdftex.def Info: mod2.png used on input line 743.
-(pdftex.def)             Requested size: 300.00563pt x 250.0003pt.
-
-! Extra }, or forgotten \endgroup.
-l.743 ...graphics[width=300,height=250]{mod2.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<bd1.png, id=83, 765.86125pt x 577.15625pt>
+File: bd1.png Graphic file (type png)
+ <use bd1.png>
+Package pdftex.def Info: bd1.png used on input line 744.
+(pdftex.def)             Requested size: 341.43306pt x 257.30487pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1661,7 +1396,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.747 \\ \\
+l.750 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1674,156 +1409,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.748 
+l.751 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--756
-
- []
-
-
-! LaTeX Error: There's no line here to end.
+! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.758  \\
-         
+l.752 ...s les tables sont reliées à la table «
+                                                   societe » . Cela nous in...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: There's no line here to end.
+! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.759 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.752 ...s sont reliées à la table « societe »
+                                                   . Cela nous indique que l...
 
-<design1.png, id=89, 1293.83376pt x 742.775pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.761 ...aphics[width=300,height=250]{design1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.761 ...aphics[width=300,height=250]{design1.png}
-                                                  }
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: design1.png Graphic file (type png)
-<use design1.png>
-Package pdftex.def Info: design1.png used on input line 761.
-(pdftex.def)             Requested size: 300.0038pt x 250.00137pt.
-
-! Extra }, or forgotten \endgroup.
-l.761 ...phics[width=300,height=250]{design1.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[22 <./mod2.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.765 \\ \\
-           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.766 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[23 <./design1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 773--775
+Underfull \hbox (badness 10000) in paragraph at lines 752--757
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 778--780
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 789--790
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
+[22 <./bd1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 762--764
 
  []
 
@@ -1834,7 +1460,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.800 \\
+l.766 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1847,43 +1473,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.801 S
-       ymfony est le Framework PHP utilisé, crée par SensioLabs basé sur une
+l.767 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
+<mod2.png, id=87, 414.54875pt x 567.11874pt>
+File: mod2.png Graphic file (type png)
+ <use mod2.png>
+Package pdftex.def Info: mod2.png used on input line 772.
+(pdftex.def)             Requested size: 341.43306pt x 467.10857pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.779 \\ \\
+           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--808
+! LaTeX Error: There's no line here to end.
 
- []
-
-
-Overfull \hbox (13.67676pt too wide) in paragraph at lines 809--814
-[]\OT1/cmr/m/n/12 Pour le t^^Sel^^Secharger, il suf-fit d'aller vers l'adresse 
-sym-fony.com/installer. Cela t^^Sel^^Secharger
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 809--814
-
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.780 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--814
+Underfull \hbox (badness 10000) in paragraph at lines 782--788
 
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 817--818
-
- []
-
-
-Overfull \hbox (29.20755pt too wide) in paragraph at lines 822--823
-[]\OT1/cmr/m/n/12 contient tous les tests de l'application. Les tests ^^Setant 
-un pan en-tier du d^^Seveloppement
  []
 
 
@@ -1893,7 +1523,175 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.827 \end{description} \\ \\
+l.790  \\
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<design1.png, id=88, 1293.83376pt x 742.775pt>
+File: design1.png Graphic file (type png)
+ <use design1.png>
+Package pdftex.def Info: design1.png used on input line 795.
+(pdftex.def)             Requested size: 341.43306pt x 196.00706pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.801 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.802 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23] [24 <./mod2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 809--811
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--816
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
+
+ []
+
+[25 <./design1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--832
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.836 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.837 S
+       ymfony est le Framework PHP utilisé, crée par SensioLabs basé sur une
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 837--844
+
+ []
+
+
+Overfull \hbox (13.67676pt too wide) in paragraph at lines 845--850
+[]\OT1/cmr/m/n/12 Pour le t^^Sel^^Secharger, il suf-fit d'aller vers l'adresse 
+sym-fony.com/installer. Cela t^^Sel^^Secharger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--850
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--850
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+
+ []
+
+
+Overfull \hbox (29.20755pt too wide) in paragraph at lines 858--859
+[]\OT1/cmr/m/n/12 contient tous les tests de l'application. Les tests ^^Setant 
+un pan en-tier du d^^Seveloppement
+ []
+
+[26]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.863 \end{description} \\ \\
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1906,19 +1704,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.828 
+l.864 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--833
+Underfull \hbox (badness 10000) in paragraph at lines 865--869
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--833
+Underfull \hbox (badness 10000) in paragraph at lines 865--869
 
  []
 
@@ -1929,7 +1727,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.835 ...iftMailer pour envoyer des e-mails, il «
+l.871 ...iftMailer pour envoyer des e-mails, il «
                                                    dépend » donc de SwiftM...
 
 Your command was ignored.
@@ -1943,7 +1741,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.835 ...our envoyer des e-mails, il « dépend »
+l.871 ...our envoyer des e-mails, il « dépend »
                                                    donc de SwiftMailer. Autr...
 
 Your command was ignored.
@@ -1951,34 +1749,63 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--836
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 842--844
+Underfull \hbox (badness 10000) in paragraph at lines 870--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 842--844
+Underfull \hbox (badness 10000) in paragraph at lines 878--880
 
  []
 
 
-Overfull \hbox (47.50081pt too wide) in paragraph at lines 845--853
+Underfull \hbox (badness 10000) in paragraph at lines 878--880
+
+ []
+
+
+Overfull \hbox (47.50081pt too wide) in paragraph at lines 881--889
 \OT1/cmr/m/n/12 v^^Serifie la con-nex-ion ^^Ra la base de donn^^Sees con-figur^
 ^See dans le fichier  \OT1/cmr/bx/n/12 app/config/parameters.yml\OT1/cmr/m/n/12
  . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--853
+Underfull \hbox (badness 10000) in paragraph at lines 881--889
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--853
+Underfull \hbox (badness 10000) in paragraph at lines 881--889
+
+ []
+
+[27]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.891 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 897--899
 
  []
 
@@ -1989,134 +1816,73 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.855 
+l.901 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--860
+Underfull \hbox (badness 10000) in paragraph at lines 902--904
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--860
+Underfull \hbox (badness 10000) in paragraph at lines 907--911
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 861--863
+Underfull \hbox (badness 10000) in paragraph at lines 907--911
 
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.865 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 866--868
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 871--875
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 871--875
-
- []
-
-
-Overfull \hbox (3.7676pt too wide) in paragraph at lines 884--888
+Overfull \hbox (3.7676pt too wide) in paragraph at lines 920--924
 \OT1/cmr/m/n/12 Ce bun-dle m'a fa-cilit^^Se la con-struc-tion des taches ad-min
 -is-tra-tion et il per-met de d^^Sevelopper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--888
+Underfull \hbox (badness 10000) in paragraph at lines 920--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--888
+Underfull \hbox (badness 10000) in paragraph at lines 920--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--892
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
-
- []
-
-<v8.png, id=107, 1371.1225pt x 770.88pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.903 ...udegraphics[width=300,height=250]{v8.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.903 ...udegraphics[width=300,height=250]{v8.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<v8.png, id=109, 1371.1225pt x 770.88pt>
 File: v8.png Graphic file (type png)
-<use v8.png>
-Package pdftex.def Info: v8.png used on input line 903.
-(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
-
-! Extra }, or forgotten \endgroup.
-l.903 ...degraphics[width=300,height=250]{v8.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+ <use v8.png>
+Package pdftex.def Info: v8.png used on input line 941.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -2125,75 +1891,55 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.903 ...hics[width=300,height=250]{v8.png}} \\ \\
-                                                  
+l.944 \end{figure} \\
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 908--914
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.944 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--955
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--914
+Underfull \hbox (badness 10000) in paragraph at lines 949--955
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--914
+Underfull \hbox (badness 10000) in paragraph at lines 949--955
+
+ []
+
+[29 <./v8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 956--959
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--918
+Underfull \hbox (badness 10000) in paragraph at lines 956--959
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--918
-
- []
-
-<s.png, id=111, 527.9725pt x 429.605pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.919 ...ludegraphics[width=300,height=250]{s.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.919 ...ludegraphics[width=300,height=250]{s.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<s.png, id=113, 527.9725pt x 429.605pt>
 File: s.png Graphic file (type png)
-<use s.png>
-Package pdftex.def Info: s.png used on input line 919.
-(pdftex.def)             Requested size: 299.99681pt x 250.00359pt.
-
-! Extra }, or forgotten \endgroup.
-l.919 ...udegraphics[width=300,height=250]{s.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+ <use s.png>
+Package pdftex.def Info: s.png used on input line 962.
+(pdftex.def)             Requested size: 341.43306pt x 277.81744pt.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -2202,13 +1948,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.919 ...phics[width=300,height=250]{s.png}} \\ \\
-                                                  
+l.965 \end{figure} \\
+                      \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[28 <./v8.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2216,7 +1961,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.922 \\
+l.965 \end{figure} \\ \\
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.968 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2229,12 +1987,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.923 L
+l.969 L
        orsqu'un utilisateur tente d'accéder à une ressource protégée :
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[30 <./s.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2242,7 +2001,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.939 \\
+l.985 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2255,7 +2014,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.940 P
+l.986 P
        our bien sécuriser son site web  sous symfony, il faut bien configur...
 
 Your command was ignored.
@@ -2263,283 +2022,142 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 940--942
+Underfull \hbox (badness 10000) in paragraph at lines 986--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--950
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--950
-
- []
-
-[29 <./s.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 951--952
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 951--952
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 953--954
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 953--954
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
 
  []
 
 <v2.png, id=120, 865.2325pt x 747.79375pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.957 ...udegraphics[width=300,height=250]{v2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.957 ...udegraphics[width=300,height=250]{v2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: v2.png Graphic file (type png)
-<use v2.png>
-Package pdftex.def Info: v2.png used on input line 957.
-(pdftex.def)             Requested size: 299.9974pt x 250.00183pt.
+ <use v2.png>
+Package pdftex.def Info: v2.png used on input line 1005.
+(pdftex.def)             Requested size: 341.43306pt x 295.08432pt.
 
-! Extra }, or forgotten \endgroup.
-l.957 ...degraphics[width=300,height=250]{v2.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.957 ...hics[width=300,height=250]{v2.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-
- []
-
-[30 <./v2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 965--966
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--974
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+
+ []
+
+[31] [32 <./v2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--974
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--974
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
 
  []
 
-<v5.png, id=125, 1020.81375pt x 692.5875pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.975 ...udegraphics[width=300,height=250]{v5.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.975 ...udegraphics[width=300,height=250]{v5.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<v5.png, id=127, 1020.81375pt x 692.5875pt>
 File: v5.png Graphic file (type png)
-<use v5.png>
-Package pdftex.def Info: v5.png used on input line 975.
-(pdftex.def)             Requested size: 300.00037pt x 249.99709pt.
+ <use v5.png>
+Package pdftex.def Info: v5.png used on input line 1028.
+(pdftex.def)             Requested size: 341.43306pt x 231.651pt.
 
-! Extra }, or forgotten \endgroup.
-l.975 ...degraphics[width=300,height=250]{v5.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.975 ...hics[width=300,height=250]{v5.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--983
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--983
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--989
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--989
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1045
 
  []
 
-[31 <./v5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 990--993
+[33 <./v5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--993
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1049
 
  []
 
-<pg2.png, id=129, 1266.7325pt x 584.1825pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.994 ...degraphics[width=300,height=250]{pg2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.994 ...degraphics[width=300,height=250]{pg2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+<pg2.png, id=131, 1266.7325pt x 584.1825pt>
 File: pg2.png Graphic file (type png)
-<use pg2.png>
-Package pdftex.def Info: pg2.png used on input line 994.
-(pdftex.def)             Requested size: 300.00163pt x 249.99911pt.
+ <use pg2.png>
+Package pdftex.def Info: pg2.png used on input line 1052.
+(pdftex.def)             Requested size: 341.43306pt x 157.45505pt.
 
-! Extra }, or forgotten \endgroup.
-l.994 ...egraphics[width=300,height=250]{pg2.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.994 ...ics[width=300,height=250]{pg2.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1002
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1063
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1067
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1067
 
  []
 
-[32 <./pg2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1015
+[34 <./pg2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1076
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1082
 
  []
 
@@ -2550,7 +2168,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1024 J
+l.1085 J
         'ai essayé de nouveau avec \textbf{Ajax} mais cette fois ci,avec un...
 
 Your command was ignored.
@@ -2564,7 +2182,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1034  \\
+l.1095  \\
           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2577,87 +2195,98 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1035 U
+l.1096 U
         ne première implémentation  du \textbf{Websocket} dans le projet,
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (7.41895pt too wide) in paragraph at lines 1035--1040
+Overfull \hbox (7.41895pt too wide) in paragraph at lines 1096--1101
 \OT1/cmr/m/n/12 Mais cette so-lu-tion a des cons^^Sequences, quand on ar-rive a
 ux h^^Sebergements de l'application,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1040
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1040
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1101
 
  []
 
-[33]
-Overfull \hbox (1.357pt too wide) in paragraph at lines 1042--1045
+[35]
+Overfull \hbox (1.357pt too wide) in paragraph at lines 1103--1106
 \OT1/cmr/bx/n/12 Ratchet \OT1/cmr/m/n/12 est une li-brairie qui per-met de cr^^
 Seer des ap-pli-ca-tions temps r^^Seelles avec ^^Sechanges
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
 
  []
 
-<r2.png, id=136, 412.54124pt x 449.68pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1050 ...degraphics[width=300,height=250]{r2.png}
-                                                  } \
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1050 ...degraphics[width=300,height=250]{r2.png}
-                                                  } \
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
 
-File: r2.png Graphic file (type png)
-<use r2.png>
-Package pdftex.def Info: r2.png used on input line 1050.
-(pdftex.def)             Requested size: 300.00064pt x 250.00076pt.
+ []
 
-! Extra }, or forgotten \endgroup.
-l.1050 ...egraphics[width=300,height=250]{r2.png}}
-                                                   \
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1132
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1138
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1146
+
+ []
 
 
 ! LaTeX Error: There's no line here to end.
@@ -2666,8 +2295,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1053 \\ \\
-            
+l.1153 \\
+         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2679,1104 +2308,143 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1054 A
-        ctuellement ce système qui permet de réaliser des applications tem...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1060 ...une classe nommée \textbf{Swift_Mailer}
-                                                   qui envoie  les e-mails. \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.1060 ...une classe nommée \textbf{Swift_Mailer}
-                                                   qui envoie  les e-mails. \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 1061.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.1061 ...ur de service de Symfony peut donc accé
-                                                  der à la classe \textbf{S...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.1061 ...ur de service de Symfony peut donc accé
-                                                  der à la classe \textbf{S...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 1061.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.1061 ...service de Symfony peut donc accéder à
-                                                   la classe \textbf{Swift_M...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.1061 ...service de Symfony peut donc accéder à
-                                                   la classe \textbf{Swift_M...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...xtstyle \f@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...tstyle \sf@size {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...style \ssf@size {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...firstchoice@false #1}}\check@mathfonts }
-                                                  
-l.1061 ...éder à la classe \textbf{Swift_Mailer}
-                                                    grâce au service \textb...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.1061 ...à la classe \textbf{Swift_Mailer}  grâ
-                                                  ce au service \textbf{mail...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.1061 ...à la classe \textbf{Swift_Mailer}  grâ
-                                                  ce au service \textbf{mail...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1063 
+l.1154 
        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font cmex7!
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   $
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1070 \subsubsection{Exportation/Importation}
-                                              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmex10!
-Missing character: There is no � in font cmex10!
-
-Overfull \hbox (14.66321pt too wide) in paragraph at lines 1060--1070
-\OT1/cmr/m/n/12 de g^^Serer les e-mails. Ce com-posant con-tient une classe nom
-m^^See \OT1/cmr/bx/n/12 Swift$[]\OML/cmm/m/it/12 ailerquienvoielese \OMS/cmsy/m
-/n/12 ^^@
- []
-
-[34 <./r2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1075
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1075
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1081
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1081
-
- []
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1089
-
- []
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1091 \end{enumerate}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1093   \item  C
-                 réer un client HTTP.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1095  \item   E
-                 ffectuer une requête HTTP sur la page à tester.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1097 \item    S
-                 'assurer que les éléments sur la page testée sont bien p...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1101 \\
-         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<t1.png, id=145, 1371.1225pt x 770.88pt>
+File: t1.png Graphic file (type png)
+ <use t1.png>
+Package pdftex.def Info: t1.png used on input line 1157.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-! LaTeX Error: There's no line here to end.
+<t2.png, id=146, 1371.1225pt x 770.88pt>
+File: t2.png Graphic file (type png)
+ <use t2.png>
+Package pdftex.def Info: t2.png used on input line 1164.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1103 \\
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<t4.png, id=147, 1371.1225pt x 770.88pt>
+File: t4.png Graphic file (type png)
+ <use t4.png>
+Package pdftex.def Info: t4.png used on input line 1171.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<v1.png, id=146, 863.225pt x 746.79pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1105 ...degraphics[width=300,height=250]{v1.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+<t5.png, id=148, 1371.1225pt x 770.88pt>
+File: t5.png Graphic file (type png)
+ <use t5.png>
+Package pdftex.def Info: t5.png used on input line 1178.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1105 ...degraphics[width=300,height=250]{v1.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+<t7.png, id=149, 1371.1225pt x 770.88pt>
+File: t7.png Graphic file (type png)
+ <use t7.png>
+Package pdftex.def Info: t7.png used on input line 1185.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-File: v1.png Graphic file (type png)
-<use v1.png>
-Package pdftex.def Info: v1.png used on input line 1105.
-(pdftex.def)             Requested size: 299.99945pt x 249.99672pt.
+<t8.png, id=150, 1371.1225pt x 770.88pt>
+File: t8.png Graphic file (type png)
+ <use t8.png>
+Package pdftex.def Info: t8.png used on input line 1192.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-! Extra }, or forgotten \endgroup.
-l.1105 ...egraphics[width=300,height=250]{v1.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+<t10.png, id=151, 1371.1225pt x 770.88pt>
+File: t10.png Graphic file (type png)
+ <use t10.png>
+Package pdftex.def Info: t10.png used on input line 1199.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1105 ...ics[width=300,height=250]{v1.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1108 ...degraphics[width=300,height=250]{v2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1108 ...degraphics[width=300,height=250]{v2.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v2.png Graphic file (type png)
-<use v2.png>
-Package pdftex.def Info: v2.png used on input line 1108.
-(pdftex.def)             Requested size: 299.9974pt x 250.00183pt.
-
-! Extra }, or forgotten \endgroup.
-l.1108 ...egraphics[width=300,height=250]{v2.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1108 ...ics[width=300,height=250]{v2.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[36 <./v1.png>] <v3.png, id=151, 864.22874pt x 746.79pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1109 ...degraphics[width=300,height=250]{v3.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1109 ...degraphics[width=300,height=250]{v3.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v3.png Graphic file (type png)
-<use v3.png>
-Package pdftex.def Info: v3.png used on input line 1109.
-(pdftex.def)             Requested size: 299.99223pt x 249.99672pt.
-
-! Extra }, or forgotten \endgroup.
-l.1109 ...egraphics[width=300,height=250]{v3.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1109 ...ics[width=300,height=250]{v3.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<v4.png, id=152, 1018.80624pt x 691.58376pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1110 ...degraphics[width=300,height=250]{v4.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1110 ...degraphics[width=300,height=250]{v4.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v4.png Graphic file (type png)
-<use v4.png>
-Package pdftex.def Info: v4.png used on input line 1110.
-(pdftex.def)             Requested size: 300.00113pt x 249.99358pt.
-
-! Extra }, or forgotten \endgroup.
-l.1110 ...egraphics[width=300,height=250]{v4.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1110 ...ics[width=300,height=250]{v4.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[37 <./v3.png>] <v6.png, id=156, 1371.1225pt x 770.88pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1112 ...degraphics[width=300,height=250]{v6.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1112 ...degraphics[width=300,height=250]{v6.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v6.png Graphic file (type png)
-<use v6.png>
-Package pdftex.def Info: v6.png used on input line 1112.
-(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
-
-! Extra }, or forgotten \endgroup.
-l.1112 ...egraphics[width=300,height=250]{v6.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1112 ...ics[width=300,height=250]{v6.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<v7.png, id=157, 1371.1225pt x 770.88pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1113 ...degraphics[width=300,height=250]{v7.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1113 ...degraphics[width=300,height=250]{v7.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v7.png Graphic file (type png)
-<use v7.png>
-Package pdftex.def Info: v7.png used on input line 1113.
-(pdftex.def)             Requested size: 299.99507pt x 249.99194pt.
-
-! Extra }, or forgotten \endgroup.
-l.1113 ...egraphics[width=300,height=250]{v7.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1113 ...ics[width=300,height=250]{v7.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[38 <./v4.png> <./v6.png>] <v9.png, id=161, 831.105pt x 729.72626pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1115 ...degraphics[width=300,height=250]{v9.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1115 ...degraphics[width=300,height=250]{v9.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v9.png Graphic file (type png)
-<use v9.png>
-Package pdftex.def Info: v9.png used on input line 1115.
-(pdftex.def)             Requested size: 299.9965pt x 249.99655pt.
-
-! Extra }, or forgotten \endgroup.
-l.1115 ...egraphics[width=300,height=250]{v9.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1115 ...ics[width=300,height=250]{v9.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<v10.png, id=162, 820.06375pt x 729.72626pt>
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1116 ...egraphics[width=300,height=250]{v10.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.1116 ...egraphics[width=300,height=250]{v10.png}
-                                                  } \\ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-File: v10.png Graphic file (type png)
-<use v10.png>
-Package pdftex.def Info: v10.png used on input line 1116.
-(pdftex.def)             Requested size: 300.00275pt x 249.99655pt.
-
-! Extra }, or forgotten \endgroup.
-l.1116 ...graphics[width=300,height=250]{v10.png}}
-                                                   \\ \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1116 ...cs[width=300,height=250]{v10.png}} \\ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[39 <./v7.png> <./v9.png>]
-File: v5.png Graphic file (type png)
- <use v5.png>
-Package pdftex.def Info: v5.png used on input line 1123.
-(pdftex.def)             Requested size: 113.81102pt x 77.20995pt.
- [40 <./v10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+<t11.png, id=152, 1371.1225pt x 770.88pt>
+File: t11.png Graphic file (type png)
+ <use t11.png>
+Package pdftex.def Info: t11.png used on input line 1206.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
+ [38 <./t1.png>]
+[39 <./t2.png> <./t4.png>] [40 <./t5.png> <./t7.png>] [41 <./t8.png> <./t10.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1227
 
  []
 
-[41] [42] (./projet_rapport.aux)
+[42 <./t11.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+ []
 
- )
-(\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 1060 ({)
-### bottom level 
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1233
+
+ []
+
+[43]
+! Undefined control sequence.
+l.1244   \beamertemplatebookbibitems
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1336   \beamertemplatearticlebibitems
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[44] (./projet_rapport.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2839 strings out of 494985
- 36129 string characters out of 6180356
- 93441 words of memory out of 5000000
- 5974 multiletter control sequences out of 15000+600000
- 13432 words of font info for 51 fonts, out of 8000000 for 9000
+ 2827 strings out of 494985
+ 36083 string characters out of 6180356
+ 93516 words of memory out of 5000000
+ 5967 multiletter control sequences out of 15000+600000
+ 11115 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,17n,24p,791b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on projet_rapport.pdf (43 pages, 2797314 bytes).
+ 38i,5n,24p,791b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on projet_rapport.pdf (45 pages, 5774708 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 200 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
