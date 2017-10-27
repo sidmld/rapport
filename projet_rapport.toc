@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3} Choix techniques}{13}
 \contentsline {subsection}{\numberline {3.1}Syst\IeC {\`e}me d'exploitation}{13}
 \contentsline {subsection}{\numberline {3.2}Architectures}{13}
-\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de Programmation }{14}
+\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de Programmation }{13}
 \contentsline {subsection}{\numberline {3.4}Langage web cot\IeC {\'e} serveur }{14}
 \contentsline {subsection}{\numberline {3.5}Framework }{15}
 \contentsline {subsection}{\numberline {3.6}Bases de donn\IeC {\'e}es}{16}

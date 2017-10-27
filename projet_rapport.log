@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  16 OCT 2017 16:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  25 OCT 2017 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,7 +1029,7 @@ File: mvc.png Graphic file (type png)
  <use mvc.png>
 Package pdftex.def Info: mvc.png used on input line 475.
 (pdftex.def)             Requested size: 341.43306pt x 175.14536pt.
- [13 <./mvc.png>]
+
 
 ! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
 
@@ -1058,6 +1058,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[13 <./mvc.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1156,6 +1157,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--569
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
+
+ []
+
 [16]
 
 ! Package inputenc Error: Unicode char \u8:​ not set up for use with LaTeX.
@@ -1240,9 +1251,14 @@ File: dc.png Graphic file (type png)
 Package pdftex.def Info: dc.png used on input line 673.
 (pdftex.def)             Requested size: 341.43306pt x 259.72682pt.
 
-Overfull \hbox (2.55789pt too wide) in paragraph at lines 682--684
+Overfull \hbox (7.78006pt too wide) in paragraph at lines 682--683
 []\OT1/cmr/m/n/12 Pour sim-pli-fier les choses, on peut r^^Sesumer les prin-ci-
-pales fonc-tion-nalit^^Ses, d^^Sej^^Ra pr^^Secis^^Ses
+pales fonc-tion-nalit^^Ses, d^^Sej^^Ra pr^^Secis^^Sees
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--683
+
  []
 
 
@@ -1252,7 +1268,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.686 \\
+l.685 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1265,7 +1281,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.687 
+l.686 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1274,7 +1290,7 @@ or  <return>  to continue without it.
 <cd2.png, id=72, 567.11874pt x 491.8375pt>
 File: cd2.png Graphic file (type png)
  <use cd2.png>
-Package pdftex.def Info: cd2.png used on input line 691.
+Package pdftex.def Info: cd2.png used on input line 690.
 (pdftex.def)             Requested size: 341.43306pt x 296.11792pt.
 
 
@@ -1284,7 +1300,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.700 \\
+l.699 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1297,14 +1313,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.701 
+l.700 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--705
+Underfull \hbox (badness 10000) in paragraph at lines 701--704
 
  []
 
@@ -1312,7 +1328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 702--705
 File: p3.png Graphic file (type png)
 
 <use p3.png>
-Package pdftex.def Info: p3.png used on input line 712.
+Package pdftex.def Info: p3.png used on input line 711.
 (pdftex.def)             Requested size: 341.43306pt x 394.6084pt.
 
 
@@ -1322,7 +1338,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.719 \\ \\
+l.718 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1335,28 +1351,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.720 J
-       'ai choisi de minimiser le nombre des pages et des routes , en utilis...
-
+l.719 J
+       'ai choisi de minimiser le nombre des pages  , en utilisant des pages
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--734
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
 
  []
 
 [21 <./p3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 735--737
-
- []
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1364,7 +1370,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.739 \\ \\
+l.738 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1377,7 +1383,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.740 
+l.739 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1386,7 +1392,7 @@ or  <return>  to continue without it.
 <bd1.png, id=83, 765.86125pt x 577.15625pt>
 File: bd1.png Graphic file (type png)
  <use bd1.png>
-Package pdftex.def Info: bd1.png used on input line 744.
+Package pdftex.def Info: bd1.png used on input line 743.
 (pdftex.def)             Requested size: 341.43306pt x 257.30487pt.
 
 
@@ -1396,7 +1402,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.750 \\ \\
+l.749 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1409,50 +1415,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.751 
+l.750 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Command \guillemotleft unavailable in encoding OT1.
+Underfull \hbox (badness 10000) in paragraph at lines 751--756
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 ...s les tables sont reliées à la table «
-                                                   societe » . Cela nous in...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: Command \guillemotright unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 ...s sont reliées à la table « societe »
-                                                   . Cela nous indique que l...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 752--757
+Underfull \hbox (badness 10000) in paragraph at lines 761--763
 
  []
 
 [22 <./bd1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 762--764
-
- []
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1460,7 +1439,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.766 \\
+l.765 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1473,16 +1452,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.767 
+l.766 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<mod2.png, id=87, 414.54875pt x 567.11874pt>
+<mod2.png, id=88, 414.54875pt x 567.11874pt>
 File: mod2.png Graphic file (type png)
  <use mod2.png>
-Package pdftex.def Info: mod2.png used on input line 772.
+Package pdftex.def Info: mod2.png used on input line 771.
 (pdftex.def)             Requested size: 341.43306pt x 467.10857pt.
 
 
@@ -1492,7 +1471,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.779 \\ \\
+l.778 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1505,14 +1484,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.780 
+l.779 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--788
+Underfull \hbox (badness 10000) in paragraph at lines 781--787
 
  []
 
@@ -1523,7 +1502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.790  \\
+l.789  \\
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1536,16 +1515,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.791 
+l.790 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<design1.png, id=88, 1293.83376pt x 742.775pt>
+<design1.png, id=89, 1293.83376pt x 742.775pt>
 File: design1.png Graphic file (type png)
  <use design1.png>
-Package pdftex.def Info: design1.png used on input line 795.
+Package pdftex.def Info: design1.png used on input line 794.
 (pdftex.def)             Requested size: 341.43306pt x 196.00706pt.
 
 
@@ -1555,7 +1534,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.801 \\ \\
+l.800 \\ \\
            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1568,59 +1547,59 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.802 
+l.801 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [23] [24 <./mod2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 809--811
+Underfull \hbox (badness 10000) in paragraph at lines 808--810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--816
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--818
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--820
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 
  []
 
 [25 <./design1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
+Underfull \hbox (badness 10000) in paragraph at lines 828--829
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--832
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
 
  []
 
@@ -1631,7 +1610,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.836 \\
+l.835 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1644,7 +1623,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.837 S
+l.836 S
        ymfony est le Framework PHP utilisé, crée par SensioLabs basé sur une
 
 Your command was ignored.
@@ -1652,33 +1631,33 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 836--843
 
  []
 
 
-Overfull \hbox (13.67676pt too wide) in paragraph at lines 845--850
+Overfull \hbox (13.67676pt too wide) in paragraph at lines 844--849
 []\OT1/cmr/m/n/12 Pour le t^^Sel^^Secharger, il suf-fit d'aller vers l'adresse 
 sym-fony.com/installer. Cela t^^Sel^^Secharger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--850
+Underfull \hbox (badness 10000) in paragraph at lines 844--849
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--850
+Underfull \hbox (badness 10000) in paragraph at lines 844--849
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--854
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
 
  []
 
 
-Overfull \hbox (29.20755pt too wide) in paragraph at lines 858--859
+Overfull \hbox (29.20755pt too wide) in paragraph at lines 857--858
 []\OT1/cmr/m/n/12 contient tous les tests de l'application. Les tests ^^Setant 
 un pan en-tier du d^^Seveloppement
  []
@@ -1691,7 +1670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.863 \end{description} \\ \\
+l.862 \end{description} \\ \\
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1704,19 +1683,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.864 
+l.863 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--869
+Underfull \hbox (badness 10000) in paragraph at lines 864--868
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--869
+Underfull \hbox (badness 10000) in paragraph at lines 864--868
 
  []
 
@@ -1727,7 +1706,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.871 ...iftMailer pour envoyer des e-mails, il «
+l.870 ...iftMailer pour envoyer des e-mails, il «
                                                    dépend » donc de SwiftM...
 
 Your command was ignored.
@@ -1741,7 +1720,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.871 ...our envoyer des e-mails, il « dépend »
+l.870 ...our envoyer des e-mails, il « dépend »
                                                    donc de SwiftMailer. Autr...
 
 Your command was ignored.
@@ -1749,34 +1728,34 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--872
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
+Underfull \hbox (badness 10000) in paragraph at lines 877--879
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--880
+Underfull \hbox (badness 10000) in paragraph at lines 877--879
 
  []
 
 
-Overfull \hbox (47.50081pt too wide) in paragraph at lines 881--889
+Overfull \hbox (47.50081pt too wide) in paragraph at lines 880--888
 \OT1/cmr/m/n/12 v^^Serifie la con-nex-ion ^^Ra la base de donn^^Sees con-figur^
 ^See dans le fichier  \OT1/cmr/bx/n/12 app/config/parameters.yml\OT1/cmr/m/n/12
  . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--889
+Underfull \hbox (badness 10000) in paragraph at lines 880--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--889
+Underfull \hbox (badness 10000) in paragraph at lines 880--888
 
  []
 
@@ -1788,24 +1767,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.891 
+l.890 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--896
+Underfull \hbox (badness 10000) in paragraph at lines 891--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--896
+Underfull \hbox (badness 10000) in paragraph at lines 891--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--899
+Underfull \hbox (badness 10000) in paragraph at lines 896--898
 
  []
 
@@ -1816,72 +1795,72 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.901 
+l.900 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--904
+Underfull \hbox (badness 10000) in paragraph at lines 901--903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--911
+Underfull \hbox (badness 10000) in paragraph at lines 906--910
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--911
+Underfull \hbox (badness 10000) in paragraph at lines 906--910
 
  []
 
 
-Overfull \hbox (3.7676pt too wide) in paragraph at lines 920--924
+Overfull \hbox (3.7676pt too wide) in paragraph at lines 919--923
 \OT1/cmr/m/n/12 Ce bun-dle m'a fa-cilit^^Se la con-struc-tion des taches ad-min
 -is-tra-tion et il per-met de d^^Sevelopper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--924
+Underfull \hbox (badness 10000) in paragraph at lines 919--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--924
+Underfull \hbox (badness 10000) in paragraph at lines 919--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 925--928
+Underfull \hbox (badness 10000) in paragraph at lines 924--927
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 929--930
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 934--935
+Underfull \hbox (badness 10000) in paragraph at lines 933--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
 
  []
 
-<v8.png, id=109, 1371.1225pt x 770.88pt>
+<v8.png, id=110, 1371.1225pt x 770.88pt>
 File: v8.png Graphic file (type png)
  <use v8.png>
-Package pdftex.def Info: v8.png used on input line 941.
+Package pdftex.def Info: v8.png used on input line 940.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
 
@@ -1891,7 +1870,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.944 \end{figure} \\
+l.943 \end{figure} \\
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1904,41 +1883,41 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.944 \end{figure} \\ \\
+l.943 \end{figure} \\ \\
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--955
+Underfull \hbox (badness 10000) in paragraph at lines 948--954
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--955
+Underfull \hbox (badness 10000) in paragraph at lines 948--954
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--955
+Underfull \hbox (badness 10000) in paragraph at lines 948--954
 
  []
 
 [29 <./v8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 956--959
+Underfull \hbox (badness 10000) in paragraph at lines 955--958
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--959
+Underfull \hbox (badness 10000) in paragraph at lines 955--958
 
  []
 
-<s.png, id=113, 527.9725pt x 429.605pt>
+<s.png, id=114, 527.9725pt x 429.605pt>
 File: s.png Graphic file (type png)
  <use s.png>
-Package pdftex.def Info: s.png used on input line 962.
+Package pdftex.def Info: s.png used on input line 961.
 (pdftex.def)             Requested size: 341.43306pt x 277.81744pt.
 
 
@@ -1948,7 +1927,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.965 \end{figure} \\
+l.964 \end{figure} \\
                       \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1961,7 +1940,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.965 \end{figure} \\ \\
+l.964 \end{figure} \\ \\
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1974,7 +1953,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.968 \\
+l.967 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1987,7 +1966,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.969 L
+l.968 L
        orsqu'un utilisateur tente d'accéder à une ressource protégée :
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2001,7 +1980,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.985 \\
+l.984 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2014,7 +1993,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.986 P
+l.985 P
        our bien sécuriser son site web  sous symfony, il faut bien configur...
 
 Your command was ignored.
@@ -2022,142 +2001,142 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 986--988
+Underfull \hbox (badness 10000) in paragraph at lines 985--987
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 993--996
+Underfull \hbox (badness 10000) in paragraph at lines 992--995
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 993--996
+Underfull \hbox (badness 10000) in paragraph at lines 992--995
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
 
  []
 
-<v2.png, id=120, 865.2325pt x 747.79375pt>
+<v2.png, id=121, 865.2325pt x 747.79375pt>
 File: v2.png Graphic file (type png)
  <use v2.png>
-Package pdftex.def Info: v2.png used on input line 1005.
+Package pdftex.def Info: v2.png used on input line 1004.
 (pdftex.def)             Requested size: 341.43306pt x 295.08432pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1016
 
  []
 
 [31] [32 <./v2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1024
 
  []
 
-<v5.png, id=127, 1020.81375pt x 692.5875pt>
+<v5.png, id=128, 1020.81375pt x 692.5875pt>
 File: v5.png Graphic file (type png)
  <use v5.png>
-Package pdftex.def Info: v5.png used on input line 1028.
+Package pdftex.def Info: v5.png used on input line 1027.
 (pdftex.def)             Requested size: 341.43306pt x 231.651pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1044
 
  []
 
 [33 <./v5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1045--1048
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1045--1048
 
  []
 
-<pg2.png, id=131, 1266.7325pt x 584.1825pt>
+<pg2.png, id=132, 1266.7325pt x 584.1825pt>
 File: pg2.png Graphic file (type png)
  <use pg2.png>
-Package pdftex.def Info: pg2.png used on input line 1052.
+Package pdftex.def Info: pg2.png used on input line 1051.
 (pdftex.def)             Requested size: 341.43306pt x 157.45505pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1063
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1065--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1066
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1065--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1066
 
  []
 
 [34 <./pg2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1076
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1077--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1081
 
  []
 
@@ -2168,7 +2147,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1085 J
+l.1084 J
         'ai essayé de nouveau avec \textbf{Ajax} mais cette fois ci,avec un...
 
 Your command was ignored.
@@ -2182,7 +2161,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1095  \\
+l.1094  \\
           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2195,96 +2174,86 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1096 U
+l.1095 U
         ne première implémentation  du \textbf{Websocket} dans le projet,
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (7.41895pt too wide) in paragraph at lines 1096--1101
+Overfull \hbox (7.41895pt too wide) in paragraph at lines 1095--1100
 \OT1/cmr/m/n/12 Mais cette so-lu-tion a des cons^^Sequences, quand on ar-rive a
 ux h^^Sebergements de l'application,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1095--1100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1095--1100
 
  []
 
 [35]
-Overfull \hbox (1.357pt too wide) in paragraph at lines 1103--1106
+Overfull \hbox (1.357pt too wide) in paragraph at lines 1102--1105
 \OT1/cmr/bx/n/12 Ratchet \OT1/cmr/m/n/12 est une li-brairie qui per-met de cr^^
 Seer des ap-pli-ca-tions temps r^^Seelles avec ^^Sechanges
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1106
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1133
 
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1138
-
- []
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 1143--1146
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1141
 
  []
 
@@ -2295,7 +2264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1153 \\
+l.1148 \\
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2308,104 +2277,99 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1154 
+l.1149 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<t1.png, id=145, 1371.1225pt x 770.88pt>
+<t1.png, id=146, 1371.1225pt x 770.88pt>
 File: t1.png Graphic file (type png)
  <use t1.png>
-Package pdftex.def Info: t1.png used on input line 1157.
+Package pdftex.def Info: t1.png used on input line 1152.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t2.png, id=146, 1371.1225pt x 770.88pt>
+<t2.png, id=147, 1371.1225pt x 770.88pt>
 File: t2.png Graphic file (type png)
  <use t2.png>
-Package pdftex.def Info: t2.png used on input line 1164.
+Package pdftex.def Info: t2.png used on input line 1159.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t4.png, id=147, 1371.1225pt x 770.88pt>
+<t4.png, id=148, 1371.1225pt x 770.88pt>
 File: t4.png Graphic file (type png)
  <use t4.png>
-Package pdftex.def Info: t4.png used on input line 1171.
+Package pdftex.def Info: t4.png used on input line 1166.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t5.png, id=148, 1371.1225pt x 770.88pt>
+<t5.png, id=149, 1371.1225pt x 770.88pt>
 File: t5.png Graphic file (type png)
  <use t5.png>
-Package pdftex.def Info: t5.png used on input line 1178.
+Package pdftex.def Info: t5.png used on input line 1173.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t7.png, id=149, 1371.1225pt x 770.88pt>
+<t7.png, id=150, 1371.1225pt x 770.88pt>
 File: t7.png Graphic file (type png)
  <use t7.png>
-Package pdftex.def Info: t7.png used on input line 1185.
+Package pdftex.def Info: t7.png used on input line 1180.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t8.png, id=150, 1371.1225pt x 770.88pt>
+<t8.png, id=151, 1371.1225pt x 770.88pt>
 File: t8.png Graphic file (type png)
  <use t8.png>
-Package pdftex.def Info: t8.png used on input line 1192.
+Package pdftex.def Info: t8.png used on input line 1187.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t10.png, id=151, 1371.1225pt x 770.88pt>
+<t10.png, id=152, 1371.1225pt x 770.88pt>
 File: t10.png Graphic file (type png)
  <use t10.png>
-Package pdftex.def Info: t10.png used on input line 1199.
+Package pdftex.def Info: t10.png used on input line 1194.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 
-<t11.png, id=152, 1371.1225pt x 770.88pt>
+<t11.png, id=153, 1371.1225pt x 770.88pt>
 File: t11.png Graphic file (type png)
  <use t11.png>
-Package pdftex.def Info: t11.png used on input line 1206.
+Package pdftex.def Info: t11.png used on input line 1201.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
  [38 <./t1.png>]
 [39 <./t2.png> <./t4.png>] [40 <./t5.png> <./t7.png>] [41 <./t8.png> <./t10.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1227
-
- []
-
-[42 <./t11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
 
  []
 
-[43]
+[42 <./t11.png>] [43]
 ! Undefined control sequence.
-l.1244   \beamertemplatebookbibitems
+l.1237   \beamertemplatebookbibitems
                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2414,7 +2378,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1336   \beamertemplatearticlebibitems
+l.1329   \beamertemplatearticlebibitems
                                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2434,14 +2398,14 @@ Here is how much of TeX's memory you used:
  5967 multiletter control sequences out of 15000+600000
  11115 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,5n,24p,791b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,24p,794b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on projet_rapport.pdf (45 pages, 5774708 bytes).
+Output written on projet_rapport.pdf (45 pages, 5773155 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  121 compressed objects within 2 object streams

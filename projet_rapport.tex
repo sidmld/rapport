@@ -33,7 +33,7 @@ M2 MATIS  \\
 \Huge 
 \bigskip %\includegraphics[width=150,height=120]{pg2.png}} 
 \\ \\
-\textbf{ Développement d'un site web de gestion des entreprises sous Symfony 3 } \par 
+\textbf{ Développement d'un site web de contrôle de gestion sous Symfony 3 } \par 
 \vfill
 
 \Large \begin{flushleft}
@@ -64,10 +64,10 @@ J’adresse mes remerciements à  M. sidi ould MAOULOUD, de m’avoir accueillie
 stage au sein de son entreprise, ainsi pour son aide et  ses  remarques pertinentes.  \\ \\
 J’aimerais aussi remercier M. Laurent Amanton  et tous mes enseignants de l’université du havre
 qui m’ont accompagnés 
-au cours de l'année université 2016/2017.\\ \\
+durant l'année universitaire 2016/2017.\\ \\
 
-Enfin  Je tiens á transmettre ma gratitude et mon affection à mes
-parents  pour leur patience et leur soutien.\\ \\
+Enfin  Je tiens á transmettre ma gratitude à mes
+parents  pour  leur soutien.\\ \\
 
 
 \newpage
@@ -108,7 +108,7 @@ The objective of this traineeship is to realize this website
 Quelle que soit l’activité, aujourd’hui toutes les entreprises sont confrontées à une pression concurrentielle accrue, aux évolutions technologiques...Pour permettre aux managers et aux opérationnels de se consacrer entièrement à leur cœur de métier, un accompagnement dans la gestion de l'entreprise est une nécessité pour ne pas dire une obligation. Dans ce domaine là, les entreprises ne sont pas toutes logées à la même enseigne, en particulier les TPE(Trés Petite Entreprise) et certaines PME(Petite Moyenne Entreprise). Le manque d’outils de gestion est principalement lié à un problème de moyens même si parfois il peut s’agir d’un problème de sensibilisation à l’utilité et le bénéfice apporté par ces outils.\\ \\
 
 Le Contrôle de gestion est le garant de la bonne santé de la structure en s'assurant que les ressources sont employées efficacement.\\ 
-Il intervient également pour fournir les outils qui vont servir aux décideurs pour suivre l'impact de leurs actions. Celles-ci résultant de décisions de portées stratégiques et tactiques.\\
+Il intervient également pour fournir les outils qui vont servir aux décideurs pour suivre l'impact de leurs actions. \\
 
 Dans de nombreuses entreprises, il est en charge du management du système de pilotage avec la prise en charge des tableaux de bord destinés à la direction et aux responsables opérationnels.\\ \\
 
@@ -312,7 +312,7 @@ Les données et les résultats qui contiennent ces fichiers ont été étudié a
 
 
 
-
+ 
 
 
 
@@ -462,7 +462,7 @@ Après la rédaction du cahier des charges  on passe à la recherches des soluti
 A noter que j'avais toute la liberté de choisir, rien n'était exigé par l'entreprise, mais à condition que 
 le choix soit bien justifié.\\ \\
 
-Le système d'exploitation choisi est Linux avec sa distribution \textbf{Ubuntu 14.04} , il est open source, sécurisé et son environnement est bien adapté au développement du projet. 
+Le système d'exploitation choisi est Linux avec sa distribution \textbf{Ubuntu} , il est open source, sécurisé et son environnement est bien adapté au développement du projet. 
 
 \subsection{Architectures}
 Un des plus célèbres design patterns s'appelle MVC, qui signifie Modèle - Vue - Contrôleur. C'est celui que je me suis basé pour la construction de l’architecture du site web.
@@ -562,12 +562,12 @@ possède beaucoup de composants issus du Symfony.
 
 
 \subsection{Bases de données}
- Le choix de la base de donnée  a prix beaucoup de temps de recherche et de comparaison entre les deux modèles
-  \textbf{Relationnel} et \textbf{NoSql} représentés respectivement par \textbf{MySql} et \textbf{MongoDB}.\\
+ Le choix de la base de donnée  a besoin  d'un temps de recherche et de comparaison entre les deux principaux modèles, le 
+  \textbf{Relationnel} et le \textbf{NoSql} . \\
    \\
 Et enfin j'ai choisi le modèle relationnel et son SGBDR MySql.\\
 
-MySQL est le plus connu et utilisé des SGBD. Il repose sur le modèle relationnel, des tables ont des enregistrements , et ces tables peuvent avoir des relations.\\  Ceci a l’avantage de pouvoir lier très facilement des enregistrements d’une table à l’autre.\\  De plus, lors des enregistrements, les transactions sont soumises aux contraintes ACID (atomicité, cohérence, isolation et durabilité), ce qui signifie qu’un enregistrement incomplet ou incorrect ne sera pas enregistré en base. \\  MySQL permet ainsi de facilement structurer les informations et de les réutiliser avec aisance. Finalement, MySQL est un système où l’intégrité des enregistrements est pris en charge par le logiciel et le risque d’erreurs est donc peu élevé.
+MySQL est le plus connu et utilisé des SGBD. Il repose sur le modèle relationnel, des tables ont des enregistrements , et ces tables peuvent avoir des relations.\\  Ceci a l’avantage de pouvoir lier très facilement des enregistrements d’une table à l’autre.\\  De plus, lors des enregistrements, les transactions sont soumises aux contraintes ACID (atomicité, cohérence, isolation et durabilité), ce qui signifie qu’un enregistrement incomplet ou incorrect ne sera pas enregistré en base. \\  MySQL permet ainsi de facilement structurer les informations et de les réutiliser avec aisance. Finalement, MySQL est un système où l’intégrité des enregistrements sont prises en charge par le logiciel et le risque d’erreurs est donc peu élevé.
 
 
   
@@ -576,7 +576,7 @@ MySQL est le plus connu et utilisé des SGBD. Il repose sur le modèle relationn
 \subsection{Langages web coté client}
 
 L'effet de choisir ce n'est pas toujours simple surtout dans le cas où les concurrents sont très proches.
-Mais heureusement dans la parie font-end (coté client) les choses sont claires et il n'y a quasi pas de choix.
+Mais heureusement dans la partie front-end (coté client) il y a moins de choix.\\ \\
 
 L'utilisation des langages suivants est nécessaire et parfois est indispensable  :
 \begin{itemize}
@@ -663,7 +663,7 @@ langages dont PHP, HTML, Twig, Javascript et YML. C’est sous cet environnement
 
 \subsection{Conception}
 
-Dans la phase d’analyse, le diagramme de classes représente les entités (des informations) manipulées par les utilisateurs.\\
+Dans la phase d’analyse, le diagramme de classes représente les entités  manipulées par les utilisateurs.\\
 Dans la phase de conception, il représente la structure objet d’un développement orienté objet.\\
 \\
 
@@ -679,8 +679,7 @@ Dans la phase de conception, il représente la structure objet d’un développe
 
 
 
-Pour simplifier les choses, on peut résumer les principales fonctionnalités, déjà précisés dans le cahier des charges, par un diagramme UML de cas d'utilisation , qui  représente les fonctionnalités (ou dit cas d’utilisation) nécessaires aux utilisateurs. On peut faire un diagramme de cas d’utilisation pour quelques 
-fonctionnalité du site web. 
+Pour simplifier les choses, on peut résumer les principales fonctionnalités, déjà précisées dans le cahier des charges, par un diagramme UML de cas d'utilisation , qui  représente les fonctionnalités  nécessaires aux utilisateurs.\\
 
 \\
 \\
@@ -699,7 +698,7 @@ fonctionnalité du site web.
 \\
 \\
 
-Toutes les fonctionnalités détaillées dans le cahier des charges, devront être dans les bonnes places de l'interface web du site internet.\\
+Toutes les fonctionnalités détaillées dans le cahier des charges, devront être dans les bonnes places dans l'interface web du site internet.\\
 Ainsi j'ai procédé par la suite à modéliser l'ensemble des pages du portail afin de mettre chaque 
 fonctionnalité à sa place.\\
 
@@ -717,7 +716,7 @@ fonctionnalité à sa place.\\
 \end{center}
 
 \\ \\
-J'ai choisi de minimiser le nombre des pages et des routes , en utilisant des pages
+J'ai choisi de minimiser le nombre des pages  , en utilisant des pages
 \textbf{scrolling} qui contiennent plusieurs sections.
 
 
@@ -730,10 +729,10 @@ J'ai choisi de minimiser le nombre des pages et des routes , en utilisant des pa
 \subsubsection{Modélisations des données}
 
 
-Une base de données relationnelle s'appuie sur un modèle relationnel et donc il s'agit d'un système possédant des relations entre ses différentes parties .\\ \\
+
 
 La modélisation de la base de données est également une tâche très importante car il s’agit
-du cœur du site web réalisée. \\ 
+du cœur du site web à réaliser. \\ 
 
 
 \\ \\
@@ -749,10 +748,10 @@ du cœur du site web réalisée. \\
 \end{center}
 \\ \\
 
-La figure ci-dessus représente la base de données réalisée, à noter que toutes les attributs des entités  ne s'affichent pas dans la figure .\\ Nous pouvons constater que quasiment toutes les tables sont reliées à la table « societe » . Cela nous indique que les requêtes effectuées sur la base de données concernent essentiellement les sociétés, qui sont les clients de \textbf{VMP-CONSULTING}.\\
+La figure ci-dessous représente la base de données réalisée, à noter que toutes les attributs des entités  ne s'affichent pas dans la figure .\\ Nous pouvons constater que quasiment toutes les tables sont reliées à la table  \textit{societe}  . Cela nous indique que les requêtes effectuées sur la base de données concernent essentiellement les sociétés, qui sont les clients de \textbf{VMP-CONSULTING}.\\
 La base de données elle-même comportant un nombre assez important de tables.\\
-Ces tables sont  très complètes avec une grande quantité d’attributs. Il est possible que
-ces attributs soient trop nombreux et doivent être séparés pour être mis dans des nouvelles
+ Il est possible que
+ces attributs soient trop nombreux et doivent être séparés pour être mises dans des nouvelles
 tables.\\
 
 
@@ -779,7 +778,7 @@ Elle est l’équivalent du site web en version imprimée. La création de la ma
 \\ \\
 
 
-Le responsive design est vraiment incontournable dans le processus de création d’un site web.  C'est parce que internet est maintenant présent sur tous les écrans, que ce n'est plus possible de concevoir un site web sans penser au responsive design.\\
+Le responsive design est important dans le processus de création d’un site web.  C'est parce que internet est maintenant présent sur tous les écrans, que ce n'est plus possible de concevoir un site web sans penser au responsive design.\\
 Un temps de conception d'une maquette responsive est nécessaire afin d'avoir une vision globale et précise de site responsive.\\ \\
 Le responsive design est une fonctionnalité importante du cahier des charges.
 Et la  de la maquette ci-dessus  a été traduite en \textbf{html5} et \textbf{CSS3}, pour devenir une  interface web responsive
@@ -878,7 +877,7 @@ Pour installer un bundle extérieur, un \textbf{composer} est indispensable.\\
 L'objectif d'un ORM  est de se charger de l'enregistrement des  données en  faisant oublier qu'il y n'a pas de base de données. \\
 IL s'occupant de tout, Je n'ai pas écrit de requêtes, ni créer de tables via phpMyAdmin. Dans le code PHP, j'ai  fait appel à Doctrine2, l'ORM par défaut de Symfony, pour faire tout cela.\\ \\
 
-Il vous faut créer une base de données avant de lancer les commandes Doctrine.\\
+Il  faut créer une base de données avant de lancer les commandes Doctrine.\\
  En effet, pour pouvoir lancer les commandes provenant de DoctrineBundle, la librairie vérifie la connexion à la base de données configurée dans le fichier \textbf{ app/config/parameters.yml}. \\
  Ce fichier doit être bien configurer, le nom de la base de données, le mot de passe, le port, ... etc.\\
  Et pour créer un base de donnée il suffit de lancer la commande :\\
@@ -905,7 +904,7 @@ Ce sont donc ces repositories qui nous permettront de récupérer nos entités. 
 
 \subsubsection{Les Relations}
 Il y a plusieurs façons de lier des entités entre elles. \\
- Ce sont les relations \textbf{OneToOne},\textbf{OneToMany} et \textbf{ManyToMany}. \\
+ Soit avec  des relations \textbf{OneToOne},\textbf{OneToMany} ou \textbf{ManyToMany}. \\
  Les notions de propriétaire et d'inverse, et de  unidirectionnalité et de bidirectionnalité sont  importantes dans les relation Doctrine. Dans une relation entre deux entités, il y a toujours une entité dite propriétaire, et une dite inverse.\\ 
  Et aussi  une relation peut être à sens unique ou à double sens.\\ \\
 
@@ -917,7 +916,7 @@ Il y a plusieurs façons de lier des entités entre elles. \\
 
 
 
- Pour faire le back office du site en symfony, il existe  le CRUD generator inclu dans symfony, mais dans ce cas pas mal de code à faire et surtout beaucoup de CSS.\\
+ Pour faire le back office d'un  site web en symfony, il existe  le CRUD generator inclu dans symfony, mais dans ce cas pas mal de code à faire et surtout beaucoup de CSS.\\
  C'est pour cela que j'ai utilisé le bundle \textbf{EasyAdminBundle} pour le développement du back-office.\\
  Ce bundle m'a facilité la construction des taches administration et il permet de développer toutes les 
  fonctionnalités concernant  l'administrateur du site.\\ \\
@@ -1125,10 +1124,6 @@ Pour les alertes et Info, dans \textbf{Symfony} il existe le composant \textbf{S
 Ce service est présent par défaut dans \textbf{Symfony}, donc il est déjà créé, et sa configuration est déjà faite, il ne reste plus qu'à l'utiliser.
 
 \subsubsection{Exportation/Importation}
- 
-Il a été prévu de  développer les fonctionnalités Exportation et Importation des fichiers après l'implémentation du système temps réel.\\
-Comme le développement du temps réel du site web n'est pas terminé, je n'ai pas encore réalisé ces fonctionnalités, mais j'ai déjà fixé
-les moyens pour le faire.\\ \\
 
 La bibliothèque \textbf{PHPExcel} est un ensemble de classes pour  PHP, qui  permet d' écrire et de lire à partir de différents formats de feuilles de calcul comme \textbf{Excel}.\\
 Il y a deux façons de générer des fichiers Excel dans Symfony 3, soit  \textbf{ExcelBundle} qui est recommandé pour les documents \textbf{Excel}  complexes,   ou  générer des fichiers \textbf{Excel} avec \textbf{Twig} à l'aide de \textbf{TwigExcelBundle}   qui est recommandé pour les documents \textbf{Excel} simples.\\
@@ -1142,13 +1137,13 @@ En ce qui concerne l'impression des données sous forme de fichiers pdf, j'utili
 
 Quand je termine une fonctionnalité je fait des tests pour vérifier qu'elle donne bien le résultat attendu.\\
 Les tests sont important et permettent d'assurer le fonctionnement du site web.\\ \\ 
-Pour faire un test c'est vraiment simple :
+Pour faire un test je :
 \begin{enumerate}
- \item  Créer un client HTTP.
+ \item  Crée un client HTTP.
 
- \item   Effectuer une requête HTTP sur la page à tester.
+ \item   Effectue une requête HTTP sur la page à tester.
 
-\item    S'assurer que les éléments sur la page testée sont bien présents .
+\item    S'assure que les éléments sur la page testée sont bien présents .
 \end{enumerate}\\
 \\
 
@@ -1214,22 +1209,20 @@ Pour faire un test c'est vraiment simple :
 \newpage
 \section{Conclusion}
 
-Ce stage au sein de l'entreprise VMP-CONSULTING touche à sa fin, mais en réalité le vrai développement ne fait que commencer.\\
+Ce stage au sein de l'entreprise VMP-CONSULTING termine ses premiers 4 mois , mais en réalité le vrai développement ne fait que commencer.\\
 
-L'analyse des besoins et la rédaction du cahier des charges ont pris un mois et demi de temps du stage  pour être terminé. ils sont la base du projet, quand cette base est solide le projet augmente ses chances de réussite. \\
+L'analyse des besoins et la rédaction du cahier des charges ont pris énormément de temps   pour être terminé. ils sont la base du projet, quand cette base est solide le projet augmente ses chances de réussite. \\
 La rédaction du cahier des charges seule était une expérience importante dans ma vie professionnelle.\\ 
-J'ai pris mon temps pour bien le rédiger  afin que tous les besoins de l'entreprise soient définis et détaillés.\\
-Durant le premier mois j'ai suivi une formation sur la gestion des entreprise , cette formation m'a permis de bien comprendre  les besoins des entreprises clientes .  \\ \\
+J'ai pris mon temps pour bien le rédiger  afin que tous les besoins de l'entreprise soient détaillés.
+  \\ \\
 
-Ce stage était une opportunité pour la réalisation d'un site web de A à Z, il m'a permis d’être le concepteur, le Webdesigner, et le développeur du projet, mais aussi était un défit de réaliser toutes les missions seul. Ceci m'a causé des problèmes au niveau technique, et le manque d'informaticiens à l'entreprise  m'a obligé des faire plus de recherches et de formations.\\
-Parmi  les formations que j'ai suivi durant le stage, une formation  sur le design web et Bootstrap, une sur Symfony et ses dépendances, et une autre sur JavaScript et JQuery .\\ 
-En plus de ça des recherches  sur  les technologies du web et du temps réel ont été nécessaires pour le bon développement du projet. \\ \\
+Ce stage est une opportunité pour la réalisation d'un site web de A à Z, il m'a permis d’être le concepteur, le Webdesigner, et le développeur d'un projet informatique, mais aussi il est un défi de réaliser toutes ces missions seul. \\ Le manque d'informaticiens à l'entreprise  m'a compliqué la mission, et  m'a obligé des faire plus de recherches et de formations.\\ \\
+
+Ce stage m'a permis d’acquérir des nouvelles connaissances informatiques, et de consolider mes bases. il était une occasion d'explorer le responsive design avec \textbf{Bootstrap}, le JavaScript avec Jquery, et le temps réel avec le WebSocket.\\
+En plus Ce site web est  mon premier projet professionnel développé sous \textbf{Symfony}.\\
+\\
 
 
- Les valeur ajoutés qui m'a apporté ce stage,  sont  les connaissances informatiques en Symfony et Bootstrap,  la rédaction des cahiers de charges, et la gestion des entreprises .\\ \\
-
-Enfin, je peux dire que j'ai construit la base d'un site web qui peut répondre aux besoins de l'entreprise, et que grâce à \textbf{Symfony} le projet sera facile à intégrer pour les futurs développeurs.\\
-Mais cela ne veut dire pas que la mission est accomplie, j'avoue qu'il y a de fonctionnalité qui ne sont pas encore réalisé et que la tache importante du site, le temps réel, n'est pas encore terminée.\\
 
 
 

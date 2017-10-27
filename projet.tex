@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amsmath, amssymb}
+\usepackage{hyperref}
 
 \usepackage{babel}
 
@@ -14,6 +15,7 @@
 %\usetheme{Madrid}
 %\usetheme{Copenhagen}
 
+
 % => il est possible, pour un thème donné, de modifier seulement la couleur
 \usecolortheme{crane}
 %\usecolortheme{seahorse}
@@ -22,54 +24,287 @@
 
 
 %Pour le TITLEPAGE
-\title{Utilisation d'une approche de Machine Learning pour l'extraction des descripteurs d'un visage}
-\subtitle{Projet semesteriel}
-\author[]{BENHELLAL Narimane \\ MAOULOUD Sidi \\ ABDENOUR Idir}
-\date{Mars 2017}
-\institute[UT3 -- FSI]{Université du Havre -- Faculté des sciences et Techniques}
+\title{ \textbf{Développement d'un site web de contrôle de gestion sous Symfony 3}}
+\subtitle{Stage fin d'étude\\ M2 Matis}
+\author[]{ Sidi  MAOULOUD  \\ }
+\date{Octobre 2017}
+\institute[stage M2 Matis]{
+\includegraphics[width=0.3\textwidth]{lh.png}
+ \includegraphics[width=0.3\textwidth]{logo.png} 
+ \\
+
+Université du Havre -- VMP-CONSULTING}
 
 
 \begin{document}
 
 \begin{frame}
 	\titlepage
-\end{frame}
+	
 
-\begin{frame}
-	Un environnement \texttt{frame} pour chaque \emph{diapositive}.
-	\visible<2>{Chaque diapo pouvant contenir plusieurs \emph{couches}.}
 \end{frame}
 
 
-\begin{frame}{On peut mettre un titre : Sommaire}
+\begin{frame}{Abstract}
+
+
+	\begin{center}
+\transblindshorizontal<1>[duration=1]	
+	 \begin{block}
+
+   
+	VMP-Consulting is an office specialized in management control for small and medium-sized enterprises (SMEs), SMEs and local authorities. He accompanies them and advise them to move towards efficiency and efficiency in the use of their resources in order to achieve their objectives.
+ \end{block}	
+	\\
+	
+	\\
+	
+	\pause
+	 \begin{block}
+	 
+	To better serve its customers, \textbf{VMP-CONSULTING}  wants to have a web portal for
+implement a unique workspace for customers,
+ offer customers privileged and personalized access to various services in
+line, and
+develop tools that enable clients to react with the contents of the
+portal.\\
+ \end{block}	
+	\end{center}
+	
+	
+\end{frame}
+
+
+
+
+
+
+\begin{frame}{Plan}
+\transsplitverticalin<1>[duration=1]
+
 	\tableofcontents
 \end{frame}
 
 \section{Introduction}
-\begin{frame}{Introduction}
-	blabla
+\begin{frame}{Préambule}
+
+\transglitter<1>[duration=1]
+
+
+
+	\begin{exampleblock}{Contrôle de gestion}
+	Un outil d’aide à la prise de décision qui évalue l’efficience et l’efficacité de la mise en œuvre des ressources de l’entreprise.
+	\end{exampleblock}
+	
+\pause	
+	
+	\begin{exampleblock}{Utilité}
+	C'est le garant de la bonne santé de l'entreprise en s'assurant que les ressources sont employées efficacement.
+	\end{exampleblock}
+	
+\pause	
+	
+	\begin{exampleblock}{Pour le TPE/PME}
+	  Il permet aux managers et aux opérationnels de se consacrer entièrement à leur cœur de métier,  et d'avoir une idée plus précise sur les coûts de l’entreprise, de mieux orienter la stratégie de l’entreprise et de leur procurer des outils de pilotage et de suivi des objectifs.
+
+	 \end{exampleblock}
+	
+	
 \end{frame}
 
-\section{Généralités sur les Images}
-\begin{frame}{Généralités sur les Images}
-	blabla
+\begin{frame}{VMP-CONSULTING}
+
+
+
+\begin{block}{Objectifs}
+\begin{itemize}
+
+\item Maîtriser les coûts.
+
+\item Optimiser les performances.
+
+\item Une transparence sur la gestion des ressources de  l'entreprise.
+
+\item Le développement de la réactivité dans la prise de décisions stratégiques.
+\end{itemize}
+
+\end{block}
+
+\begin{block}{Services}
+\begin{itemize}
+
+\item \textbf{Pilotage d'entreprise } 
+
+
+\item \textbf{Audi }
+
+
+\item \textbf{Système d'information } 
+
+\item \textbf{Formations }
+\end{itemize}
+
+\end{block}
+
+
+
+	
 \end{frame}
 
 
-\section{La Biométrie}
-\begin{frame}{La Biométrie}
-	blabla
+\begin{frame}{Problématique}
+	
+    \begin{alertblock}{Un portail web}
+    \begin{itemize}
+
+ \item   Permettre la transmission des connaissances pour une organisation plus productive et performante
+ \item     Améliorer le suivi des prestations réalisées par les consultants techniques 
+ \item suivre en temps réel les interventions chez les clients
+ 
+ \item   Renforcer  l'offre auprès des clients, les fidéliser avec de nouveaux services
+ \item   Optimiser certaines tâches back-office 
+\end{itemize}
+   
+	\end{alertblock} 
+	\pause
+	 \begin{alertblock}{Objectifs}
+    \begin{itemize}
+
+\item Améliorer la productivité des services de l'entreprise.
+\item Fidéliser les clients.
+
+\item Conquérir de nouveaux clients.
+\end{itemize}
+   
+	\end{alertblock}   	
+	
 \end{frame}
 
-\section{La Reconnaissance Faciale}
-\begin{frame}{La Reconnaissance Faciale}
-	blabla
+
+\begin{frame}{Environnement et Missions}
+	
+	\begin{block}{Environnement}
+	VMP Consulting n'est pas une boite de développement.
+	\end{block}
+	
+	\begin{block}{Missions}
+        	
+	\begin{itemize}
+\item Rédaction  du cahier des charges.
+\item Analyse des données et proposition des solutions.
+\item Conception  du site internet .  
+\item Modélisation de la base de données.
+\item Développement et Implémentation .
+\item test et déploiement du portail web.
+\end{itemize}
+	
+	\end{block}
+	
+	
+\end{frame}
+
+
+\section{Cahier des charges}
+\begin{frame}{Cahier des charges}
+	
+  \begin{block}{Le But}
+  \begin{itemize}
+\item \textbf{  Mettre en œuvre un espace de travail unique pour les clients}
+
+\item \textbf{ Proposer aux clients un accès privilégié, personnalisé et sécurisé  à divers services en
+ligne}
+ 
+\item \textbf{ Développer des outils qui permettent aux clients de réagir avec les contenus du
+portail}
+
+
+\end{itemize}
+
+\end{block}  	
+	
+	\begin{block}{Étude de l’existence }
+	Les analyses et les calculs du futur système de gestion en ligne sont basés
+sur des fichiers existants en Excel.
+	\end{block}
+	
+\end{frame}
+
+
+\begin{frame}{spécification fonctionnelle}
+
+
+	\begin{exampleblock}{spécification fonctionnelle}
+	\begin{itemize}
+	
+	\item L'accès au portail
+	\item Création d’espace/entreprise
+	\item Connexion
+	\item Consultation des données
+	\item Importation/Exportation
+	\item Simulations
+	
+	\end{itemize}
+
+	 \end{exampleblock}
+	
+	
+	
+	
+	
+\end{frame}
+
+\begin{frame}{Cas d'utilisations}
+\begin{center}
+
+
+\includegraphics[width=0.9\textwidth]{cd2.png}
+\end{center}
+
 \end{frame}
 
 
 \section{Conception}
 \begin{frame}{Conception}
 	blabla
+\end{frame}
+
+
+\begin{frame}{Modélisation}
+	blabla
+\end{frame}
+
+\section{Choix Techniques}
+\begin{frame}{Choix Techniques}
+	blabla
+\end{frame}
+
+
+\section{Développement}
+\begin{frame}{Front-end}
+	blabla
+\end{frame}
+
+
+\begin{frame}{Back-end}
+	blabla
+\end{frame}
+
+
+\begin{frame}{Temps réel}
+	blabla
+\end{frame}
+
+\section{Tests}
+\begin{frame}{Tests}
+\begin{center}
+
+\end{center}
+	\href{http://localhost:8000/Portail}{\includegraphics[width=0.6\textwidth]{logo.png} }
+	
+	\url{}
+	
+	
+\end{center}
 \end{frame}
 
 
@@ -81,47 +316,74 @@
 
 \section{Bibliographie}
 \begin{frame}{Bibliographie}
-	\begin{itemize}
-	 \item \textbf{[1] A.Hamadi & Limam : « Développement d'un Système de Reconnaissance de Visages ».
-Université Abdelhamid Ibn Badis ;Mostaganem. Département d'Informatique. 2008} \\
-\item 
-\textbf{[2] J.Landré: « Analyse Multi-Resolution Pour La Recherche Et L'indexation D'image Par
-Le Contenu Dans Les Bases De Donnees Images-Application A La Base D'images
-Paleontologique Trans'tyfipal ». Université de Bourgogne, Instrument et Informatique de
-l'Image, 2005}\\ 
-\item 
-\textbf{[3] Walid Hizem : « Capteur Intelligent pour la Reconnaissance de Visage », Université
-Pierre et Marie Curie-Paris6 ; Département Electronique/Informatique, 2009}\\
-	\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Bibliographie}
-	\begin{itemize}
-	 \item \textbf{[4] S.Z. LI and A.K. Jain : « Handbook of Face Recognition ». Springer, 2005.}\\
-	\end{itemize}
-
-\end{frame}
-
-\begin{frame}
-	Un \textbf<2,3>{texte} en gras. 
-	\visible<3>{Un texte visible sur la 3\ieme{} couche}
-\end{frame}
-
-\begin{frame}{Titre (facultatif)} 
-\framesubtitle{Sous titre (facultatif aussi)}
-	\begin{block}{Remarque}
-	Un bloc
-	\end{block}
 	
-	\begin{alertblock}{Proposition}
-	Un bloc alerte
-	\end{alertblock}
-	
-	
-	\begin{exampleblock}<2>{Exemple}
-	Un bloc exemple qui est visible sur la 2\ieme{} couche : $f(x)=2x$.
-	\end{exampleblock}
+
+
+\begin{thebibliography}{10}
+    
+  \beamertemplatebookbibitems
+  % Start with overview books.
+
+  \bibitem{www.openclassrooms.com}
+   www.openclassrooms.com.
+    \newblock {\em cours Symfony}.
+    \newblock .
+ 
+     \bibitem{www.symfony.com}
+   www.symfony.com.
+    \newblock {\em Symfony}.
+    \newblock Documentation.
+    
+      \bibitem{www.symfony.com}
+    www.symfony.com.
+    \newblock {\em Twig}.
+    \newblock Documentation.
+    
+      \bibitem{www.doctrine-project.org}
+   www.doctrine-project.org.
+    \newblock {\em Doctrine}.
+    \newblock Documentation.
+
+\bibitem{getbootstrap.com}
+ getbootstrap.com
+    \newblock {\em Bootstrap}.
+    \newblock Documentation.
+    
+   
+    
+    
+      \bibitem{www.symfony.com}
+    www.symfony.com.
+    \newblock {\em EasyAdminBundle}.
+    \newblock Documentation.
+    
+      \bibitem{www.symfony.com}
+    www.symfony.com.
+    \newblock {\em FOSUserBundle}.
+    \newblock Documentation.
+    
+     \bibitem{www.openclassrooms.com}
+   www.openclassrooms.com.
+    \newblock {\em cour Analyse logiciel avec UML}.
+    \newblock .
+    
+     \bibitem{www.openclassrooms.com}
+   www.openclassrooms.com.
+    \newblock {\em cour JavaScript}.
+    \newblock .
+    
+     \bibitem{www.openclassrooms.com}
+   www.openclassrooms.com.
+    \newblock {\em cour JQuery}.
+    \newblock .
+
+ \bibitem{www.openclassrooms.com}
+   www.openclassrooms.com.
+    \newblock {\em cour PHP}.
+    \newblock .
+
+   
+  \end{thebibliography}
 \end{frame}
 
 
