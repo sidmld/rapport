@@ -113,7 +113,7 @@ portal.\\
 \end{frame}
 
 \begin{frame}{VMP-CONSULTING}
-
+\transblindshorizontal<1>[duration=1]	
 
 
 \begin{block}{Objectifs}
@@ -129,7 +129,7 @@ portal.\\
 \end{itemize}
 
 \end{block}
-
+\pause
 \begin{block}{Services}
 \begin{itemize}
 
@@ -153,7 +153,7 @@ portal.\\
 
 
 \begin{frame}{Problématique}
-	
+	\transblindshorizontal<1>[duration=1]	
     \begin{alertblock}{Un portail web}
     \begin{itemize}
 
@@ -182,11 +182,11 @@ portal.\\
 
 
 \begin{frame}{Environnement et Missions}
-	
+	\transblindshorizontal<1>[duration=1]	
 	\begin{block}{Environnement}
 	VMP Consulting n'est pas une boite de développement.
 	\end{block}
-	
+	\pause
 	\begin{block}{Missions}
         	
 	\begin{itemize}
@@ -206,7 +206,7 @@ portal.\\
 
 \section{Cahier des charges}
 \begin{frame}{Cahier des charges}
-	
+	\transblindshorizontal<1>[duration=1]	
   \begin{block}{Le But}
   \begin{itemize}
 \item \textbf{  Mettre en œuvre un espace de travail unique pour les clients}
@@ -232,7 +232,7 @@ sur des fichiers existants en Excel.
 
 \begin{frame}{spécification fonctionnelle}
 
-
+\transblindshorizontal<1>[duration=1]	
 	\begin{exampleblock}{spécification fonctionnelle}
 	\begin{itemize}
 	
@@ -254,6 +254,7 @@ sur des fichiers existants en Excel.
 \end{frame}
 
 \begin{frame}{Cas d'utilisations}
+\transblindshorizontal<1>[duration=1]	
 \begin{center}
 
 
@@ -265,43 +266,257 @@ sur des fichiers existants en Excel.
 
 \section{Conception}
 \begin{frame}{Conception}
-	blabla
+	\transblindshorizontal<1>[duration=1]	
+\begin{center}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=8cm]{dc.png}
+  \caption{Diagramme de classe.}
+  \label{fig:une-autre-image}
+\end{figure}
+
+\end{center}	
+	
+	
+\end{frame}
+
+\begin{frame}{Le site web}
+\transblindshorizontal<1>[duration=1]	
+\begin{center}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=6cm]{p3.png}
+  \caption{Les templates principales du site  .}
+  \label{fig:une-autre-image}
+\end{figure}
+
+\end{center}
 \end{frame}
 
 
 \begin{frame}{Modélisation}
-	blabla
+\transblindshorizontal<1>[duration=1]	
+	\begin{center}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=8cm]{bd1.png}
+  \caption{Les tables de la bases de données.}
+  \label{fig:une-autre-image}
+\end{figure}
+
+\end{center}
+\end{frame}
+
+\begin{frame}{Maquette}
+\transblindshorizontal<1>[duration=1]	
+\begin{center}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=6cm]{mod2.png}
+  \caption{Maquette de la page d'accueil.}
+  \label{fig:une-autre-image}
+\end{figure}
+
+\end{center}
 \end{frame}
 
 \section{Choix Techniques}
-\begin{frame}{Choix Techniques}
-	blabla
+\begin{frame}{Coté serveur}
+	\transblindshorizontal<1>[duration=1]	
+\begin{exampleblock}{Méthodes}
+
+\begin{itemize}
+\item le codage  \textbf{from scratch}.
+\item l'utilisation d'un \textbf{CMS}  .
+\item \underline{l'utilisation d'un \textbf{framework} } .
+\end{itemize}	
+
+\end{exampleblock}
+\pause
+
+\begin{exampleblock}{Langages}
+
+\begin{itemize}
+\item \underline{ \textbf{PHP}}.
+\item \textbf{JAVA (JEE)}  .
+\item \textbf{JavaScript (NodeJS)} .
+\end{itemize}	
+
+\end{exampleblock}
+\pause
+\begin{exampleblock}{Framework}
+	
+\begin{itemize}
+\item \underline{ \textbf{Symfony 3} }.
+\item \textbf{Zend Framework 2}.
+\item \textbf{Laravel}.
+\end{itemize}
+
+\end{exampleblock}
+	
+	
 \end{frame}
+
+\begin{frame}{Choix Techniques}
+\transblindshorizontal<1>[duration=1]	
+
+\begin{exampleblock}{Architecture}
+	MVC permet d'organiser le code source.
+
+\end{exampleblock}
+
+
+\begin{exampleblock}{Base de données}
+
+	\begin{itemize}
+	\item Mysql (Modèle Relationnel)
+	\item MongoDB (NoSql)
+	\end{itemize}
+	
+
+\end{exampleblock}
+
+\begin{exampleblock}{Coté client}
+	\begin{itemize}
+	\item HTML5
+	\item CSS3 (Bootstrap)
+	\item JavaScript (Jquery)
+	\end{itemize}
+
+\end{exampleblock}
+
+\begin{exampleblock}{}
+\begin{itemize}
+\item git
+\item Netbeans
+\item phpmyadmin
+  
+\end{itemize}
+\end{exampleblock}
+
+\end{frame}
+
 
 
 \section{Développement}
-\begin{frame}{Front-end}
-	blabla
+\begin{frame}{Front-End}
+\transblindshorizontal<1>[duration=1]	
+	\begin{block}{Twig}
+	\begin{itemize}
+	
+\item	Un moteur de template moderne pour PHP, pour le développement des interfaces web.
+	\item Il  a une syntaxe très concise, qui rend les modèles plus lisibles.
+	\item L'un des objectifs de \textbf{Twig} est d'être le plus rapide possible.
+	\item L'Héritage.
+		\end{itemize}
+
+	\end{block}
+	\pause
+\begin{block}{Espace client}
+	\textbf{FOSUserBundle} est un bundle qui s'occupe de gestion des utilisateurs.
+	\end{block}
+	\pause
+	\begin{block}{Tableau de bord}
+	\textbf{CMENGoogleChartsBundle} permet de faire des Dashboard.
+	\end{block}	
+	
 \end{frame}
 
 
-\begin{frame}{Back-end}
-	blabla
+\begin{frame}{Les Entités}
+\transblindshorizontal<1>[duration=1]	
+\begin{block}{Doctrine}
+se charge de l'enregistrement des  données en  faisant oublier qu'il y a une base de données.\\
+Pour enregistrer les entités on utilise le service \textbf{EntityManager}.\\
+Et pour la récupération des données, on utilise les repositories
+\end{block}
+\pause
+\begin{block}{Les relations}
+Les notions de propriétaire et d'inverse, et de  unidirectionnalité et de bidirectionnalité sont  importantes dans les relation Doctrine.
+\begin{itemize}
+\item OneTone
+\item OneToMany
+\item ManyToMany
+
+\end{itemize}
+\end{block}
+
 \end{frame}
 
+\begin{frame}{Administration et Sécurité}
+\transblindshorizontal<1>[duration=1]	
+\begin{alertblock}{Back-Office}
+le bundle \textbf{EasyadminBundle}  est facile à configurer.
+\end{alertblock}	
+
+
+\begin{alertblock}{Sécurité}
+\begin{itemize}
+\item \textbf{authentification} 
+\item \textbf{autorisation}
+\end{itemize}
+
+Processus:
+\begin{enumerate}
+\item    Un utilisateur veut accéder à une ressource protégée 
+
+ \item    Le firewall redirige l'utilisateur au formulaire de connexion 
+
+  \item   L'utilisateur soumet ses informations d'identification 
+
+ \item    Le firewall authentifie l'utilisateur 
+
+ \item    L'utilisateur authentifié renvoie la requête initiale 
+
+ \item    Le contrôle d'accès vérifie les droits de l'utilisateur, et autorise ou non l'accès à la ressource protégée.
+\end{enumerate}
+
+\end{alertblock}	
+	
+	
+\end{frame}
+
+\begin{frame}{Sécurité}
+\transblindshorizontal<1>[duration=1]	
+\begin{center}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=12cm]{s.jpg}
+  \caption{security.yml.}
+  \label{fig:une-autre-image}
+\end{figure}
+
+\end{center}
+
+\end{frame}
 
 \begin{frame}{Temps réel}
-	blabla
+\transblindshorizontal<1>[duration=1]	
+\begin{alertblock}{Ajax}
+\begin{itemize}
+\item un script qui fait appel à une page php toutes les 5 secondes
+\item Un système \textbf{push AJAX}
+\end{itemize}
+\end{alertblock}	
+\pause
+\begin{alertblock}{WebSocket}
+\begin{itemize}
+\item utiliser  un adaptateur \textbf{SocketIO} pour PHP, un serveur  \textbf{NodeJS}.
+\item utiliser \textbf{Ratchet}
+\end{itemize}
+\end{alertblock}
+	
+	
 \end{frame}
 
 \section{Tests}
 \begin{frame}{Tests}
+\transblindshorizontal<1>[duration=1]	
 \begin{center}
 
-\end{center}
-	\href{http://localhost:8000/Portail}{\includegraphics[width=0.6\textwidth]{logo.png} }
+\href{http://localhost:8000/Portail}{\includegraphics[width=0.8\textwidth]{v1.png} }
+
 	
-	\url{}
 	
 	
 \end{center}
@@ -310,7 +525,16 @@ sur des fichiers existants en Excel.
 
 \section{Conclusion}
 \begin{frame}{Conclusion}
-	blabla
+\transblindshorizontal<1>[duration=1]	
+	\begin{exampleblock}{}
+	\begin{itemize}
+	\item Ce stage au sein de l'entreprise VMP-CONSULTING termine ses premiers 4 mois , mais en réalité le vrai développement ne fait que commencer.
+	\item La rédaction du cahier des charges seule était une expérience importante dans ma vie professionnelle.
+	\item Ce stage est une opportunité pour la réalisation d'un site web de A à Z, il m'a permis d’être le concepteur, le designer, et le développeur d'un projet informatique, mais aussi il est un défi de réaliser toutes ces missions seul.
+	\item il était une occasion d'explorer le responsive design avec \textbf{Bootstrap}, le JavaScript avec Jquery, et le temps réel avec le WebSocket.\\
+En plus Ce site web est  mon premier projet professionnel développé sous \textbf{Symfony}.
+	\end{itemize}
+	\end{exampleblock}
 \end{frame}
 
 
@@ -356,36 +580,22 @@ sur des fichiers existants en Excel.
     www.symfony.com.
     \newblock {\em EasyAdminBundle}.
     \newblock Documentation.
+   
     
-      \bibitem{www.symfony.com}
-    www.symfony.com.
-    \newblock {\em FOSUserBundle}.
-    \newblock Documentation.
-    
-     \bibitem{www.openclassrooms.com}
-   www.openclassrooms.com.
-    \newblock {\em cour Analyse logiciel avec UML}.
-    \newblock .
-    
-     \bibitem{www.openclassrooms.com}
-   www.openclassrooms.com.
-    \newblock {\em cour JavaScript}.
-    \newblock .
-    
-     \bibitem{www.openclassrooms.com}
-   www.openclassrooms.com.
-    \newblock {\em cour JQuery}.
-    \newblock .
-
- \bibitem{www.openclassrooms.com}
-   www.openclassrooms.com.
-    \newblock {\em cour PHP}.
-    \newblock .
-
+     
    
   \end{thebibliography}
 \end{frame}
 
+\begin{frame}{Questions}
+\begin{center}
+{\LARGE Je vous remercie pour votre attention.}\\
+\\
+\\
 
+\\
+{\Large Questions ?}
+\end{center}
+\end{frame}
 
 \end{document}

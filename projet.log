@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  27 OCT 2017 18:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  28 OCT 2017 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,7 +981,20 @@ Package: beamercolorthemecrane 2010/06/17  (rcs-revision d02a7cf4d8ae)
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 29.
 
-(./projet.aux)
+(./projet.aux
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+
+LaTeX Warning: Label `fig:une-autre-image' multiply defined.
+
+)
 \openout1 = `projet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1340,10 +1353,6 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \vbox (1.98433pt too high) detected at line 181
- []
-
-
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1372,6 +1381,10 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \vbox (1.98433pt too high) detected at line 181
+ []
+
+
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1407,16 +1420,7 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [13
 
-] <cd2.png, id=535, 567.11874pt x 491.8375pt>
-File: cd2.png Graphic file (type png)
- <use cd2.png>
-Package pdftex.def Info: cd2.png used on input line 263.
-(pdftex.def)             Requested size: 261.66658pt x 226.93843pt.
-
-Overfull \vbox (18.5293pt too high) detected at line 263
- []
-
-
+]
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1428,7 +1432,7 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [14
 
- <./cd2.png>]
+]
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1440,7 +1444,16 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [15
 
-]
+] <cd2.png, id=605, 567.11874pt x 491.8375pt>
+File: cd2.png Graphic file (type png)
+ <use cd2.png>
+Package pdftex.def Info: cd2.png used on input line 264.
+(pdftex.def)             Requested size: 261.66658pt x 226.93843pt.
+
+Overfull \vbox (18.5293pt too high) detected at line 264
+ []
+
+
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1452,7 +1465,12 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [16
 
-]
+ <./cd2.png>] <dc.png, id=639, 750.805pt x 571.13374pt>
+File: dc.png Graphic file (type png)
+ <use dc.png>
+Package pdftex.def Info: dc.png used on input line 281.
+(pdftex.def)             Requested size: 227.62204pt x 173.1454pt.
+
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1464,7 +1482,21 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [17
 
-]
+ <./dc.png>] <p3.png, id=677, 457.71pt x 528.97626pt>
+File: p3.png Graphic file (type png)
+ <use p3.png>
+Package pdftex.def Info: p3.png used on input line 294.
+(pdftex.def)             Requested size: 170.71652pt x 197.29208pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:une-autre
+-image}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.294 \end{frame}
+                 
+Overfull \vbox (18.42738pt too high) detected at line 294
+ []
+
+
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1476,7 +1508,17 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [18
 
-]
+ <./p3.png>] <bd1.png, id=712, 765.86125pt x 577.15625pt>
+File: bd1.png Graphic file (type png)
+ <use bd1.png>
+Package pdftex.def Info: bd1.png used on input line 308.
+(pdftex.def)             Requested size: 227.62204pt x 171.53658pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:une-autre
+-image}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.308 \end{frame}
+                 
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1488,7 +1530,21 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [19
 
-]
+ <./bd1.png>] <mod2.png, id=747, 414.54875pt x 567.11874pt>
+File: mod2.png Graphic file (type png)
+ <use mod2.png>
+Package pdftex.def Info: mod2.png used on input line 321.
+(pdftex.def)             Requested size: 170.71652pt x 233.5413pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:une-autre
+-image}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.321 \end{frame}
+                 
+Overfull \vbox (54.6766pt too high) detected at line 321
+ []
+
+
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
  []
@@ -1500,121 +1556,46 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 
 [20
 
-]
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 308.
-(pdftex.def)             Requested size: 174.44734pt x 94.94298pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 308.
+ <./mod2.png>]
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 358.
 
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 308.
-
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 308
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 358
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 308
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 358
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 308.
+(Font)              <10.95> on input line 358.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 308.
+(Font)              <8> on input line 358.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 308.
-LaTeX Font Info:    Try loading font information for U+msa on input line 308.
+(Font)              <6> on input line 358.
+LaTeX Font Info:    Try loading font information for U+msa on input line 358.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 308.
+LaTeX Font Info:    Try loading font information for U+msb on input line 358.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 308.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 358.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 308.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 358.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 308.
-
-
-! LaTeX Error: \begin{beamer@frameslide} on input line 308 ended by \end{beamer
-@framepauses}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.308 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Too many }'s.
-\endbeamer@frameslide ...amer@framepauses}\egroup 
-                                                  \ifx \beamer@frametitle \@...
-l.308 \end{frame}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Undefined control sequence.
-\endbeamer@frameslide ...box \else \beamer@zoomer 
-                                                  \fi \beamer@undolabels \be...
-l.308 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.308 \end{frame}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 358.
 
 Overfull \hbox (3.77464pt too wide) has occurred while \output is active
  []\T1/lmss/bx/n/6 Développement 
@@ -1640,7 +1621,19 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 [22
 
 ]
-Overfull \vbox (269.46587pt too high) detected at line 387
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[23
+
+]
+Overfull \vbox (13.20815pt too high) detected at line 397
  []
 
 
@@ -1653,9 +1646,249 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
  []\T1/lmss/m/n/6 Développement  
  []
 
-[23
+[24
+
+]
+Overfull \vbox (4.52275pt too high) detected at line 423
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[25
+
+]
+Overfull \vbox (4.52275pt too high) detected at line 423
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[26
+
+]
+Overfull \vbox (4.52275pt too high) detected at line 423
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[27
+
+]
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[28
+
+]
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[29
+
+]
+Overfull \vbox (9.72606pt too high) detected at line 477
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[30
+
+] <s.jpg, id=1126, 640.3925pt x 360.34625pt>
+File: s.jpg Graphic file (type jpg)
+ <use s.jpg>
+Package pdftex.def Info: s.jpg used on input line 491.
+(pdftex.def)             Requested size: 341.43306pt x 192.12627pt.
+
+Overfull \hbox (50.69043pt too wide) in paragraph at lines 491--491
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:une-autre
+-image}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.491 \end{frame}
+                 
+Overfull \vbox (26.86157pt too high) detected at line 491
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[31
+
+ <./s.jpg>]
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[32
+
+]
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[33
+
+] <v1.png, id=1230, 863.225pt x 746.79pt>
+File: v1.png Graphic file (type png)
+ <use v1.png>
+Package pdftex.def Info: v1.png used on input line 523.
+(pdftex.def)             Requested size: 232.59499pt x 201.21437pt.
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[34
+
+ <./v1.png>]
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[35
+
+]
+Overfull \vbox (46.34087pt too high) detected at line 588
+ []
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[36
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (3.77464pt too wide) has occurred while \output is active
+ []\T1/lmss/bx/n/6 Développement 
+ []
+
+
+Overfull \hbox (1.66763pt too wide) has occurred while \output is active
+ []\T1/lmss/m/n/6 Développement  
+ []
+
+[37
+
+]
 \tf@nav=\write6
 \openout6 = `projet.nav'.
 
@@ -1665,32 +1898,36 @@ Overfull \hbox (1.66763pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `projet.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
-
-(./projet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
+ (./projet.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 601.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 601.
 Package rerunfilecheck Info: File `projet.out' has not changed.
 (rerunfilecheck)             Checksum: 8018AE2C7D0F372BFFCBB67A5A034B85;380.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 601.
  ) 
 Here is how much of TeX's memory you used:
- 16811 strings out of 494985
- 312551 string characters out of 6180356
- 384562 words of memory out of 5000000
- 19515 multiletter control sequences out of 15000+600000
- 43503 words of font info for 46 fonts, out of 8000000 for 9000
+ 16876 strings out of 494985
+ 313356 string characters out of 6180356
+ 388859 words of memory out of 5000000
+ 19547 multiletter control sequences out of 15000+600000
+ 48743 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,16n,65p,395b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,65p,395b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on projet.pdf (23 pages, 249216 bytes).
+hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsso10.pfb>
+Output written on projet.pdf (37 pages, 733933 bytes).
 PDF statistics:
- 920 PDF objects out of 1000 (max. 8388607)
- 860 compressed objects within 9 object streams
- 59 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1422 PDF objects out of 1440 (max. 8388607)
+ 1336 compressed objects within 14 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
